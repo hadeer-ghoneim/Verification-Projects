@@ -1,0 +1,102 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/General/Desktop/.github/build/verification labs
+T_opt
+!s110 1755979552
+VlF_MUL;]c7ZGj<ce89IB_0
+Z2 04 8 4 work adder_tb fast 0
+=2-ecb1d7def929-68aa1f20-10b-5dc
+Z3 !s124 OEM100
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 tCvgOpt 0
+n@_opt
+Z6 OL;O;2021.1;73
+T_opt1
+!s110 1755979472
+VVjCYehjecW@kV2FK]6og02
+R2
+=1-ecb1d7def929-68aa1ed0-dc-5dc
+R3
+o-quiet -auto_acc_if_foreign -work work +acc
+R5
+n@_opt1
+R6
+R1
+T_opt2
+!s110 1755979290
+V[]X^;WKKck:][]b01IAV22
+04 5 4 work adder fast 0
+=3-ecb1d7def929-68aa1e19-3d6-11a4
+R3
+R4
+R5
+n@_opt2
+R6
+R1
+vadder
+Z7 !s110 1755979471
+!i10b 1
+!s100 KXleX>4`4ohUo;GDahe=23
+IVS9Fj@R9l1Y6cAUkTlQ651
+Z8 dC:/Users/General/Desktop/.github/build/verification diploma/verification labs
+w1755870364
+8adder.v
+Fadder.v
+!i122 9
+L0 1 17
+Z9 VDg1SIo80bB@j0V0VzS_@n1
+Z10 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z11 !s108 1755979471.000000
+Z12 !s107 adder_tb.svh|adder.v|
+Z13 !s90 -reportprogress|300|adder.v|adder_tb.svh|+cover|-covercells|
+!i113 0
+Z14 !s102 +cover -covercells
+Z15 o+cover -covercells -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
+vadder_tb
+DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R7
+!i10b 1
+!s100 b^n6khn<bQVNS8LDHENNQ3
+IBPSOWWNK>M<XH<h2imNV]3
+S1
+R8
+w1755979358
+8adder_tb.svh
+Fadder_tb.svh
+!i122 9
+L0 1 64
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R5

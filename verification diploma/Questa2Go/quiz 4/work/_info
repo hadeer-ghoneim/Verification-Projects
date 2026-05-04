@@ -1,0 +1,194 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4 extra/Q1/priority encoder
+T_opt
+!s110 1758213937
+V3^?bi<Vn;BG]3_k_4jI4k0
+04 5 4 work testA fast 0
+=1-ecb1d7def929-68cc3731-e7-4ac8
+Z2 !s124 OEM100
+Z3 o-quiet -auto_acc_if_foreign -work work +acc
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.1;73
+R1
+T_opt1
+!s110 1758214215
+V@[CTfB6kS7EEUBJ0R97ff3
+04 7 4 work tricky4 fast 0
+=1-ecb1d7def929-68cc3847-166-20a0
+R2
+R3
+R4
+n@_opt1
+R5
+R1
+T_opt2
+!s110 1758214873
+VofifoIkJ4T:eGD8K7edOf2
+04 10 4 work top_questa fast 0
+=1-ecb1d7def929-68cc3ad9-6a-13c
+R2
+R3
+R4
+n@_opt2
+R5
+Yc_if
+Z6 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z7 !s110 1758214855
+!i10b 1
+!s100 [_II<E`n;7TC4C4b_gIhO2
+ID6MCc=WlWmgf`C6EX`LM@3
+S1
+Z8 dC:/Users/General/Desktop/.github/build/verification diploma/Questa2Go/quiz 4
+Z9 w1758214847
+Z10 8C:/Users/General/Desktop/.github/build/verification diploma/Questa2Go/quiz 4/fsm_assert.svh
+Z11 FC:/Users/General/Desktop/.github/build/verification diploma/Questa2Go/quiz 4/fsm_assert.svh
+!i122 2
+Z12 L0 1 0
+Z13 VDg1SIo80bB@j0V0VzS_@n1
+Z14 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z15 !s108 1758214855.000000
+Z16 !s107 C:/Users/General/Desktop/.github/build/verification diploma/Questa2Go/quiz 4/fsm_assert.svh|
+Z17 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/General/Desktop/.github/build/verification diploma/Questa2Go/quiz 4/fsm_assert.svh|
+!i113 0
+Z18 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+Xfsm_assert_svh_unit
+R6
+Z19 !s110 1758213927
+V[=^X:FMQnP?c_AhkH53J91
+r1
+!s85 0
+!i10b 1
+!s100 fC]e[UV0m3GSHJJK?ecbM1
+I[=^X:FMQnP?c_AhkH53J91
+!i103 1
+S1
+R8
+Z20 w1758213904
+R10
+R11
+!i122 0
+R12
+R14
+31
+Z21 !s108 1758213927.000000
+R16
+R17
+!i113 0
+R18
+R4
+vtb
+R6
+R7
+!i10b 1
+!s100 LzEOQX]hn<>LUa:^MzLGR2
+IW3;LKnL4[momFC0hQW;`Q0
+S1
+R8
+R9
+R10
+R11
+!i122 2
+L0 5 3
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R4
+vtestA
+R6
+DXx4 work 19 fsm_assert_svh_unit 0 22 [=^X:FMQnP?c_AhkH53J91
+R19
+R13
+r1
+!s85 0
+!i10b 1
+!s100 DYZcC<Nn^F1[hMWmlE;ol0
+IMIf71Und0TiVmEOn5L2zU3
+!s105 fsm_assert_svh_unit
+S1
+R8
+R20
+R10
+R11
+!i122 0
+L0 26 10
+R14
+31
+R21
+R16
+R17
+!i113 0
+R18
+R4
+ntest@a
+vtop_questa
+R6
+R7
+!i10b 1
+!s100 fj]I_znY[JUZHaUfP3U0:1
+IZaF?j3[DOEh@;=z0BUCdC2
+S1
+R8
+R9
+R10
+R11
+!i122 2
+L0 9 4
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R4
+vtricky4
+R6
+!s110 1758214206
+!i10b 1
+!s100 MifREGiNAZjjmb>U:bfdA2
+If`bYQL;gBC=Wm[@;@a9oT2
+S1
+R8
+w1758214147
+R10
+R11
+!i122 1
+L0 1 25
+R13
+R14
+r1
+!s85 0
+31
+!s108 1758214206.000000
+R16
+R17
+!i113 0
+R18
+R4

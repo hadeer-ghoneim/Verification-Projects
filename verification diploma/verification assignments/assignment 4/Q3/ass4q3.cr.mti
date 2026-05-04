@@ -1,0 +1,36 @@
+{C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4/Q3/counter_if.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4/Q3/counter_if.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling interface counter_if
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4/Q3/counter_top.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4/Q3/counter_top.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module counter_top
+
+Top level modules:
+	counter_top
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4/Q3/counter.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4/Q3/counter.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4/Q3/counter_mon.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4/Q3/counter_mon.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module counter_monitor
+
+Top level modules:
+	counter_monitor
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4/Q3/counter_tb.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4/Q3/counter_tb.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module counter_tb
+
+Top level modules:
+	counter_tb
+
+} {} {}}

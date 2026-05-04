@@ -1,0 +1,132 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3 extra/Q5
+T_opt
+!s110 1758216517
+VjnOP8SbRKkFEPmadFoAUG0
+04 13 4 work question_3_tb fast 0
+=1-ecb1d7def929-68cc4145-16a-928
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+R1
+vALSU
+Z3 !s110 1758217331
+!i10b 1
+!s100 <X=:j:H1__mBPOi]CE3cO0
+I[Y<B_;VXkob6HH<n6D<na1
+Z4 dC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4/Q1
+w1758216006
+8ALSU.v
+FALSU.v
+!i122 36
+L0 2 117
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z7 !s108 1758217330.000000
+!s107 question_3_tb.svh|package_q_3.svh|ALSU.v|
+Z8 !s90 -reportprogress|300|ALSU.v|package_q_3.svh|question_3_tb.svh|+cover|-covercells|
+!i113 0
+Z9 !s102 +cover -covercells
+Z10 o+cover -covercells -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@a@l@s@u
+Xalsu_pkg
+Z11 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R3
+!i10b 1
+!s100 BDLlN^S28<Al6l;2_E90f1
+I9VmB;dWADNNbCPoo3UzA40
+S1
+R4
+w1758216489
+8package_q_3.svh
+Fpackage_q_3.svh
+!i122 36
+Z12 L0 2 0
+V9VmB;dWADNNbCPoo3UzA40
+R6
+r1
+!s85 0
+31
+R7
+Z13 !s107 question_3_tb.svh|package_q_3.svh|ALSU.v|
+R8
+!i113 0
+R9
+R10
+R2
+vquestion_3_tb
+R11
+Z14 DXx4 work 8 alsu_pkg 0 22 9VmB;dWADNNbCPoo3UzA40
+DXx4 work 22 question_3_tb_svh_unit 0 22 >=HnSAUdFA28D@<:ca4<R1
+R3
+R5
+r1
+!s85 0
+!i10b 1
+!s100 Q`gM;eAmO;nS5fOo1[V>D1
+Ii`i?86@6:zYd543fd5TYS1
+!s105 question_3_tb_svh_unit
+S1
+R4
+Z15 w1758216114
+Z16 8question_3_tb.svh
+Z17 Fquestion_3_tb.svh
+!i122 36
+L0 4 220
+R6
+31
+R7
+R13
+R8
+!i113 0
+R9
+R10
+R2
+Xquestion_3_tb_svh_unit
+R11
+R14
+R3
+V>=HnSAUdFA28D@<:ca4<R1
+r1
+!s85 0
+!i10b 1
+!s100 Z<5ofTi_RNOjTo81JK[:;0
+I>=HnSAUdFA28D@<:ca4<R1
+!i103 1
+S1
+R4
+R15
+R16
+R17
+!i122 36
+R12
+R6
+31
+R7
+R13
+R8
+!i113 0
+R9
+R10
+R2

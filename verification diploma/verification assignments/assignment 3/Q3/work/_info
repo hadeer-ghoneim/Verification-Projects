@@ -1,0 +1,166 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3/Q2
+T_opt
+!s110 1757627367
+VgTIQAQfozMWlmK@Y`jaTf2
+Z2 04 13 4 work question_3_tb fast 0
+=2-ecb1d7def929-68c343e7-cb-4c60
+Z3 !s124 OEM100
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 tCvgOpt 0
+n@_opt
+Z6 OL;O;2021.1;73
+R1
+T_opt1
+!s110 1757628357
+V]VSLiU9@IJ9fF@Xd^Md^o3
+R2
+=1-ecb1d7def929-68c347c4-31f-20cc
+R3
+R4
+R5
+n@_opt1
+R6
+vALSU
+Z7 !s110 1757628355
+!i10b 1
+!s100 XimJY^V47eb1_`e_7`2@f3
+IPJTN3zKZ_mUZOP9O][f0m3
+Z8 dC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3/Q3
+w1756961659
+8ALSU.v
+FALSU.v
+!i122 32
+L0 1 118
+Z9 VDg1SIo80bB@j0V0VzS_@n1
+Z10 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z11 !s108 1757628355.000000
+Z12 !s107 question_3_tb.svh|package_q_3.svh|ALSU.v|
+Z13 !s90 -reportprogress|300|ALSU.v|package_q_3.svh|question_3_tb.svh|+cover|-covercells|
+!i113 0
+Z14 !s102 +cover -covercells
+Z15 o+cover -covercells -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
+n@a@l@s@u
+Xalsu_pkg
+Z16 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R7
+!i10b 1
+!s100 7`K7B@4FdN33D@2Mea9nk2
+I2?aea<ln7S_WRz6^CXNOZ2
+S1
+R8
+w1757626924
+8package_q_3.svh
+Fpackage_q_3.svh
+!i122 32
+L0 1 0
+V2?aea<ln7S_WRz6^CXNOZ2
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R5
+vALSU_tb
+R16
+DXx4 work 8 alsu_pkg 0 22 eLGeMa<VB[BGomFNKOhI61
+DXx4 work 22 question_3_tb_svh_unit 0 22 OcI;]C7[[_jeeO?nbMmD83
+!s110 1757626972
+R9
+r1
+!s85 0
+!i10b 1
+!s100 fU>e034KLPV]=C:RMXP5A2
+IKja5:OLkzcCT;6OoBRJnC0
+Z17 !s105 question_3_tb_svh_unit
+S1
+R8
+w1757626964
+8C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3/Q3/question_3_tb.svh
+FC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3/Q3/question_3_tb.svh
+!i122 19
+Z18 L0 4 114
+R10
+31
+!s108 1757626972.000000
+!s107 C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3/Q3/question_3_tb.svh|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3/Q3/question_3_tb.svh|
+!i113 0
+o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
+n@a@l@s@u_tb
+vquestion_3_tb
+R16
+Z19 DXx4 work 8 alsu_pkg 0 22 2?aea<ln7S_WRz6^CXNOZ2
+DXx4 work 22 question_3_tb_svh_unit 0 22 C9>=^V6a7VHO?GzMY]3:G2
+R7
+R9
+r1
+!s85 0
+!i10b 1
+!s100 olJ43zT8=00?eTcTRfQm_1
+I<_DKV68QWdI0m2i368=723
+R17
+S1
+R8
+Z20 w1757627231
+Z21 8question_3_tb.svh
+Z22 Fquestion_3_tb.svh
+!i122 32
+R18
+R10
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R5
+Xquestion_3_tb_svh_unit
+R16
+R19
+R7
+VC9>=^V6a7VHO?GzMY]3:G2
+r1
+!s85 0
+!i10b 1
+!s100 BP`M]LAR??;ecff8nP[1R3
+IC9>=^V6a7VHO?GzMY]3:G2
+!i103 1
+S1
+R8
+R20
+R21
+R22
+!i122 32
+L0 2 0
+R10
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R5

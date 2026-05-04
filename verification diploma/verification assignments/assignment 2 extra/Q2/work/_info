@@ -1,0 +1,129 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 2 extra/Q1
+T_opt
+!s110 1757011519
+VMenl0@MFJ1:;mbWiY=j_63
+04 6 4 work ALU_tb fast 0
+=1-ecb1d7def929-68b9de3f-81-56fc
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vALU
+Z2 !s110 1757011518
+!i10b 1
+!s100 Q8oQbeFifXS58Gc9bHAiO1
+I><aHNEUS1YRWUf:zAiPhI3
+Z3 dC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 2 extra/Q2
+w1757010516
+8ALU.v
+FALU.v
+!i122 12
+L0 1 42
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z6 !s108 1757011518.000000
+Z7 !s107 ALU_tb.svh|ALU_pkg.svh|ALU.v|
+Z8 !s90 -reportprogress|300|ALU.v|ALU_pkg.svh|ALU_tb.svh|+cover|-covercells|
+!i113 0
+Z9 !s102 +cover -covercells
+Z10 o+cover -covercells -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@a@l@u
+XALU_pkg
+Z11 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R2
+!i10b 1
+!s100 aJOcje9=i=0MMVEBJj2bD3
+Ikdj]WamHLm1jdGA31ba5B2
+S1
+R3
+w1757008135
+8ALU_pkg.svh
+FALU_pkg.svh
+!i122 12
+L0 1 0
+Vkdj]WamHLm1jdGA31ba5B2
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+n@a@l@u_pkg
+vALU_tb
+R11
+Z12 DXx4 work 7 ALU_pkg 0 22 kdj]WamHLm1jdGA31ba5B2
+R2
+!i10b 1
+!s100 ;BYT2`59k`7o1i[BakXU[1
+IBzVM<S_7dcLN7O:nGjkhZ2
+S1
+R3
+w1757011497
+Z13 8ALU_tb.svh
+Z14 FALU_tb.svh
+!i122 12
+L0 1 116
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+n@a@l@u_tb
+XALU_tb_svh_unit
+R11
+R12
+!s110 1757009778
+VZfUfQfOS_I]84dmI0LAaG1
+r1
+!s85 0
+!i10b 1
+!s100 n9A?_:96DHQ=04Z9X:mWd0
+IZfUfQfOS_I]84dmI0LAaG1
+!i103 1
+S1
+R3
+w1757009744
+R13
+R14
+!i122 5
+L0 2 0
+R5
+31
+!s108 1757009778.000000
+R7
+R8
+!i113 0
+R9
+R10
+R1
+n@a@l@u_tb_svh_unit

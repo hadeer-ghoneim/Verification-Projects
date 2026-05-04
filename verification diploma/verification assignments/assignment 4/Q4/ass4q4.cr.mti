@@ -1,0 +1,15 @@
+{C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4/Q4/config_reg_buggy_questa.svp} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4/Q4/config_reg_buggy_questa.svp}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module config_reg
+
+Top level modules:
+	config_reg
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4/Q4/config_reg_tb.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4/Q4/config_reg_tb.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module config_reg_tb
+
+Top level modules:
+	config_reg_tb
+
+} {} {}}

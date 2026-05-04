@@ -1,0 +1,104 @@
+{C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6/new codes/ALSU_coverage.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6/new codes/ALSU_coverage.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ALSU_coverage_pkg
+-- Importing package ALSU_seq_item_pkg
+-- Importing package shared_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6/new codes/ALSU_coverage.sv(6): Using implicit +incdir+C:/Users/General/Documents/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6/new codes/ALSU_test.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6/new codes/ALSU_test.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ALSU_test_pkg
+-- Importing package ALSU_config_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package ALSU_env_pkg
+-- Importing package ALSU_coverage_pkg
+-- Importing package ALSU_seq_item_pkg
+-- Importing package shared_pkg
+-- Importing package ALSU_scoreboard_pkg
+-- Importing package ALSU_agent_pkg
+-- Importing package ALSU_sequencer_pkg
+-- Importing package ALSU_driver_pkg
+-- Importing package ALSU_monitor_pkg
+-- Importing package ALSU_main_sequence_pkg
+-- Importing package ALSU_reset_sequence_pkg
+** Note: (vlog-2286) C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6/new codes/ALSU_test.sv(9): Using implicit +incdir+C:/Users/General/Documents/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6/new codes/ALSU_env.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6/new codes/ALSU_env.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ALSU_env_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6/new codes/ALSU_env.sv(3): Using implicit +incdir+C:/Users/General/Documents/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package ALSU_coverage_pkg
+-- Importing package ALSU_seq_item_pkg
+-- Importing package shared_pkg
+-- Importing package ALSU_scoreboard_pkg
+-- Importing package ALSU_agent_pkg
+-- Importing package ALSU_sequencer_pkg
+-- Importing package ALSU_driver_pkg
+-- Importing package ALSU_config_pkg
+-- Importing package ALSU_monitor_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6/new codes/ALSU_config.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6/new codes/ALSU_config.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ALSU_config_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6/new codes/ALSU_config.sv(3): Using implicit +incdir+C:/Users/General/Documents/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6/new codes/ALSU_agent.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6/new codes/ALSU_agent.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ALSU_agent_pkg
+-- Importing package ALSU_sequencer_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package ALSU_seq_item_pkg
+-- Importing package shared_pkg
+-- Importing package ALSU_driver_pkg
+-- Importing package ALSU_config_pkg
+-- Importing package ALSU_monitor_pkg
+** Note: (vlog-2286) C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6/new codes/ALSU_agent.sv(10): Using implicit +incdir+C:/Users/General/Documents/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6/new codes/ALSU_sequencer.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6/new codes/ALSU_sequencer.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ALSU_sequencer_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6/new codes/ALSU_sequencer.sv(3): Using implicit +incdir+C:/Users/General/Documents/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package ALSU_seq_item_pkg
+-- Importing package shared_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6/new codes/ALSU_reset_sequence.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6/new codes/ALSU_reset_sequence.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ALSU_reset_sequence_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6/new codes/ALSU_reset_sequence.sv(3): Using implicit +incdir+C:/Users/General/Documents/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package ALSU_seq_item_pkg
+-- Importing package shared_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6/new codes/ALSU_assertions.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6/new codes/ALSU_assertions.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module ALSU_assertions
+
+Top level modules:
+	ALSU_assertions
+
+} {} {}}

@@ -1,0 +1,329 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/fifo project/true codes
+T_opt
+!s110 1759678969
+VBN_i@Y9GS_mW=U;zg>CH22
+04 3 4 work top fast 0
+=1-ecb1d7def929-68e291f9-207-38d0
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+R1
+vFIFO
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z4 !s110 1759682089
+!i10b 1
+!s100 TY9?f01hNTW@jib4<F:^Q3
+I5;TZaaVKF;Kz>W;kcXRL@2
+S1
+Z5 dC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/fifo project/try codes
+w1759678675
+8FIFO.sv
+FFIFO.sv
+!i122 25
+L0 1 169
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z8 !s108 1759682089.000000
+!s107 top.sv|FIFO_test.sv|FIFO_monitor.sv|FIFO.sv|FIFO_interface.sv|FIFO_coverage.sv|FIFO_scoreboard.sv|FIFO_transaction.sv|shared_pkg.sv|
+Z9 !s90 -reportprogress|300|-f|src_files.list|
+!i113 0
+Z10 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@f@i@f@o
+XFIFO_coverage
+R3
+Z11 DXx4 work 16 FIFO_transaction 0 22 VkffGmga_^K3;jkA61WIM1
+Z12 DXx4 work 10 shared_pkg 0 22 JU4chOD4jUBHR6zS2]cT60
+R4
+!i10b 1
+!s100 :jGFEa]RIMb:Il<UgoOI[2
+I:cSe=UfXaid4_AbKUa1>z0
+S1
+R5
+w1759622596
+8FIFO_coverage.sv
+FFIFO_coverage.sv
+!i122 25
+Z13 L0 1 0
+V:cSe=UfXaid4_AbKUa1>z0
+R7
+r1
+!s85 0
+31
+R8
+Z14 !s107 top.sv|FIFO_test.sv|FIFO_monitor.sv|FIFO.sv|FIFO_interface.sv|FIFO_coverage.sv|FIFO_scoreboard.sv|FIFO_transaction.sv|shared_pkg.sv|
+R9
+!i113 0
+R10
+R2
+n@f@i@f@o_coverage
+vFIFO_monitor
+R3
+R3
+R11
+R12
+Z15 DXx4 work 13 FIFO_coverage 0 22 :cSe=UfXaid4_AbKUa1>z0
+Z16 DXx4 work 15 FIFO_scoreboard 0 22 QCV:dYkNPKV[3Pg4OoZFk2
+DXx4 work 20 FIFO_monitor_sv_unit 0 22 LXR0V=JHLP2O6Q`6DTOaG3
+R4
+R6
+r1
+!s85 0
+!i10b 1
+!s100 biDaHKJW4WTjh4__=GEG42
+I<[6mU7g@23zOoU1MaAo@d0
+!s105 FIFO_monitor_sv_unit
+S1
+R5
+Z17 w1759678370
+Z18 8FIFO_monitor.sv
+Z19 FFIFO_monitor.sv
+!i122 25
+L0 6 44
+R7
+31
+R8
+R14
+R9
+!i113 0
+R10
+R2
+n@f@i@f@o_monitor
+XFIFO_monitor_sv_unit
+R3
+R3
+R11
+R12
+R15
+R16
+R4
+VLXR0V=JHLP2O6Q`6DTOaG3
+r1
+!s85 0
+!i10b 1
+!s100 63GZAG5CCR6@`@V9feUl52
+ILXR0V=JHLP2O6Q`6DTOaG3
+!i103 1
+S1
+R5
+R17
+R18
+R19
+!i122 25
+R13
+R7
+31
+R8
+R14
+R9
+!i113 0
+R10
+R2
+n@f@i@f@o_monitor_sv_unit
+XFIFO_scoreboard
+R3
+R11
+R12
+R4
+!i10b 1
+!s100 Yj;j=AbZeQJ[2W>mLe3<A0
+IQCV:dYkNPKV[3Pg4OoZFk2
+S1
+R5
+w1759678443
+8FIFO_scoreboard.sv
+FFIFO_scoreboard.sv
+!i122 25
+R13
+VQCV:dYkNPKV[3Pg4OoZFk2
+R7
+r1
+!s85 0
+31
+R8
+R14
+R9
+!i113 0
+R10
+R2
+n@f@i@f@o_scoreboard
+vFIFO_TB
+R3
+R3
+R3
+R11
+R12
+R15
+R16
+DXx4 work 17 FIFO_test_sv_unit 0 22 53W=ME?8?VWW[=TnR`@8C1
+R4
+R6
+r1
+!s85 0
+!i10b 1
+!s100 XiJ7cdloEW8;DlzT6aSA30
+IlBmo1S<k`HF>G_Tjiz9:m3
+!s105 FIFO_test_sv_unit
+S1
+R5
+Z20 w1759678482
+Z21 8FIFO_test.sv
+Z22 FFIFO_test.sv
+!i122 25
+L0 6 69
+R7
+31
+R8
+R14
+R9
+!i113 0
+R10
+R2
+n@f@i@f@o_@t@b
+XFIFO_test_sv_unit
+R3
+R3
+R3
+R11
+R12
+R15
+R16
+R4
+V53W=ME?8?VWW[=TnR`@8C1
+r1
+!s85 0
+!i10b 1
+!s100 @L0eW619^S5Z0aY0`=hFf3
+I53W=ME?8?VWW[=TnR`@8C1
+!i103 1
+S1
+R5
+R20
+R21
+R22
+!i122 25
+R13
+R7
+31
+R8
+R14
+R9
+!i113 0
+R10
+R2
+n@f@i@f@o_test_sv_unit
+XFIFO_transaction
+R3
+R4
+!i10b 1
+!s100 CZic54[3`TF7GXf:0dNbz0
+IVkffGmga_^K3;jkA61WIM1
+S1
+R5
+w1759625379
+8FIFO_transaction.sv
+FFIFO_transaction.sv
+!i122 25
+R13
+VVkffGmga_^K3;jkA61WIM1
+R7
+r1
+!s85 0
+31
+R8
+R14
+R9
+!i113 0
+R10
+R2
+n@f@i@f@o_transaction
+Xshared_pkg
+R3
+R4
+!i10b 1
+!s100 4czo7FnVL4_?SLk`IL@=H2
+IJU4chOD4jUBHR6zS2]cT60
+S1
+R5
+w1759621266
+8shared_pkg.sv
+Fshared_pkg.sv
+!i122 25
+R13
+VJU4chOD4jUBHR6zS2]cT60
+R7
+r1
+!s85 0
+31
+R8
+R14
+R9
+!i113 0
+R10
+R2
+YSync_FIFO_interface
+R3
+R4
+!i10b 1
+!s100 STXIe457ClKk7N=IBV0:k0
+IHa2`e?>]<^S6YB=kh5cL42
+S1
+R5
+w1759622527
+8FIFO_interface.sv
+FFIFO_interface.sv
+!i122 25
+R13
+R6
+R7
+r1
+!s85 0
+31
+R8
+R14
+R9
+!i113 0
+R10
+R2
+n@sync_@f@i@f@o_interface
+vtop
+R3
+R4
+!i10b 1
+!s100 0L95hBYBEOM>OT>:coh172
+ITh?b9E=dRAUEfZ6>H1?2B1
+S1
+R5
+w1759622689
+8top.sv
+Ftop.sv
+!i122 25
+L0 1 20
+R6
+R7
+r1
+!s85 0
+31
+R8
+R14
+R9
+!i113 0
+R10
+R2

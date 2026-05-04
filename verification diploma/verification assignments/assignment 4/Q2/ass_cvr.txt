@@ -1,0 +1,522 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /tb_complete/dut_priority
+=== Design Unit: work.priority_enc
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         7         7         0   100.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /tb_complete/dut_priority
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File priority_enc.v
+------------------------------------IF Branch------------------------------------
+    10                                      9806     Count coming in to IF
+    10              1                          2         if (rst) begin
+    14              1                       9804         else begin
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------CASE Branch------------------------------------
+    15                                      9804     Count coming in to CASE
+    16              1                       4830                 4'b1xxx: Y <= 2'b11;  // Highest priority: D[3]
+    17              1                       2476                 4'b01xx: Y <= 2'b10;  // D[2]
+    18              1                       1280                 4'b001x: Y <= 2'b01;  // D[1]
+    19              1                        628                 4'b0001: Y <= 2'b00;  // D[0]
+    20              1                        590                 default: Y <= 2'b00;  // Handle all other cases
+Branch totals: 5 hits of 5 branches = 100.00%
+
+
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      1         1         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_complete/dut_priority --
+
+  File priority_enc.v
+----------------Focused Expression View-----------------
+Line       23 Item    1  (D != 0)
+Expression totals: 1 of 1 input term covered = 100.00%
+
+  Input Term   Covered  Reason for no coverage   Hint
+ -----------  --------  -----------------------  --------------
+    (D != 0)         Y
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  (D != 0)_0            -                             
+  Row   2:          1  (D != 0)_1            -                             
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       9         9         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_complete/dut_priority --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File priority_enc.v
+    1                                                module priority_enc (
+    2                                                    input  clk,
+    3                                                    input  rst,
+    4                                                    input  [3:0] D,    
+    5                                                    output reg [1:0] Y,    
+    6                                                    output reg valid
+    7                                                );
+    8                                                
+    9               1                       9806     always @(posedge clk) begin
+    10                                                   if (rst) begin
+    11              1                          2             Y <= 2'b00;
+    12              1                          2             valid <= 1'b0;
+    13                                                   end 
+    14                                                   else begin
+    15                                                       casex (D)
+    16              1                       4830                 4'b1xxx: Y <= 2'b11;  // Highest priority: D[3]
+    17              1                       2476                 4'b01xx: Y <= 2'b10;  // D[2]
+    18              1                       1280                 4'b001x: Y <= 2'b01;  // D[1]
+    19              1                        628                 4'b0001: Y <= 2'b00;  // D[0]
+    20              1                        590                 default: Y <= 2'b00;  // Handle all other cases
+    21                                                       endcase
+    22                                               
+    23              1                       9804             valid <= (D != 4'b0000);
+
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                         16        16         0   100.00%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /tb_complete/dut_priority --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+                                            D[0-3]           1           1      100.00 
+                                            Y[1-0]           1           1      100.00 
+                                               clk           1           1      100.00 
+                                             valid           1           1      100.00 
+
+Total Node Count     =          8 
+Toggled Node Count   =          8 
+Untoggled Node Count =          0 
+
+Toggle Coverage      =     100.00% (16 of 16 bins)
+
+=================================================================================
+=== Instance: /tb_complete/dut_decoder
+=== Design Unit: work.decoder_3to8
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        10        10         0   100.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /tb_complete/dut_decoder
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File decoder_3to8.v
+------------------------------------IF Branch------------------------------------
+    9                                       9854     Count coming in to IF
+    9               1                          2         if (rst) begin
+    12              1                       9852         else begin
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------CASE Branch------------------------------------
+    13                                      9852     Count coming in to CASE
+    14              1                       1183                 3'b000: Y <= 8'b00000001;
+    15              1                       1271                 3'b001: Y <= 8'b00000010;
+    16              1                       1257                 3'b010: Y <= 8'b00000100;
+    17              1                       1240                 3'b011: Y <= 8'b00001000;
+    18              1                       1212                 3'b100: Y <= 8'b00010000;
+    19              1                       1252                 3'b101: Y <= 8'b00100000;
+    20              1                       1235                 3'b110: Y <= 8'b01000000;
+    21              1                       1202                 3'b111: Y <= 8'b10000000;
+Branch totals: 8 hits of 8 branches = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      10        10         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_complete/dut_decoder --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File decoder_3to8.v
+    1                                                module decoder_3to8 (
+    2                                                    input clk,
+    3                                                    input rst,
+    4                                                    input [2:0] in,
+    5                                                    output reg [7:0] Y
+    6                                                );
+    7                                                
+    8               1                       9854     always @(posedge clk or posedge rst) begin
+    9                                                    if (rst) begin
+    10              1                          2             Y <= 8'b00000000;
+    11                                                   end
+    12                                                   else begin
+    13                                                       case (in)
+    14              1                       1183                 3'b000: Y <= 8'b00000001;
+    15              1                       1271                 3'b001: Y <= 8'b00000010;
+    16              1                       1257                 3'b010: Y <= 8'b00000100;
+    17              1                       1240                 3'b011: Y <= 8'b00001000;
+    18              1                       1212                 3'b100: Y <= 8'b00010000;
+    19              1                       1252                 3'b101: Y <= 8'b00100000;
+    20              1                       1235                 3'b110: Y <= 8'b01000000;
+    21              1                       1202                 3'b111: Y <= 8'b10000000;
+
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                         24        24         0   100.00%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /tb_complete/dut_decoder --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+                                            Y[7-0]           1           1      100.00 
+                                               clk           1           1      100.00 
+                                           in[0-2]           1           1      100.00 
+
+Total Node Count     =         12 
+Toggled Node Count   =         12 
+Untoggled Node Count =          0 
+
+Toggle Coverage      =     100.00% (24 of 24 bins)
+
+=================================================================================
+=== Instance: /tb_complete
+=== Design Unit: work.tb_complete
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       5         5         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/tb_complete/assert__priority_encoder_valid
+                     tb_complete.svh(57)                0          1
+/tb_complete/assert__decoder_one_hot_delayed
+                     tb_complete.svh(54)                0          1
+/tb_complete/assert__prop_s11b
+                     tb_complete.svh(47)                0          1
+/tb_complete/assert__a_and_b_then_c_1to3
+                     tb_complete.svh(44)                0          1
+/tb_complete/assert__a_then_b_after_2
+                     tb_complete.svh(41)                0          1
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /tb_complete
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File tb_complete.svh
+------------------------------------IF Branch------------------------------------
+    174                                    10000     Count coming in to IF
+    174             1                         10                 if (i % 1000 == 0) begin
+                                            9990     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       1         1         0   100.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /tb_complete --
+
+  File tb_complete.svh
+----------------Focused Condition View-------------------
+Line       174 Item    1  ((i % 1000) == 0)
+Condition totals: 1 of 1 input term covered = 100.00%
+
+         Input Term   Covered  Reason for no coverage   Hint
+        -----------  --------  -----------------------  --------------
+  ((i % 1000) == 0)         Y
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  ((i % 1000) == 0)_0   -                             
+  Row   2:          1  ((i % 1000) == 0)_1   -                             
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      81        81         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_complete --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File tb_complete.svh
+    3                                                module tb_complete();
+    4                                                    logic clk, rst;
+    5                                                    logic a, b, c;
+    6                                                    
+    7                                                    // Priority Encoder signals
+    8                                                    logic [3:0] D;
+    9                                                    logic [1:0] Y;
+    10                                                   logic valid;
+    11                                                   
+    12                                                   // 3-to-8 Decoder signals
+    13                                                   logic [2:0] decoder_in;
+    14                                                   logic [7:0] decoder_Y;
+    15                                                   
+    16                                                   // Test control flags
+    17                                                   logic test_assertion_1;
+    18                                                   logic test_assertion_2; 
+    19                                                   logic test_assertion_3;
+    20                                                   
+    21                                                   // Instantiate modules
+    22                                                   priority_enc dut_priority (
+    23                                                       .clk(clk),
+    24                                                       .rst(rst),
+    25                                                       .D(D),
+    26                                                       .Y(Y),
+    27                                                       .valid(valid)
+    28                                                   );
+    29                                                   
+    30                                                   decoder_3to8 dut_decoder (
+    31                                                       .clk(clk),
+    32                                                       .rst(rst),
+    33                                                       .in(decoder_in),
+    34                                                       .Y(decoder_Y)
+    35                                                   );
+    36                                                   
+    37                                                   // Clock generation
+    38              1                      20075         always #5 clk = ~clk;
+    38              2                      20074     
+    39                                                   
+    40                                                   // Assertions - ADD DELAY FOR DECODER
+    41                                                   assert property (a_then_b_after_2(clk, rst, test_assertion_1, a, b))
+    42                                                     else $error("Assertion 1 Failed: 'a' was high, but 'b' did not go high after 2 cycles");
+    43                                               
+    44                                                   assert property (a_and_b_then_c_1to3(clk, rst, test_assertion_2, a, b, c))
+    45                                                     else $error("Assertion 2 Failed: 'a && b' were high, but 'c' was not high within 1 to 3 cycles");
+    46                                               
+    47                                                   assert property (prop_s11b(clk, rst, test_assertion_3, b))
+    48                                                     else $error("Assertion 3 Failed: Sequence s11b - 'b' was not low after 2 cycles");
+    49                                               
+    50                                                   // Add small delay for decoder to stabilize
+    51                                                   property decoder_one_hot_delayed;
+    52                                                       @(posedge clk) disable iff (rst) ##1 $onehot(decoder_Y);
+    53                                                   endproperty
+    54                                                   assert property (decoder_one_hot_delayed)
+    55                                                     else $error("Assertion 4-i Failed: 'decoder_Y' is not one-hot encoded!");
+    56                                               
+    57                                                   assert property (priority_encoder_valid(clk, rst, D, valid))
+    58                                                     else $error("Assertion 4-ii Failed: All D inputs were 0, but 'valid' was not low in the next cycle");
+    59                                                   
+    60                                                   // Test sequence
+    61                                                   initial begin
+    62                                                       integer i;
+    63                                                       
+    64                                                       // Initialize
+    65              1                          1             clk = 0;
+    66              1                          1             rst = 1;
+    67              1                          1             a = 0; b = 0; c = 0;
+    67              2                          1     
+    67              3                          1     
+    68              1                          1             D = 4'b0000;
+    69              1                          1             decoder_in = 3'b000;
+    70              1                          1             test_assertion_1 = 0;
+    71              1                          1             test_assertion_2 = 0;
+    72              1                          1             test_assertion_3 = 0;
+    73                                                       
+    74                                                       // Release reset
+    75              1                          1             #20 rst = 0;
+    75              2                          1     
+    76              1                          1             @(posedge clk); // Wait for first clock after reset
+    77                                                       
+    78              1                          1             $display("Starting directed assertion tests...");
+    79                                                       
+    80                                                       // ==================== TEST ASSERTION 4-i FIRST ====================
+    81              1                          1             $display("Testing Assertion 4-i: Decoder one-hot");
+    82                                                       // Test all decoder inputs first to avoid false failures
+    83              1                          1             for (i = 0; i < 8; i++) begin
+    83              2                          8     
+    84              1                          8                 decoder_in <= i;
+    85              1                          8                 @(posedge clk);
+    86                                                           // Wait for decoder to stabilize
+    87              1                          8                 #1; // Small delay after clock edge
+    88                                                       end
+    89              1                          1             decoder_in <= 3'b000;
+    90              1                          1             @(posedge clk);
+    91              1                          1             #1; // Small delay after clock edge
+    92                                                       
+    93                                                       // ==================== TEST ASSERTION 4-ii ====================
+    94              1                          1             $display("Testing Assertion 4-ii: Priority encoder valid");
+    95              1                          1             D <= 4'b0000;
+    96              1                          1             @(posedge clk); // valid should be low next cycle
+    97              1                          1             @(posedge clk); // Check
+    98                                                       
+    99                                                       // ==================== TEST ASSERTION 1 ====================
+    100             1                          1             $display("Testing Assertion 1: a -> ##2 b");
+    101             1                          1             test_assertion_1 = 1;
+    102                                                      
+    103                                                      // Setup: a goes high
+    104             1                          1             a <= 1;
+    105             1                          1             @(posedge clk);
+    106             1                          1             a <= 0;
+    107                                                      
+    108                                                      // Wait 1 cycle
+    109             1                          1             @(posedge clk);
+    110                                                      
+    111                                                      // Set b high at cycle 2 (should pass)
+    112             1                          1             b <= 1;
+    113             1                          1             @(posedge clk);
+    114             1                          1             b <= 0;
+    115                                                      
+    116             1                          1             test_assertion_1 = 0;
+    117             1                          1             @(posedge clk);
+    118             1                          1             @(posedge clk); // Extra cycle to ensure assertion completes
+    119                                                      
+    120                                                      // ==================== TEST ASSERTION 2 ====================
+    121             1                          1             $display("Testing Assertion 2: (a && b) -> ##[1:3] c");
+    122             1                          1             test_assertion_2 = 1;
+    123                                                      
+    124                                                      // Setup: a and b go high
+    125             1                          1             a <= 1; b <= 1;
+    125             2                          1     
+    126             1                          1             @(posedge clk);
+    127                                                      
+    128                                                      // Set c high at cycle 1 (should pass)
+    129             1                          1             c <= 1;
+    130             1                          1             @(posedge clk);
+    131             1                          1             a <= 0; b <= 0; c <= 0;
+    131             2                          1     
+    131             3                          1     
+    132             1                          1             @(posedge clk); // Extra cycle
+    133                                                      
+    134             1                          1             test_assertion_2 = 0;
+    135             1                          1             @(posedge clk);
+    136                                                      
+    137                                                      // ==================== TEST ASSERTION 3 ====================
+    138             1                          1             $display("Testing Assertion 3: sequence s11b (##2 !b)");
+    139             1                          1             test_assertion_3 = 1;
+    140                                                      
+    141                                                      // Setup: b goes high
+    142             1                          1             b <= 1;
+    143             1                          1             @(posedge clk);
+    144             1                          1             @(posedge clk);
+    145                                                      
+    146                                                      // Set b low at cycle 2 (should pass)
+    147             1                          1             b <= 0;
+    148             1                          1             @(posedge clk);
+    149                                                      
+    150             1                          1             test_assertion_3 = 0;
+    151             1                          1             @(posedge clk);
+    152             1                          1             @(posedge clk); // Extra cycle to ensure assertion completes
+    153                                                      
+    154                                                      // ==================== RANDOM TESTS ====================
+    155             1                          1             $display("Starting 10,000 random test iterations...");
+    156                                                      
+    157                                                      // Disable assertion testing during random tests
+    158             1                          1             test_assertion_1 = 0;
+    159             1                          1             test_assertion_2 = 0;
+    160             1                          1             test_assertion_3 = 0;
+    161                                                      
+    162                                                      // Main repeat loop with 10,000 iterations
+    163             1                          1             for (i = 0; i < 10000; i++) begin
+    163             2                      10000     
+    164                                                          // Randomize all inputs
+    165             1                      10000                 D <= $urandom;
+    166             1                      10000                 decoder_in <= $urandom_range(0, 7);
+    167             1                      10000                 a <= 0;  // Keep assertion signals low during random tests
+    168             1                      10000                 b <= 0;
+    169             1                      10000                 c <= 0;
+    170                                                          
+    171             1                      10000                 @(posedge clk);
+    172                                                          
+    173                                                          // Display progress every 1000 tests
+    174                                                          if (i % 1000 == 0) begin
+    175             1                         10                     $display("Completed %0d random tests...", i);
+    176                                                          end
+    177                                                      end
+    178                                                      
+    179             1                          1             $display("10,000 test iterations completed successfully!");
+    180             1                          1             $display("All directed assertion tests should have passed.");
+    181             1                          1             #100 $finish;
+    181             2                          1     
+
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                         52        51         1    98.07%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /tb_complete --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+                                            D[3-0]           1           1      100.00 
+                                            Y[1-0]           1           1      100.00 
+                                                 a           1           1      100.00 
+                                                 b           1           1      100.00 
+                                                 c           1           1      100.00 
+                                               clk           1           1      100.00 
+                                    decoder_Y[7-0]           1           1      100.00 
+                                   decoder_in[2-0]           1           1      100.00 
+                                               rst           1           0       50.00 
+                                  test_assertion_1           1           1      100.00 
+                                  test_assertion_2           1           1      100.00 
+                                  test_assertion_3           1           1      100.00 
+                                             valid           1           1      100.00 
+
+Total Node Count     =         26 
+Toggled Node Count   =         25 
+Untoggled Node Count =          1 
+
+Toggle Coverage      =      98.07% (51 of 52 bins)
+
+
+ASSERTION RESULTS:
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/tb_complete/assert__priority_encoder_valid
+                     tb_complete.svh(57)                0          1
+/tb_complete/assert__decoder_one_hot_delayed
+                     tb_complete.svh(54)                0          1
+/tb_complete/assert__prop_s11b
+                     tb_complete.svh(47)                0          1
+/tb_complete/assert__a_and_b_then_c_1to3
+                     tb_complete.svh(44)                0          1
+/tb_complete/assert__a_then_b_after_2
+                     tb_complete.svh(41)                0          1
+
+Total Coverage By Instance (filtered view): 99.81%
+

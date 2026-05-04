@@ -1,0 +1,89 @@
+module priority_enc_tb ();
+
+    reg [3:0] D_tb; 
+    logic [1:0] Y_tb;
+    reg valid_tb;
+    bit clk;
+    bit rst;
+    int error_count; 
+    int correct_count;
+    integer i ;
+
+    priority_enc DUT_enc (clk,rst,D_tb,Y_tb,valid_tb);
+
+    always begin
+        #5 clk = ~clk;
+    end
+
+    
+    //COUNTER_1
+    task asser_reset ();
+    @(negedge clk);
+        D_tb = 0 ; 
+        rst =1;
+        check_Y(2'b00);
+        check_valid(0);
+        rst =0;
+    endtask
+
+
+    //COUNTER_2
+    initial begin
+        clk = 0; 
+        error_count = 0; 
+        correct_count = 0; 
+
+        asser_reset();
+
+        //CHECK_1
+        D_tb = 4'b1000; check_Y(2'b00); check_valid(1);
+        //CHECK_2
+        D_tb = 4'b0100; check_Y(2'b01); check_valid(1);
+        D_tb = 4'b1100; check_Y(2'b01); check_valid(1);
+        //CHECK_3
+        D_tb = 4'b1110; check_Y(2'b10); check_valid(1);
+        D_tb = 4'b1010; check_Y(2'b10); check_valid(1);
+        D_tb = 4'b0110; check_Y(2'b10); check_valid(1);
+        D_tb = 4'b0010; check_Y(2'b10); check_valid(1);
+        //CHECK_4
+        D_tb = 4'b0001; check_Y(2'b11); check_valid(1);
+        D_tb = 4'b1001; check_Y(2'b11); check_valid(1);
+        D_tb = 4'b0101; check_Y(2'b11); check_valid(1);
+        D_tb = 4'b1101; check_Y(2'b11); check_valid(1);
+        D_tb = 4'b0011; check_Y(2'b11); check_valid(1);
+        D_tb = 4'b0111; check_Y(2'b11); check_valid(1);
+        D_tb = 4'b1011; check_Y(2'b11); check_valid(1);
+        D_tb = 4'b1111; check_Y(2'b11); check_valid(1);
+        //CHECK_5
+        D_tb = 4'b0000; check_Y(2'bxx); check_valid(0);
+
+        //CHECK_6
+        repeat (16) begin
+        D_tb = $random ;   
+        end
+
+        $stop;
+
+    end
+
+
+    task check_Y(input [1:0] Y_out);
+    @(negedge clk);
+
+        if(Y_tb != Y_out )
+            error_count = error_count + 1;
+        else
+            correct_count = correct_count + 1;
+    endtask
+
+
+    task check_valid(input valid_out );
+    @(negedge clk);
+
+        if(valid_tb != valid_out)
+            error_count = error_count + 1;
+        else
+            correct_count = correct_count + 1;
+    endtask
+
+endmodule

@@ -1,0 +1,46 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3/Q4
+T_opt
+!s110 1757633449
+VS5ba^AaX^a>U4M3D^nSKN0
+04 10 4 work queue_test fast 0
+=1-ecb1d7def929-68c35ba9-1bd-3a74
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z0 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vqueue_test
+DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1757633433
+!i10b 1
+!s100 ]2HH1S<QkcnW0T4ljZQ9Z2
+Ii6;7^icbT3:YgiL]Jh9>23
+S1
+dC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3 extra/Q1
+w1757633127
+8C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3 extra/Q1/queue_test.sv
+FC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3 extra/Q1/queue_test.sv
+!i122 0
+L0 6 57
+VDg1SIo80bB@j0V0VzS_@n1
+OL;L;2021.1;73
+r1
+!s85 0
+31
+!s108 1757633433.000000
+!s107 C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3 extra/Q1/queue_test.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3 extra/Q1/queue_test.sv|
+!i113 0
+o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0

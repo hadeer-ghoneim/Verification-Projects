@@ -1,0 +1,99 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3 extra/Q2
+T_opt
+!s110 1757639690
+VN8CIJ=@J]UY7KPLo@IadQ1
+04 6 4 work FSM_tb fast 0
+=2-ecb1d7def929-68c37409-2cb-2884
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vFSM_010
+Z2 !s110 1757639689
+!i10b 1
+!s100 =l8;gOZn7VQCbO7dZeZ?13
+InMJP]T9b8YHB2h2_C_c7=0
+Z3 dC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3 extra/Q3
+w1757014198
+8FSM_010.v
+FFSM_010.v
+!i122 9
+L0 8 59
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z6 !s108 1757639689.000000
+Z7 !s107 FSM_tb.svh|FSM_pkg.svh|FSM_010.v|
+Z8 !s90 -reportprogress|300|FSM_010.v|FSM_pkg.svh|FSM_tb.svh|+cover|-covercells|
+!i113 0
+Z9 !s102 +cover -covercells
+Z10 o+cover -covercells -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@f@s@m_010
+Xfsm_pkg
+Z11 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R2
+!i10b 1
+!s100 Zbfc59YEmZnW:o6bEVCnM1
+IG7Li9NO>^SJ8V7=foS8]92
+S1
+R3
+w1757639536
+8FSM_pkg.svh
+FFSM_pkg.svh
+!i122 9
+L0 1 0
+VG7Li9NO>^SJ8V7=foS8]92
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vFSM_tb
+R11
+DXx4 work 7 fsm_pkg 0 22 G7Li9NO>^SJ8V7=foS8]92
+R2
+!i10b 1
+!s100 MS6ZbS0VSNU]MjSYAB^i[0
+I3>BAkM=z_j074PPeIL90b3
+S1
+R3
+w1757639646
+8FSM_tb.svh
+FFSM_tb.svh
+!i122 9
+L0 1 91
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+n@f@s@m_tb

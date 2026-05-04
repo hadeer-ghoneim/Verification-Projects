@@ -1,0 +1,352 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT
+T_opt
+!s110 1759622970
+VdF?Z`W0V1m6H4Z2DO>VK[1
+Z2 04 3 4 work top fast 0
+=1-ecb1d7def929-68e1b73a-15c-4374
+Z3 !s124 OEM100
+o-quiet -auto_acc_if_foreign -work work
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.1;73
+R1
+T_opt1
+!s110 1759682265
+VoV2X:JQzU1Z`Pne^CGhS22
+R2
+=1-ecb1d7def929-68e29ed8-33b-3e44
+R3
+o-quiet -auto_acc_if_foreign -work work +acc
+R4
+n@_opt1
+R5
+vFIFO
+Z6 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z7 !s110 1759682264
+!i10b 1
+!s100 [IjC4hjKV>a<RC^g:[T>^3
+IJmkWJB=eCW;G]iC]9LPlT1
+S1
+Z8 dC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/fifo project/true codes
+w1759622942
+8FIFO.sv
+FFIFO.sv
+!i122 84
+L0 1 161
+Z9 VDg1SIo80bB@j0V0VzS_@n1
+Z10 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z11 !s108 1759682264.000000
+Z12 !s107 top.sv|FIFO_test.sv|FIFO_monitor.sv|FIFO.sv|FIFO_interface.sv|FIFO_coverage.sv|FIFO_scoreboard.sv|FIFO_transaction.sv|shared_pkg.sv|
+Z13 !s90 -reportprogress|300|-f|src_files.list|+cover|-covercells|
+!i113 0
+Z14 !s102 +cover -covercells
+Z15 o+cover -covercells -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+n@f@i@f@o
+XFIFO_coverage
+R6
+Z16 DXx4 work 16 FIFO_transaction 0 22 HXVjg>OgDA<[:MTT?@DlS1
+Z17 DXx4 work 10 shared_pkg 0 22 5lNf3bCR<b<KiNYdR9h490
+R7
+!i10b 1
+!s100 :jGFEa]RIMb:Il<UgoOI[2
+I7bkQX>T@?7]KBzZ2JRPjf0
+S1
+R8
+w1759622596
+8FIFO_coverage.sv
+FFIFO_coverage.sv
+!i122 84
+Z18 L0 1 0
+V7bkQX>T@?7]KBzZ2JRPjf0
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R4
+n@f@i@f@o_coverage
+vFIFO_monitor
+R6
+R6
+R16
+R17
+Z19 DXx4 work 13 FIFO_coverage 0 22 7bkQX>T@?7]KBzZ2JRPjf0
+Z20 DXx4 work 15 FIFO_scoreboard 0 22 zL:@8zFkE8ifkhI6Fzg;C2
+DXx4 work 20 FIFO_monitor_sv_unit 0 22 >=BdVd>ni]Z9G`Wm:WIN51
+R7
+R9
+r1
+!s85 0
+!i10b 1
+!s100 i[mK1hh8Q?PFW?1FY:Y7U2
+IFU`]?hMJHYRl0chze_FNV3
+!s105 FIFO_monitor_sv_unit
+S1
+R8
+Z21 w1759622618
+Z22 8FIFO_monitor.sv
+Z23 FFIFO_monitor.sv
+!i122 84
+L0 6 44
+R10
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R4
+n@f@i@f@o_monitor
+XFIFO_monitor_sv_unit
+R6
+R6
+R16
+R17
+R19
+R20
+R7
+V>=BdVd>ni]Z9G`Wm:WIN51
+r1
+!s85 0
+!i10b 1
+!s100 63GZAG5CCR6@`@V9feUl52
+I>=BdVd>ni]Z9G`Wm:WIN51
+!i103 1
+S1
+R8
+R21
+R22
+R23
+!i122 84
+R18
+R10
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R4
+n@f@i@f@o_monitor_sv_unit
+XFIFO_scoreboard
+R6
+R16
+R17
+R7
+!i10b 1
+!s100 K1CnI=hnJ]2>fPk`G^[HI1
+IzL:@8zFkE8ifkhI6Fzg;C2
+S1
+R8
+w1759622569
+8FIFO_scoreboard.sv
+FFIFO_scoreboard.sv
+!i122 84
+R18
+VzL:@8zFkE8ifkhI6Fzg;C2
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R4
+n@f@i@f@o_scoreboard
+vFIFO_TB
+R6
+R6
+R6
+R16
+R17
+R19
+R20
+DXx4 work 17 FIFO_test_sv_unit 0 22 WZhGkRX?OZ[OI_ZoH<7Fl3
+R7
+R9
+r1
+!s85 0
+!i10b 1
+!s100 Fj`W2b_dJjzVg>QXh@n]13
+I:KY0EkanBJfdQKf6b0Z=N1
+!s105 FIFO_test_sv_unit
+S1
+R8
+Z24 w1759622639
+Z25 8FIFO_test.sv
+Z26 FFIFO_test.sv
+!i122 84
+L0 6 59
+R10
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R4
+n@f@i@f@o_@t@b
+XFIFO_test_sv_unit
+R6
+R6
+R6
+R16
+R17
+R19
+R20
+R7
+VWZhGkRX?OZ[OI_ZoH<7Fl3
+r1
+!s85 0
+!i10b 1
+!s100 KLbCQRV@]4C^4149bi`gz1
+IWZhGkRX?OZ[OI_ZoH<7Fl3
+!i103 1
+S1
+R8
+R24
+R25
+R26
+!i122 84
+R18
+R10
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R4
+n@f@i@f@o_test_sv_unit
+XFIFO_transaction
+R6
+R7
+!i10b 1
+!s100 CZic54[3`TF7GXf:0dNbz0
+IHXVjg>OgDA<[:MTT?@DlS1
+S1
+R8
+w1759625379
+8FIFO_transaction.sv
+FFIFO_transaction.sv
+!i122 84
+R18
+VHXVjg>OgDA<[:MTT?@DlS1
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R4
+n@f@i@f@o_transaction
+Xshared_pkg
+R6
+R7
+!i10b 1
+!s100 4czo7FnVL4_?SLk`IL@=H2
+I5lNf3bCR<b<KiNYdR9h490
+S1
+R8
+w1759621266
+8shared_pkg.sv
+Fshared_pkg.sv
+!i122 84
+R18
+V5lNf3bCR<b<KiNYdR9h490
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R4
+YSync_FIFO_interface
+R6
+R7
+!i10b 1
+!s100 STXIe457ClKk7N=IBV0:k0
+I`RV0LdM51gSDVn:DaQI?`0
+S1
+R8
+w1759622527
+8FIFO_interface.sv
+FFIFO_interface.sv
+!i122 84
+R18
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R4
+n@sync_@f@i@f@o_interface
+vtop
+R6
+R7
+!i10b 1
+!s100 0L95hBYBEOM>OT>:coh172
+IEDL_a@hIUXX7FTZMli=9:0
+S1
+R8
+w1759622689
+8top.sv
+Ftop.sv
+!i122 84
+L0 1 20
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R4

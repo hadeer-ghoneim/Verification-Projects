@@ -1,0 +1,70 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 1/work
+T_opt
+!s110 1755980400
+VU9NL9G?1JO1@oolc]L;C:3
+04 8 4 work adder_tb fast 0
+=5-ecb1d7def929-68aa226f-3c2-2f5c
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vadder
+Z2 !s110 1755980399
+!i10b 1
+!s100 KXleX>4`4ohUo;GDahe=23
+IVS9Fj@R9l1Y6cAUkTlQ651
+R0
+w1755870364
+8adder.v
+Fadder.v
+!i122 0
+L0 1 17
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z5 !s108 1755980399.000000
+Z6 !s107 adder_tb.svh|adder.v|
+Z7 !s90 -reportprogress|300|adder.v|adder_tb.svh|+cover|-covercells|
+!i113 0
+Z8 !s102 +cover -covercells
+Z9 o+cover -covercells -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vadder_tb
+DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R2
+!i10b 1
+!s100 HdGNAcoKY_jY7ncd@?o@P2
+I`Q=eYZC6m^?2DU>jSgdIL0
+S1
+R0
+w1755979644
+8adder_tb.svh
+Fadder_tb.svh
+!i122 0
+L0 1 71
+R3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R9
+R1

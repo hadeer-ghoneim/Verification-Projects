@@ -1,0 +1,15 @@
+{C:/Users/General/Desktop/.github/build/verification diploma/Questa2Go/quiz 5/quiz5.svh} {0 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/Questa2Go/quiz 5/quiz5.svh}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Error: C:/Users/General/Desktop/.github/build/verification diploma/Questa2Go/quiz 5/quiz5.svh(1): (vlog-2400) Identifier ('uvm_phase') found where a type or type identifier is required.
+** Error: C:/Users/General/Desktop/.github/build/verification diploma/Questa2Go/quiz 5/quiz5.svh(4): (vlog-2163) Macro `uvm_fatal is undefined.
+** Error: C:/Users/General/Desktop/.github/build/verification diploma/Questa2Go/quiz 5/quiz5.svh(8): (vlog-2400) Identifier ('uvm_phase') found where a type or type identifier is required.
+** Error: C:/Users/General/Desktop/.github/build/verification diploma/Questa2Go/quiz 5/quiz5.svh(12): (vlog-2400) Identifier ('uvm_phase') found where a type or type identifier is required.
+
+} {3.0 7.0} {}} {C:/Users/General/Desktop/.github/build/verification diploma/Questa2Go/quiz 5/quiz5 - Copy.svh} {0 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/Questa2Go/quiz 5/quiz5 - Copy.svh}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Error: C:/Users/General/Desktop/.github/build/verification diploma/Questa2Go/quiz 5/quiz5 - Copy.svh(1): (vlog-2400) Identifier ('uvm_phase') found where a type or type identifier is required.
+** Error: C:/Users/General/Desktop/.github/build/verification diploma/Questa2Go/quiz 5/quiz5 - Copy.svh(4): (vlog-2163) Macro `uvm_fatal is undefined.
+** Error: C:/Users/General/Desktop/.github/build/verification diploma/Questa2Go/quiz 5/quiz5 - Copy.svh(8): (vlog-2400) Identifier ('uvm_phase') found where a type or type identifier is required.
+** Error: C:/Users/General/Desktop/.github/build/verification diploma/Questa2Go/quiz 5/quiz5 - Copy.svh(12): (vlog-2400) Identifier ('uvm_phase') found where a type or type identifier is required.
+
+} {3.0 7.0} {}}

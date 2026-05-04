@@ -1,0 +1,23 @@
+{C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 2 extra/Q2/ALU_tb.svh} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 2 extra/Q2/ALU_tb.svh}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module ALU_tb
+-- Importing package ALU_pkg
+
+Top level modules:
+	ALU_tb
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 2 extra/Q2/ALU.v} {1 {vlog -work work -vopt -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 2 extra/Q2/ALU.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 2 extra/Q2/ALU_pkg.svh} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 2 extra/Q2/ALU_pkg.svh}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ALU_pkg
+
+Top level modules:
+	--none--
+
+} {} {}}

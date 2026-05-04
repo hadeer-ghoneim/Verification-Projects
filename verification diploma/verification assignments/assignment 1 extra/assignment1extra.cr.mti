@@ -1,0 +1,43 @@
+{C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 1 extra/dff_GM.v} {1 {vlog -work work -vopt -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 1 extra/dff_GM.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module dff_GM
+
+Top level modules:
+	dff_GM
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 1 extra/tb_try.svh} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 1 extra/tb_try.svh}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module tb_try
+
+Top level modules:
+	tb_try
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 1 extra/tb_try_1.svh} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 1 extra/tb_try_1.svh}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module tb_try
+
+Top level modules:
+	tb_try
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 1 extra/dff_t1_tb.svh} {1 {vlog -work work -vopt -sv -stats=none {C:\Users\General\Desktop\.github\build\verification diploma\verification assignments\assignment 1 extra\dff_t1_tb.svh}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module dff_t1_tb
+
+Top level modules:
+	dff_t1_tb
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 1 extra/dff_t2_tb.svh} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 1 extra/dff_t2_tb.svh}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module dff_t2_tb
+
+Top level modules:
+	dff_t2_tb
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 1 extra/mux4to1.v} {1 {vlog -work work -vopt -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 1 extra/mux4to1.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module mux4to1
+
+Top level modules:
+	mux4to1
+
+} {} {}}

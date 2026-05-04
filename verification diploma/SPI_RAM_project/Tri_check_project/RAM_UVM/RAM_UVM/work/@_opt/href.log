@@ -1,0 +1,20 @@
+BEGIN 3:RAM_if:fast__2:work
+    tx_valid_ref :  1:top:fast:work
+    din :  1:RAM_assertions:fast:work 1:RAM:fast:work 1:top:fast:work
+    tx_valid :  1:RAM_assertions:fast:work 1:RAM:fast:work
+    dout_ref :  1:top:fast:work
+    clk :  1:RAM_assertions:fast:work 1:RAM:fast:work
+    rst_n :  1:RAM_assertions:fast:work 1:RAM:fast:work 1:top:fast:work
+    rx_valid :  1:RAM_assertions:fast:work 1:RAM:fast:work 1:top:fast:work
+    dout :  1:RAM_assertions:fast:work 1:RAM:fast:work
+END 
+BEGIN 3:RAM_if:fast__1:work
+    tx_valid :  1:monitor_pkg:fast:work
+    din :  1:monitor_pkg:fast:work
+    clk :  1:monitor_pkg:fast:work
+    dout_ref :  1:monitor_pkg:fast:work
+    rx_valid :  1:monitor_pkg:fast:work
+    tx_valid_ref :  1:monitor_pkg:fast:work
+    dout :  1:monitor_pkg:fast:work
+    rst_n :  1:monitor_pkg:fast:work
+END 

@@ -1,0 +1,94 @@
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /spi_slave_pkg/spi_slave_coverage/spi_cov       100.00%        100          -    Covered              
+    covered/total bins:                                    27         27          -                      
+    missing/total bins:                                     0         27          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint rx_data_cp                             100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint ss_n_transaction_cp                    100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint ss_n_state_cp                          100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint mosi_cmd_cp                            100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross ss_mosi_cross                               100.00%        100          -    Covered              
+        covered/total bins:                                10         10          -                      
+        missing/total bins:                                 0         10          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/spi_slave_pkg::spi_slave_coverage::spi_cov  
+                                                      100.00%        100          -    Covered              
+    covered/total bins:                                    27         27          -                      
+    missing/total bins:                                     0         27          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint rx_data_cp                             100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin write_addr                                     69          1          -    Covered              
+        bin write_data                                     58          1          -    Covered              
+        bin read_addr                                      61          1          -    Covered              
+        bin read_data                                     133          1          -    Covered              
+        bin transitions                                    15          1          -    Covered              
+    Coverpoint ss_n_transaction_cp                    100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin normal_write_addr                              69          1          -    Covered              
+        bin normal_write_data                              58          1          -    Covered              
+        bin normal_read_addr                               61          1          -    Covered              
+        bin extended_read_data                            133          1          -    Covered              
+    Coverpoint ss_n_state_cp                          100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin ss_active                                    4390          1          -    Covered              
+        bin ss_idle                                       231          1          -    Covered              
+        bin ss_falling                                    231          1          -    Covered              
+        bin ss_rising                                     230          1          -    Covered              
+    Coverpoint mosi_cmd_cp                            100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin write_addr_cmd                                977          1          -    Covered              
+        bin write_data_cmd                                812          1          -    Covered              
+        bin read_addr_cmd                                 854          1          -    Covered              
+        bin read_data_cmd                                1978          1          -    Covered              
+    Cross ss_mosi_cross                               100.00%        100          -    Covered              
+        covered/total bins:                                10         10          -                      
+        missing/total bins:                                 0         10          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <ss_falling,read_data_cmd>                 43          1          -    Covered              
+            bin <ss_active,read_data_cmd>                1935          1          -    Covered              
+            bin <ss_rising,read_addr_cmd>                  61          1          -    Covered              
+            bin <ss_idle,read_addr_cmd>                    61          1          -    Covered              
+            bin <ss_rising,write_data_cmd>                 58          1          -    Covered              
+            bin <ss_idle,write_data_cmd>                   58          1          -    Covered              
+            bin <ss_rising,write_addr_cmd>                 68          1          -    Covered              
+            bin <ss_idle,write_addr_cmd>                   69          1          -    Covered              
+            bin <ss_falling,write_addr_cmd>                69          1          -    Covered              
+            bin <ss_active,write_addr_cmd>                908          1          -    Covered              
+        Illegal and Ignore Bins:
+            ignore_bin impossible_write_data_falling 
+                                                           58                     -    Occurred             
+            ignore_bin impossible_write_data_active 
+                                                          754                     -    Occurred             
+            ignore_bin impossible_read_addr_falling 
+                                                           61                     -    Occurred             
+            ignore_bin impossible_read_addr_active        793                     -    Occurred             
+            ignore_bin impossible_read_data_rising         43                     -    Occurred             
+            ignore_bin impossible_read_data_idle           43                     -    Occurred             
+
+TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 1

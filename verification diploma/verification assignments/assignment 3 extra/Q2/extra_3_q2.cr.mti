@@ -1,0 +1,23 @@
+{C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3 extra/Q2/adder_tb.svh} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3 extra/Q2/adder_tb.svh}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module adder_tb
+-- Importing package adder_pkg
+
+Top level modules:
+	adder_tb
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3 extra/Q2/adder_pkg.svh} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3 extra/Q2/adder_pkg.svh}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package adder_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3 extra/Q2/adder.v} {1 {vlog -work work -vopt -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3 extra/Q2/adder.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}}

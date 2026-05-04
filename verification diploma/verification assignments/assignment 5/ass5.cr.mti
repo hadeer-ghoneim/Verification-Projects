@@ -1,0 +1,71 @@
+{C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 5/ALSU_test.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 5/ALSU_test.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ALSU_test_pkg
+-- Importing package ALSU_config_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package ALSU_env_pkg
+-- Importing package ALSU_driver_pkg
+** Note: (vlog-2286) C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 5/ALSU_test.sv(14): Using implicit +incdir+C:/Users/General/Documents/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 5/ALSU_driver.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 5/ALSU_driver.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ALSU_driver_pkg
+-- Importing package ALSU_config_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 5/ALSU_driver.sv(5): Using implicit +incdir+C:/Users/General/Documents/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 5/ALSU_env.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 5/ALSU_env.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ALSU_env_pkg
+-- Importing package ALSU_driver_pkg
+-- Importing package ALSU_config_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 5/ALSU_env.sv(12): Using implicit +incdir+C:/Users/General/Documents/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 5/ALSU.v} {1 {vlog -work work -vopt -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 5/ALSU.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module ALSU
+
+Top level modules:
+	ALSU
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 5/ALSU_config.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 5/ALSU_config.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ALSU_config_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 5/ALSU_config.sv(4): Using implicit +incdir+C:/Users/General/Documents/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 5/ALSU_if.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 5/ALSU_if.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling interface ALSU_if
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 5/top.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 5/top.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Note: (vlog-2286) C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 5/top.sv(10): Using implicit +incdir+C:/Users/General/Documents/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Compiling package top_sv_unit
+-- Importing package ALSU_test_pkg
+-- Importing package ALSU_config_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package ALSU_env_pkg
+-- Importing package ALSU_driver_pkg
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}}

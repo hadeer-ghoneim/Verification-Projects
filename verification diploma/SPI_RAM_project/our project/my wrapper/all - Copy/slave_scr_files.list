@@ -1,0 +1,5 @@
+slave_spi.v
+slave_spi_pkg.sv
+slave_spi_if.sv
+slave_assertion.sv
+slave_top.sv

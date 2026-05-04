@@ -1,0 +1,37 @@
+C:/Users/tsnym/Downloads/Verfication_labs/spi_copy/sequences.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/tsnym/Downloads/Verfication_labs/spi_copy/sequences.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+
+} {} {}} C:/Users/tsnym/Downloads/Verfication_labs/spi_copy/scoreboard.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/tsnym/Downloads/Verfication_labs/spi_copy/scoreboard.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+
+} {} {}} C:/Users/tsnym/Downloads/Verfication_labs/spi_copy/spi_sequencer.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/tsnym/Downloads/Verfication_labs/spi_copy/spi_sequencer.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+
+} {} {}} C:/Users/tsnym/Downloads/Verfication_labs/spi_copy/golden_model.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/tsnym/Downloads/Verfication_labs/spi_copy/golden_model.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+
+} {} {}} C:/Users/tsnym/Downloads/Verfication_labs/spi_copy/spi_config.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/tsnym/Downloads/Verfication_labs/spi_copy/spi_config.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+
+} {} {}} C:/Users/tsnym/Downloads/Verfication_labs/spi_copy/spi_cov.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/tsnym/Downloads/Verfication_labs/spi_copy/spi_cov.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+
+} {} {}} C:/Users/tsnym/Downloads/Verfication_labs/spi_copy/spi_test.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/tsnym/Downloads/Verfication_labs/spi_copy/spi_test.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+
+} {} {}} C:/Users/tsnym/Downloads/Verfication_labs/spi_copy/driver.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/tsnym/Downloads/Verfication_labs/spi_copy/driver.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+
+} {} {}} C:/Users/tsnym/Downloads/Verfication_labs/spi_copy/spi_env.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/tsnym/Downloads/Verfication_labs/spi_copy/spi_env.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+
+} {} {}} C:/Users/tsnym/Downloads/Verfication_labs/spi_copy/seq_item.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/tsnym/Downloads/Verfication_labs/spi_copy/seq_item.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+
+} {} {}} C:/Users/tsnym/Downloads/Verfication_labs/spi_copy/agent.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/tsnym/Downloads/Verfication_labs/spi_copy/agent.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+
+} {} {}} C:/Users/tsnym/Downloads/Verfication_labs/spi_copy/monitor.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/tsnym/Downloads/Verfication_labs/spi_copy/monitor.sv
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+
+} {} {}}

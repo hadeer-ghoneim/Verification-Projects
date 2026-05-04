@@ -1,0 +1,12 @@
+////////////////////////////////////////////////////////////////////////////////
+// Author: Kareem Waseem
+// Course: Digital Verification using SV & UVM
+//
+// Description: Vending machine example
+// 
+////////////////////////////////////////////////////////////////////////////////
+module vending_machine_monitor(vending_machine_if v_if);
+// 1. Add the modport above
+// 2. Add the monitor statement in an initial block
+
+endmodule

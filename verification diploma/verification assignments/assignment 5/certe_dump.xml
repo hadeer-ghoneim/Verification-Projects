@@ -1,0 +1,24 @@
+<certe_dump>
+  <instance type=" ALSU_test "> 
+     uvm_test_top 
+  
+     <instance type=" ALSU_env "> 
+        env 
+  
+        <instance type=" ALSU_driver "> 
+           driver 
+  
+           <port if_type = "uvm_analysis_port" txn_type = "anonymous"> 
+              rsp_port 
+           </port> 
+  
+           <port if_type = "uvm_seq_item_pull_port" txn_type = "anonymous"> 
+              seq_item_port 
+           </port> 
+        </instance> 
+  
+     </instance> 
+  
+  </instance> 
+  
+  </certe_dump>

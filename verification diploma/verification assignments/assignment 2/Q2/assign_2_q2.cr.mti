@@ -1,0 +1,15 @@
+{C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 2/Q2/counter.v} {1 {vlog -work work -vopt -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 2/Q2/counter.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 2/Q2/package.svh} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 2/Q2/package.svh}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package question_2_pkg
+
+Top level modules:
+	--none--
+
+} {} {}}

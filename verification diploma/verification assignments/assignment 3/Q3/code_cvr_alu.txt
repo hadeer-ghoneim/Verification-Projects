@@ -1,0 +1,890 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /question_3_tb/DUT
+=== Design Unit: work.ALSU
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        31        31         0   100.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /question_3_tb/DUT
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ALSU.v
+------------------------------------IF Branch------------------------------------
+    24                                      1038     Count coming in to IF
+    24              1                          2       if(rst) begin
+    35              1                       1036       end else begin
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    51                                      1039     Count coming in to IF
+    51              1                          3       if(rst) begin
+    53              1                       1036       end else begin
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    54                                      1036     Count coming in to IF
+    54              1                        511           if (invalid)
+    56              1                        525           else
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    63                                      1038     Count coming in to IF
+    63              1                          2       if(rst) begin
+    66              1                       1036       else begin
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    67                                      1036     Count coming in to IF
+    67              1                        226         if (bypass_A_reg && bypass_B_reg)
+    69              1                        262         else if (bypass_A_reg)
+    71              1                        249         else if (bypass_B_reg)
+    73              1                        134         else if (invalid) 
+    75              1                        165         else begin
+Branch totals: 5 hits of 5 branches = 100.00%
+
+------------------------------------CASE Branch------------------------------------
+    76                                       165     Count coming in to CASE
+    77              1                         50               3'h0: begin 
+    87              1                         44               3'h1: begin
+    97              1                         15               3'h2: out <= (FULL_ADDER == "ON") ? (A_reg + B_reg + cin_reg) : (A_reg + B_reg);  //edited design error
+    98              1                         15               3'h3: out <= A_reg * B_reg;
+    99              1                         27               3'h4: begin
+    105             1                         14               3'h5: begin
+Branch totals: 6 hits of 6 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    78                                        50     Count coming in to IF
+    78              1                          7                 if (red_op_A_reg && red_op_B_reg)
+    80              1                          8                 else if (red_op_A_reg) 
+    82              1                          9                 else if (red_op_B_reg)
+    84              1                         26                 else 
+Branch totals: 4 hits of 4 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    88                                        44     Count coming in to IF
+    88              1                         10                 if (red_op_A_reg && red_op_B_reg)
+    90              1                         13                 else if (red_op_A_reg) 
+    92              1                          9                 else if (red_op_B_reg)
+    94              1                         12                 else 
+Branch totals: 4 hits of 4 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    100                                       27     Count coming in to IF
+    100             1                         13                 if (direction_reg)
+    102             1                         14                 else
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    106                                       14     Count coming in to IF
+    106             1                         10                 if (direction_reg)
+    108             1                          4                 else
+Branch totals: 2 hits of 2 branches = 100.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       6         6         0   100.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /question_3_tb/DUT --
+
+  File ALSU.v
+----------------Focused Condition View-------------------
+Line       67 Item    1  (bypass_A_reg && bypass_B_reg)
+Condition totals: 2 of 2 input terms covered = 100.00%
+
+    Input Term   Covered  Reason for no coverage   Hint
+   -----------  --------  -----------------------  --------------
+  bypass_A_reg         Y
+  bypass_B_reg         Y
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  bypass_A_reg_0        -                             
+  Row   2:          1  bypass_A_reg_1        bypass_B_reg                  
+  Row   3:          1  bypass_B_reg_0        bypass_A_reg                  
+  Row   4:          1  bypass_B_reg_1        bypass_A_reg                  
+
+----------------Focused Condition View-------------------
+Line       78 Item    1  (red_op_A_reg && red_op_B_reg)
+Condition totals: 2 of 2 input terms covered = 100.00%
+
+    Input Term   Covered  Reason for no coverage   Hint
+   -----------  --------  -----------------------  --------------
+  red_op_A_reg         Y
+  red_op_B_reg         Y
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  red_op_A_reg_0        -                             
+  Row   2:          1  red_op_A_reg_1        red_op_B_reg                  
+  Row   3:          1  red_op_B_reg_0        red_op_A_reg                  
+  Row   4:          1  red_op_B_reg_1        red_op_A_reg                  
+
+----------------Focused Condition View-------------------
+Line       88 Item    1  (red_op_A_reg && red_op_B_reg)
+Condition totals: 2 of 2 input terms covered = 100.00%
+
+    Input Term   Covered  Reason for no coverage   Hint
+   -----------  --------  -----------------------  --------------
+  red_op_A_reg         Y
+  red_op_B_reg         Y
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  red_op_A_reg_0        -                             
+  Row   2:          1  red_op_A_reg_1        red_op_B_reg                  
+  Row   3:          1  red_op_B_reg_0        red_op_A_reg                  
+  Row   4:          1  red_op_B_reg_1        red_op_A_reg                  
+
+
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      8         5         3    62.50%
+
+================================Expression Details================================
+
+Expression Coverage for instance /question_3_tb/DUT --
+
+  File ALSU.v
+----------------Focused Expression View-----------------
+Line       18 Item    1  ((red_op_A_reg | red_op_B_reg) & (opcode_reg[1] | opcode_reg[2]))
+Expression totals: 4 of 4 input terms covered = 100.00%
+
+     Input Term   Covered  Reason for no coverage   Hint
+    -----------  --------  -----------------------  --------------
+   red_op_A_reg         Y
+   red_op_B_reg         Y
+  opcode_reg[1]         Y
+  opcode_reg[2]         Y
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  red_op_A_reg_0        ((opcode_reg[1] | opcode_reg[2]) && ~red_op_B_reg)
+  Row   2:          1  red_op_A_reg_1        ((opcode_reg[1] | opcode_reg[2]) && ~red_op_B_reg)
+  Row   3:          1  red_op_B_reg_0        ((opcode_reg[1] | opcode_reg[2]) && ~red_op_A_reg)
+  Row   4:          1  red_op_B_reg_1        ((opcode_reg[1] | opcode_reg[2]) && ~red_op_A_reg)
+  Row   5:          1  opcode_reg[1]_0       ((red_op_A_reg | red_op_B_reg) && ~opcode_reg[2])
+  Row   6:          1  opcode_reg[1]_1       ((red_op_A_reg | red_op_B_reg) && ~opcode_reg[2])
+  Row   7:          1  opcode_reg[2]_0       ((red_op_A_reg | red_op_B_reg) && ~opcode_reg[1])
+  Row   8:          1  opcode_reg[2]_1       ((red_op_A_reg | red_op_B_reg) && ~opcode_reg[1])
+
+----------------Focused Expression View-----------------
+Line       19 Item    1  (opcode_reg[1] & opcode_reg[2])
+Expression totals: 0 of 2 input terms covered = 0.00%
+
+     Input Term   Covered  Reason for no coverage   Hint
+    -----------  --------  -----------------------  --------------
+  opcode_reg[1]         N  '_1' not hit             Hit '_1'
+  opcode_reg[2]         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  opcode_reg[1]_0       opcode_reg[2]                 
+  Row   2:    ***0***  opcode_reg[1]_1       opcode_reg[2]                 
+  Row   3:          1  opcode_reg[2]_0       opcode_reg[1]                 
+  Row   4:    ***0***  opcode_reg[2]_1       opcode_reg[1]                 
+
+----------------Focused Expression View-----------------
+Line       20 Item    1  (invalid_red_op | invalid_opcode)
+Expression totals: 1 of 2 input terms covered = 50.00%
+
+      Input Term   Covered  Reason for no coverage   Hint
+     -----------  --------  -----------------------  --------------
+  invalid_red_op         Y
+  invalid_opcode         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  invalid_red_op_0      ~invalid_opcode               
+  Row   2:          1  invalid_red_op_1      ~invalid_opcode               
+  Row   3:          1  invalid_opcode_0      ~invalid_red_op               
+  Row   4:    ***0***  invalid_opcode_1      ~invalid_red_op               
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      48        48         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /question_3_tb/DUT --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ALSU.v
+    1                                                module ALSU(A, B, cin, serial_in, red_op_A, red_op_B, opcode, bypass_A, bypass_B, clk, rst, direction, leds, out);
+    2                                                parameter INPUT_PRIORITY = "A";
+    3                                                parameter FULL_ADDER = "ON";
+    4                                                input clk, cin, rst, red_op_A, red_op_B, bypass_A, bypass_B, direction, serial_in;
+    5                                                input [2:0] opcode;
+    6                                                input signed [2:0] A, B;
+    7                                                output reg [15:0] leds;
+    8                                                output reg signed [5:0] out;
+    9                                                
+    10                                               reg red_op_A_reg, red_op_B_reg, bypass_A_reg, bypass_B_reg, direction_reg, serial_in_reg;
+    11                                               reg signed [1:0] cin_reg;
+    12                                               reg [2:0] opcode_reg;
+    13                                               reg signed [2:0] A_reg, B_reg;
+    14                                               
+    15                                               wire invalid_red_op, invalid_opcode, invalid;
+    16                                               
+    17                                               //Invalid handling
+    18              1                        973     assign invalid_red_op = (red_op_A_reg | red_op_B_reg) & (opcode_reg[1] | opcode_reg[2]);
+    19              1                        840     assign invalid_opcode = opcode_reg[1] & opcode_reg[2];
+    20              1                        526     assign invalid = invalid_red_op | invalid_opcode;
+    21                                               
+    22                                               //Registering input signals
+    23              1                       1038     always @(posedge clk or posedge rst) begin
+    24                                                 if(rst) begin
+    25              1                          2          cin_reg <= 0;
+    26              1                          2          red_op_B_reg <= 0;
+    27              1                          2          red_op_A_reg <= 0;
+    28              1                          2          bypass_B_reg <= 0;
+    29              1                          2          bypass_A_reg <= 0;
+    30              1                          2          direction_reg <= 0;
+    31              1                          2          serial_in_reg <= 0;
+    32              1                          2          opcode_reg <= 0;
+    33              1                          2          A_reg <= 0;
+    34              1                          2          B_reg <= 0;
+    35                                                 end else begin
+    36              1                       1036          cin_reg <= cin;
+    37              1                       1036          red_op_B_reg <= red_op_B;
+    38              1                       1036          red_op_A_reg <= red_op_A;
+    39              1                       1036          bypass_B_reg <= bypass_B;
+    40              1                       1036          bypass_A_reg <= bypass_A;
+    41              1                       1036          direction_reg <= direction;
+    42              1                       1036          serial_in_reg <= serial_in;
+    43              1                       1036          opcode_reg <= opcode;
+    44              1                       1036          A_reg <= A;
+    45              1                       1036          B_reg <= B;
+    46                                                 end
+    47                                               end
+    48                                               
+    49                                               //leds output blinking 
+    50              1                       1039     always @(posedge clk or posedge rst) begin
+    51                                                 if(rst) begin
+    52              1                          3          leds <= 0;
+    53                                                 end else begin
+    54                                                     if (invalid)
+    55              1                        511             leds <= ~leds;
+    56                                                     else
+    57              1                        525             leds <= 0;
+    58                                                 end
+    59                                               end
+    60                                               
+    61                                               //ALSU output processing
+    62              1                       1038     always @(posedge clk or posedge rst) begin
+    63                                                 if(rst) begin
+    64              1                          2         out <= 0;
+    65                                                 end
+    66                                                 else begin
+    67                                                   if (bypass_A_reg && bypass_B_reg)
+    68              1                        226           out <= (INPUT_PRIORITY == "A")? A_reg: B_reg;
+    69                                                   else if (bypass_A_reg)
+    70              1                        262           out <= A_reg;
+    71                                                   else if (bypass_B_reg)
+    72              1                        249           out <= B_reg;
+    73                                                   else if (invalid) 
+    74              1                        134             out <= 0;
+    75                                                   else begin
+    76                                                       case (opcode_reg)  //edited design error
+    77                                                         3'h0: begin 
+    78                                                           if (red_op_A_reg && red_op_B_reg)
+    79              1                          7                   out <= (INPUT_PRIORITY == "A")? |A_reg: |B_reg;
+    80                                                           else if (red_op_A_reg) 
+    81              1                          8                   out <= |A_reg;
+    82                                                           else if (red_op_B_reg)
+    83              1                          9                   out <= |B_reg;
+    84                                                           else 
+    85              1                         26                   out <= A_reg | B_reg;
+    86                                                         end
+    87                                                         3'h1: begin
+    88                                                           if (red_op_A_reg && red_op_B_reg)
+    89              1                         10                   out <= (INPUT_PRIORITY == "A")? ^A_reg: ^B_reg;
+    90                                                           else if (red_op_A_reg) 
+    91              1                         13                   out <= ^A_reg;
+    92                                                           else if (red_op_B_reg)
+    93              1                          9                   out <= ^B_reg;
+    94                                                           else 
+    95              1                         12                   out <= A_reg ^ B_reg;
+    96                                                         end
+    97              1                         15               3'h2: out <= (FULL_ADDER == "ON") ? (A_reg + B_reg + cin_reg) : (A_reg + B_reg);  //edited design error
+    98              1                         15               3'h3: out <= A_reg * B_reg;
+    99                                                         3'h4: begin
+    100                                                          if (direction_reg)
+    101             1                         13                   out <= {out[4:0], serial_in_reg};
+    102                                                          else
+    103             1                         14                   out <= {serial_in_reg, out[5:1]};
+    104                                                        end
+    105                                                        3'h5: begin
+    106                                                          if (direction_reg)
+    107             1                         10                   out <= {out[4:0], out[5]};
+    108                                                          else
+    109             1                          4                   out <= {out[0], out[5:1]};
+
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                        114       114         0   100.00%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /question_3_tb/DUT --
+
+                                              Node      1H->0L      0L->1H                          "Coverage"
+                                              ---------------------------------------------------------------
+                                            A[0-2]           1           1                              100.00 
+                                        A_reg[2-0]           1           1                              100.00 
+                                            B[0-2]           1           1                              100.00 
+                                        B_reg[2-0]           1           1                              100.00 
+                                          bypass_A           1           1                              100.00 
+                                      bypass_A_reg           1           1                              100.00 
+                                          bypass_B           1           1                              100.00 
+                                      bypass_B_reg           1           1                              100.00 
+                                               cin           1           1                              100.00 
+                                        cin_reg[0]           1           1                              100.00 
+                                               clk           1           1                              100.00 
+                                         direction           1           1                              100.00 
+                                     direction_reg           1           1                              100.00 
+                                           invalid           1           1                              100.00 
+                                    invalid_red_op           1           1                              100.00 
+                                        leds[15-0]           1           1                              100.00 
+                                       opcode[0-2]           1           1                              100.00 
+                                   opcode_reg[2-0]           1           1                              100.00 
+                                          out[5-0]           1           1                              100.00 
+                                          red_op_A           1           1                              100.00 
+                                      red_op_A_reg           1           1                              100.00 
+                                          red_op_B           1           1                              100.00 
+                                      red_op_B_reg           1           1                              100.00 
+                                         serial_in           1           1                              100.00 
+                                     serial_in_reg           1           1                              100.00 
+
+Total Node Count     =         57 
+Toggled Node Count   =         57 
+Untoggled Node Count =          0 
+
+Toggle Coverage      =     100.00% (114 of 114 bins)
+
+=================================================================================
+=== Instance: /question_3_tb
+=== Design Unit: work.question_3_tb
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        10         6         4    60.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /question_3_tb
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File question_3_tb.svh
+------------------------------------IF Branch------------------------------------
+    49                                      1000     Count coming in to IF
+    49              1                    ***0***           if (!t.randomize()) begin
+                                            1000     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    66                                      1000     Count coming in to IF
+    66              1                        263           if (!rst && !bypass_A && !bypass_B) begin
+                                             737     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    87                                         1     Count coming in to IF
+    87              1                    ***0***         if (!t.randomize()) begin
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    96                                        36     Count coming in to IF
+    96              1                    ***0***             if (!t.randomize()) begin
+                                              36     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    106                                       36     Count coming in to IF
+    106             1                         36             if (!rst && !bypass_A && !bypass_B) begin
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       6         2         4    33.33%
+
+================================Condition Details================================
+
+Condition Coverage for instance /question_3_tb --
+
+  File question_3_tb.svh
+----------------Focused Condition View-------------------
+Line       66 Item    1  ((rst ~| bypass_A) && ~bypass_B)
+Condition totals: 2 of 3 input terms covered = 66.66%
+
+  Input Term   Covered  Reason for no coverage   Hint
+ -----------  --------  -----------------------  --------------
+         rst         N  '_1' not hit             Hit '_1'
+    bypass_A         Y
+    bypass_B         Y
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  rst_0                 (~bypass_B && ~bypass_A)      
+  Row   2:    ***0***  rst_1                 ~bypass_A                     
+  Row   3:          1  bypass_A_0            (~bypass_B && ~rst)           
+  Row   4:          1  bypass_A_1            ~rst                          
+  Row   5:          1  bypass_B_0            (rst ~| bypass_A)             
+  Row   6:          1  bypass_B_1            (rst ~| bypass_A)             
+
+----------------Focused Condition View-------------------
+Line       106 Item    1  ((rst ~| bypass_A) && ~bypass_B)
+Condition totals: 0 of 3 input terms covered = 0.00%
+
+  Input Term   Covered  Reason for no coverage   Hint
+ -----------  --------  -----------------------  --------------
+         rst         N  '_1' not hit             Hit '_1'
+    bypass_A         N  '_1' not hit             Hit '_1'
+    bypass_B         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  rst_0                 (~bypass_B && ~bypass_A)      
+  Row   2:    ***0***  rst_1                 ~bypass_A                     
+  Row   3:          1  bypass_A_0            (~bypass_B && ~rst)           
+  Row   4:    ***0***  bypass_A_1            ~rst                          
+  Row   5:          1  bypass_B_0            (rst ~| bypass_A)             
+  Row   6:    ***0***  bypass_B_1            (rst ~| bypass_A)             
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      46        43         3    93.47%
+
+================================Statement Details================================
+
+Statement Coverage for instance /question_3_tb --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File question_3_tb.svh
+    4                                                module question_3_tb;
+    5                                                
+    6                                                  // DUT Signals
+    7                                                  logic clk, rst;
+    8                                                  logic signed [2:0] A, B;
+    9                                                  logic cin, serial_in;
+    10                                                 logic red_op_A, red_op_B;
+    11                                                 logic bypass_A, bypass_B;
+    12                                                 logic direction;
+    13                                                 opcode_e opcode;
+    14                                                 logic signed [5:0] result;
+    15                                               
+    16                                                 // Transaction object
+    17                                                 alsu_txn t;
+    18                                               
+    19                                                 // Instantiate DUT
+    20                                                 ALSU DUT (
+    21                                                   .clk(clk),
+    22                                                   .rst(rst),
+    23                                                   .A(A),
+    24                                                   .B(B),
+    25                                                   .cin(cin),
+    26                                                   .serial_in(serial_in),
+    27                                                   .red_op_A(red_op_A),
+    28                                                   .red_op_B(red_op_B),
+    29                                                   .bypass_A(bypass_A),
+    30                                                   .bypass_B(bypass_B),
+    31                                                   .direction(direction),
+    32                                                   .opcode(opcode),
+    33                                                   .out(result)
+    34                                                 );
+    35                                               
+    36                                                 // Clock generation
+    37              1                       2076       always #5 clk = ~clk;
+    37              2                       2075     
+    38                                               
+    39                                                 initial begin
+    40              1                          1         clk = 0;
+    41              1                          1         rst = 1;
+    42              1                          1         #20 rst = 0;
+    42              2                          1     
+    43                                               
+    44              1                          1         t = new();
+    45                                               
+    46                                                   // ---------- First Loop ----------
+    47              1                          1         t.en_c8 = 0; // disable constraint #8
+    48              1                       1000         repeat (1000) begin
+    49                                                     if (!t.randomize()) begin
+    50              1                    ***0***             $display("Randomization failed in first loop!");
+    51                                                     end
+    52                                               
+    53                                                     // Drive DUT inputs
+    54              1                       1000           A = t.A;
+    55              1                       1000           B = t.B;
+    56              1                       1000           cin = t.cin;
+    57              1                       1000           serial_in = t.serial_in;
+    58              1                       1000           red_op_A = t.red_op_A;
+    59              1                       1000           red_op_B = t.red_op_B;
+    60              1                       1000           bypass_A = t.bypass_A;
+    61              1                       1000           bypass_B = t.bypass_B;
+    62              1                       1000           direction = t.direction;
+    63              1                       1000           opcode = t.opcode;
+    64                                               
+    65                                                     // Coverage sampling condition
+    66                                                     if (!rst && !bypass_A && !bypass_B) begin
+    67              1                        263             t.cvr_gp.sample();
+    68                                                     end
+    69                                               
+    70              1                       1000           #10;
+    71                                                   end
+    72                                               
+    73                                                   // ---------- Second Loop ----------
+    74              1                          1         $display("Starting second loop for opcode sequence...");
+    75              1                          1         rst = 0;
+    76              1                          1         bypass_A = 0;
+    77              1                          1         bypass_B = 0;
+    78              1                          1         red_op_A = 0;
+    79              1                          1         red_op_B = 0;
+    80                                               
+    81              1                          1         t.en_c1 = 0;
+    82              1                          1         t.en_c2 = 0;
+    83              1                          1         t.en_c3 = 0;
+    84              1                          1         t.en_c8 = 1; // enable constraint #8
+    85                                               
+    86                                                   // Generate unique opcode sequence
+    87                                                   if (!t.randomize()) begin
+    88              1                    ***0***           $display("Randomization failed for opcode sequence!");
+    89                                                   end
+    90                                               
+    91                                                   // Iterate through the unique opcode sequence
+    92              1                          7         foreach (t.opcode_seq[i]) begin
+    93              1                          6           opcode = t.opcode_seq[i];
+    94                                               
+    95              1                         36           repeat (6) begin
+    96                                                       if (!t.randomize()) begin
+    97              1                    ***0***               $display("Randomization failed inside second loop!");
+    98                                                       end
+    99                                               
+    100             1                         36             A = t.A;
+    101             1                         36             B = t.B;
+    102             1                         36             cin = t.cin;
+    103             1                         36             serial_in = t.serial_in;
+    104             1                         36             direction = t.direction;
+    105                                              
+    106                                                      if (!rst && !bypass_A && !bypass_B) begin
+    107             1                         36               t.cvr_gp.sample();
+    108                                                      end
+    109                                              
+    110             1                         36             #10;
+    111                                                    end
+    112                                                  end
+    113                                              
+    114             1                          1         $display("Simulation completed.");
+    115             1                          1         $stop;
+
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                         50        47         3    94.00%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /question_3_tb --
+
+                                              Node      1H->0L      0L->1H                          "Coverage"
+                                              ---------------------------------------------------------------
+                                            A[2-0]           1           1                              100.00 
+                                            B[2-0]           1           1                              100.00 
+                                          bypass_A           1           1                              100.00 
+                                          bypass_B           1           1                              100.00 
+                                               cin           1           1                              100.00 
+                                               clk           1           1                              100.00 
+                                         direction           1           1                              100.00 
+                                            opcode               ENUM type       Value       Count 
+                                                                     OR_OP         137      100.00 
+                                                                    XOR_OP         144      100.00 
+                                                                    ADD_OP         142      100.00 
+                                                                    MUL_OP         146      100.00 
+                                                                  SHIFT_OP         132      100.00 
+                                                                    ROT_OP         137      100.00 
+                                                                 INVALID_6           0        0.00 
+                                                                 INVALID_7           0        0.00 
+                                          red_op_A           1           1                              100.00 
+                                          red_op_B           1           1                              100.00 
+                                       result[5-0]           1           1                              100.00 
+                                               rst           1           0                               50.00 
+                                         serial_in           1           1                              100.00 
+
+Total Node Count     =         29 
+Toggled Node Count   =         26 
+Untoggled Node Count =          3 
+
+Toggle Coverage      =      94.00% (47 of 50 bins)
+
+=================================================================================
+=== Instance: /alsu_pkg
+=== Design Unit: work.alsu_pkg
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      1        na        na   100.00%
+        Coverpoints/Crosses          3        na        na        na
+            Covergroup Bins         12        12         0   100.00%
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /alsu_pkg/alsu_txn/cvr_gp                       100.00%        100          -    Covered              
+    covered/total bins:                                    12         12          -                      
+    missing/total bins:                                     0         12          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint A                                      100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin A_data_0                                       29          1          -    Covered              
+        bin A_data_max                                     35          1          -    Covered              
+        bin A_data_min                                     39          1          -    Covered              
+        default bin A_data_default                        155                     -    Occurred             
+    Coverpoint B                                      100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin B_data_0                                       34          1          -    Covered              
+        bin B_data_max                                     24          1          -    Covered              
+        bin B_data_min                                     37          1          -    Covered              
+        default bin B_data_default                        163                     -    Occurred             
+    Coverpoint opcode                                 100.00%        100          -    Covered              
+        covered/total bins:                                 6          6          -                      
+        missing/total bins:                                 0          6          -                      
+        % Hit:                                        100.00%        100          -                      
+        illegal_bin bins_invalid                            2                     -    Occurred             
+        bin bins_shift[SHIFT_OP]                           37          1          -    Covered              
+        bin bins_shift[ROT_OP]                             38          1          -    Covered              
+        bin bins_arith[ADD_OP]                             46          1          -    Covered              
+        bin bins_arith[MUL_OP]                             49          1          -    Covered              
+        bin bins_bitwise[OR_OP]                            41          1          -    Covered              
+        bin bins_bitwise[XOR_OP]                           45          1          -    Covered              
+ Covergroup instance \/alsu_pkg::alsu_txn::cvr_gp     100.00%        100          -    Covered              
+    covered/total bins:                                    12         12          -                      
+    missing/total bins:                                     0         12          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint A                                      100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin A_data_0                                       29          1          -    Covered              
+        bin A_data_max                                     35          1          -    Covered              
+        bin A_data_min                                     39          1          -    Covered              
+        default bin A_data_default                        155                     -    Occurred             
+    Coverpoint B                                      100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin B_data_0                                       34          1          -    Covered              
+        bin B_data_max                                     24          1          -    Covered              
+        bin B_data_min                                     37          1          -    Covered              
+        default bin B_data_default                        163                     -    Occurred             
+    Coverpoint opcode                                 100.00%        100          -    Covered              
+        covered/total bins:                                 6          6          -                      
+        missing/total bins:                                 0          6          -                      
+        % Hit:                                        100.00%        100          -                      
+        illegal_bin bins_invalid                            2                     -    Occurred             
+        bin bins_shift[SHIFT_OP]                           37          1          -    Covered              
+        bin bins_shift[ROT_OP]                             38          1          -    Covered              
+        bin bins_arith[ADD_OP]                             46          1          -    Covered              
+        bin bins_arith[MUL_OP]                             49          1          -    Covered              
+        bin bins_bitwise[OR_OP]                            41          1          -    Covered              
+        bin bins_bitwise[XOR_OP]                           45          1          -    Covered              
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       9         9         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /alsu_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File package_q_3.svh
+    1                                                package alsu_pkg;
+    2                                                
+    3                                                  // -------- ENUM for opcodes --------
+    4                                                  typedef enum logic [2:0] {
+    5                                                    OR_OP     = 3'h0,
+    6                                                    XOR_OP    = 3'h1,
+    7                                                    ADD_OP    = 3'h2,
+    8                                                    MUL_OP    = 3'h3,
+    9                                                    SHIFT_OP  = 3'h4,
+    10                                                   ROT_OP    = 3'h5,
+    11                                                   INVALID_6 = 3'h6,
+    12                                                   INVALID_7 = 3'h7
+    13                                                 } opcode_e;
+    14                                               
+    15                                                 // -------- Transaction Class --------
+    16                                                 class alsu_txn;
+    17                                               
+    18                                                   // Constants
+    19                                                   localparam signed [2:0] MAXPOS = 3;
+    20                                                   localparam signed [2:0] MAXNEG = -4;
+    21                                                   localparam signed [2:0] ZERO   = 0;
+    22                                               
+    23                                                   // Randomizable Inputs
+    24                                                   rand logic clk, rst, cin, serial_in;
+    25                                                   rand logic red_op_A, red_op_B;
+    26                                                   rand logic bypass_A, bypass_B, direction;
+    27                                                   rand opcode_e opcode;
+    28                                                   rand logic signed [2:0] A, B;
+    29                                               
+    30                                                   // Fixed array for constraint #8
+    31                                                   rand opcode_e opcode_seq[6];
+    32                                               
+    33                                                   // Constraint enable flags
+    34                                                   bit en_c1, en_c2, en_c3, en_c4, en_c5, en_c6, en_c7, en_c8;
+    35                                               
+    36                                                   // -------- Covergroup --------
+    37                                                   covergroup cvr_gp @(posedge clk);
+    38                                                     option.per_instance = 1;
+    39                                               
+    40                                                     // A Coverpoint
+    41                                                     coverpoint A {
+    42                                                       bins A_data_0       = {0};
+    43                                                       bins A_data_max     = {MAXPOS};
+    44                                                       bins A_data_min     = {MAXNEG};
+    45                                                       bins A_data_default = default;
+    46                                                     }
+    47                                               
+    48                                                     // B Coverpoint
+    49                                                     coverpoint B {
+    50                                                       bins B_data_0       = {0};
+    51                                                       bins B_data_max     = {MAXPOS};
+    52                                                       bins B_data_min     = {MAXNEG};
+    53                                                       bins B_data_default = default;
+    54                                                     }
+    55                                               
+    56                                                     // Opcode Coverpoint
+    57                                                     coverpoint opcode {
+    58                                                       bins bins_shift[]   = {SHIFT_OP, ROT_OP};
+    59                                                       bins bins_arith[]   = {ADD_OP, MUL_OP};
+    60                                                       bins bins_bitwise[] = {OR_OP, XOR_OP};
+    61                                                       illegal_bins bins_invalid = {INVALID_6, INVALID_7};
+    62                                                     }
+    63                                                   endgroup
+    64                                               
+    65                                                   // -------- Constraints --------
+    66                                                   constraint c1 { if (en_c1) A inside {[MAXNEG:MAXPOS]}; }
+    67                                                   constraint c2 { if (en_c2) B inside {[MAXNEG:MAXPOS]}; }
+    68                                                   constraint c3 { if (en_c3) opcode inside {OR_OP, XOR_OP, ADD_OP, MUL_OP, SHIFT_OP, ROT_OP}; }
+    69                                               
+    70                                                   // Constraint #8: unique opcodes in array
+    71                                                   constraint unique_opcodes {
+    72                                                     if (en_c8) {
+    73                                                       foreach (opcode_seq[i]) opcode_seq[i] inside {OR_OP, XOR_OP, ADD_OP, MUL_OP, SHIFT_OP, ROT_OP};
+    74                                                       unique {opcode_seq};
+    75                                                     }
+    76                                                   }
+    77                                               
+    78                                                   // -------- Constructor --------
+    79                                                   function new();
+    80              1                          1           en_c1 = 1; en_c2 = 1; en_c3 = 1; en_c4 = 1;
+    80              2                          1     
+    80              3                          1     
+    80              4                          1     
+    81              1                          1           en_c5 = 1; en_c6 = 1; en_c7 = 1; en_c8 = 0;
+    81              2                          1     
+    81              3                          1     
+    81              4                          1     
+    82              1                          1           cvr_gp = new();
+
+
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /alsu_pkg/alsu_txn/cvr_gp                       100.00%        100          -    Covered              
+    covered/total bins:                                    12         12          -                      
+    missing/total bins:                                     0         12          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint A                                      100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin A_data_0                                       29          1          -    Covered              
+        bin A_data_max                                     35          1          -    Covered              
+        bin A_data_min                                     39          1          -    Covered              
+        default bin A_data_default                        155                     -    Occurred             
+    Coverpoint B                                      100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin B_data_0                                       34          1          -    Covered              
+        bin B_data_max                                     24          1          -    Covered              
+        bin B_data_min                                     37          1          -    Covered              
+        default bin B_data_default                        163                     -    Occurred             
+    Coverpoint opcode                                 100.00%        100          -    Covered              
+        covered/total bins:                                 6          6          -                      
+        missing/total bins:                                 0          6          -                      
+        % Hit:                                        100.00%        100          -                      
+        illegal_bin bins_invalid                            2                     -    Occurred             
+        bin bins_shift[SHIFT_OP]                           37          1          -    Covered              
+        bin bins_shift[ROT_OP]                             38          1          -    Covered              
+        bin bins_arith[ADD_OP]                             46          1          -    Covered              
+        bin bins_arith[MUL_OP]                             49          1          -    Covered              
+        bin bins_bitwise[OR_OP]                            41          1          -    Covered              
+        bin bins_bitwise[XOR_OP]                           45          1          -    Covered              
+ Covergroup instance \/alsu_pkg::alsu_txn::cvr_gp     100.00%        100          -    Covered              
+    covered/total bins:                                    12         12          -                      
+    missing/total bins:                                     0         12          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint A                                      100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin A_data_0                                       29          1          -    Covered              
+        bin A_data_max                                     35          1          -    Covered              
+        bin A_data_min                                     39          1          -    Covered              
+        default bin A_data_default                        155                     -    Occurred             
+    Coverpoint B                                      100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin B_data_0                                       34          1          -    Covered              
+        bin B_data_max                                     24          1          -    Covered              
+        bin B_data_min                                     37          1          -    Covered              
+        default bin B_data_default                        163                     -    Occurred             
+    Coverpoint opcode                                 100.00%        100          -    Covered              
+        covered/total bins:                                 6          6          -                      
+        missing/total bins:                                 0          6          -                      
+        % Hit:                                        100.00%        100          -                      
+        illegal_bin bins_invalid                            2                     -    Occurred             
+        bin bins_shift[SHIFT_OP]                           37          1          -    Covered              
+        bin bins_shift[ROT_OP]                             38          1          -    Covered              
+        bin bins_arith[ADD_OP]                             46          1          -    Covered              
+        bin bins_arith[MUL_OP]                             49          1          -    Covered              
+        bin bins_bitwise[OR_OP]                            41          1          -    Covered              
+        bin bins_bitwise[XOR_OP]                           45          1          -    Covered              
+
+TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 1
+
+Total Coverage By Instance (filtered view): 85.77%
+

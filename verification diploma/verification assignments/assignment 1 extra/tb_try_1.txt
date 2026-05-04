@@ -1,0 +1,14 @@
+module tb_try_1;
+
+    integer a;
+
+    initial begin
+        repeat (1000) begin
+            // generate random even number from 8 to 20
+            a = 8 + ( ($random % 7) * 2 );
+
+            $display("a = %0d", a);
+        end
+    end
+
+endmodule

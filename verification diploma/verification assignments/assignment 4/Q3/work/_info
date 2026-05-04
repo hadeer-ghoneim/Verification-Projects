@@ -1,0 +1,246 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4/Q2
+T_opt
+!s110 1758231076
+VKNSg?28I<1]eU7m9kB11h0
+04 11 4 work counter_top fast 0
+=1-ecb1d7def929-68cc7a24-186-27fc
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vcounter
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1758231075
+!i10b 1
+!s100 QdMW[1aPeKSbH8camO@NR1
+I`lC:5nH:8?bVM:_[2?C1T3
+S1
+Z4 dC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4/Q3
+w1758230121
+8counter.sv
+Fcounter.sv
+!i122 49
+L0 8 28
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z7 !s108 1758231075.000000
+Z8 !s107 counter_top.sv|counter_tb.sv|counter_sva.sv|counter_mon.sv|counter_if.sv|counter.sv|
+Z9 !s90 -reportprogress|300|-sv|counter.sv|counter_if.sv|counter_mon.sv|counter_sva.sv|counter_tb.sv|counter_top.sv|+cover|
+!i113 0
+Z10 !s102 +cover
+Z11 o-sv +cover -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+Ycounter_if
+R2
+R3
+!i10b 1
+!s100 ^T7B@IlNJY=gigggVi38:3
+IZ3V_Hk>Yk]QIElIeYgYXg0
+S1
+R4
+w1758229599
+8counter_if.sv
+Fcounter_if.sv
+!i122 49
+Z12 L0 2 0
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vcounter_monitor
+R2
+R3
+!i10b 1
+!s100 RE7_=IUElRH2?MRE6L<lP1
+I8PRe^mcVSUKbjkWWBeA8o2
+S1
+R4
+w1758229791
+8counter_mon.sv
+Fcounter_mon.sv
+!i122 49
+L0 1 14
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vcounter_sva
+R2
+R3
+!i10b 1
+!s100 zlh]Ql=Vnkgb?:kTeAR<F1
+I>W>B:z^JL]idRZ=M0]1YG0
+S1
+R4
+w1758230981
+8counter_sva.sv
+Fcounter_sva.sv
+!i122 49
+L0 1 66
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vcounter_tb
+R2
+R3
+!i10b 1
+!s100 =X^??Tm6gBEI2EoWTA]=42
+IjO]bo[5PKAU9E`^L0;el:2
+S1
+R4
+w1758230180
+8counter_tb.sv
+Fcounter_tb.sv
+!i122 49
+L0 1 49
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+vcounter_top
+R2
+R3
+!i10b 1
+!s100 lKMaCXamGX>4PJ3J[lM]k3
+IEi2YzjaP1PYd:;Waa=nPm0
+S1
+R4
+w1758229851
+8counter_top.sv
+Fcounter_top.sv
+!i122 49
+L0 1 32
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R1
+Xquestion_2_pkg
+R2
+Z13 !s110 1758227556
+!i10b 1
+!s100 Vb20S]lUB4EL;X@SD7<IR0
+IMm73;5n4>4iVL7e>kF?[N1
+S1
+R4
+w1758133186
+8C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4/Q3/package.svh
+FC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4/Q3/package.svh
+!i122 24
+R12
+VMm73;5n4>4iVL7e>kF?[N1
+R6
+r1
+!s85 0
+31
+Z14 !s108 1758227556.000000
+!s107 C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4/Q3/package.svh|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4/Q3/package.svh|
+!i113 0
+Z15 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vquestion_2_tb
+R2
+R13
+!i10b 1
+!s100 kPa9]RY5J3<PTdOHgSANM3
+ID7V=Mc_99MLW?2=9nFA;53
+S1
+R4
+w1758134248
+8C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4/Q3/question_2_tb.svh
+FC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4/Q3/question_2_tb.svh
+!i122 25
+L0 2 31
+R5
+R6
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4/Q3/question_2_tb.svh|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4/Q3/question_2_tb.svh|
+!i113 0
+R15
+R1
+vtop
+R2
+!s110 1758134283
+!i10b 1
+!s100 VM0i<]FcB3GlNObJei;Z<3
+If;oTn7ge[9R3lh^oLJ1J>2
+S1
+R4
+w1758134268
+8C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4/Q3/counter_top.sv
+FC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4/Q3/counter_top.sv
+!i122 8
+L0 2 36
+R5
+R6
+r1
+!s85 0
+31
+!s108 1758134283.000000
+!s107 C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4/Q3/counter_top.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4/Q3/counter_top.sv|
+!i113 0
+R15
+R1

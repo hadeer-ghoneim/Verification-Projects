@@ -1,0 +1,174 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3 extra/Q4
+T_opt
+!s110 1758234619
+V;McllR9^@MdzCOI<QgM;[1
+04 6 4 work ALU_tb fast 0
+=1-ecb1d7def929-68cc87fb-24c-1fc8
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+R1
+vALU
+Z3 !s110 1758235902
+!i10b 1
+!s100 kM2_L?GHL9C9KgbhR2QFW0
+IO5ZcjJ`Lhaj:@QJbcSoJc2
+Z4 dC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4 extra/Q1
+w1758233782
+8C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4 extra/Q1/ALU.v
+FC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4 extra/Q1/ALU.v
+!i122 11
+L0 1 37
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z7 !s108 1758235902.000000
+!s107 C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4 extra/Q1/ALU.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4 extra/Q1/ALU.v|
+!i113 0
+o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@a@l@u
+vALU_tb
+Z8 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R3
+!i10b 1
+!s100 l;EfIgHe5XRkbmN>Z][D12
+Ie0ozW]0A:2n=Gl>]I;YSN0
+S1
+R4
+w1758234595
+8C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4 extra/Q1/ALU_tb.svh
+FC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4 extra/Q1/ALU_tb.svh
+!i122 12
+L0 1 135
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4 extra/Q1/ALU_tb.svh|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4 extra/Q1/ALU_tb.svh|
+!i113 0
+Z9 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@a@l@u_tb
+Xarbiter_master_assert_svh_unit
+R8
+R3
+VAE_^0LB`>ChGi>`DD?fKS3
+r1
+!s85 0
+!i10b 1
+!s100 TQf5PFB7o>K]8RkzXb`gY3
+IAE_^0LB`>ChGi>`DD?fKS3
+!i103 1
+S1
+R4
+Z10 w1758235892
+Z11 8C:\Users\General\Desktop\.github\build\verification diploma\verification assignments\assignment 4 extra\Q1\arbiter_master_assert.svh
+Z12 FC:\Users\General\Desktop\.github\build\verification diploma\verification assignments\assignment 4 extra\Q1\arbiter_master_assert.svh
+!i122 13
+L0 36 0
+R6
+31
+R7
+Z13 !s107 C:\Users\General\Desktop\.github\build\verification diploma\verification assignments\assignment 4 extra\Q1\arbiter_master_assert.svh|
+Z14 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:\Users\General\Desktop\.github\build\verification diploma\verification assignments\assignment 4 extra\Q1\arbiter_master_assert.svh|
+!i113 0
+R9
+R2
+varbiter_sva
+!s105 arbiter_master_assert_svh_unit
+DXx4 work 30 arbiter_master_assert_svh_unit 0 22 AE_^0LB`>ChGi>`DD?fKS3
+R8
+R3
+!i10b 1
+!s100 FcAHm^SnF6B>m1o[M6h253
+IRkO3BE7CkAXnfgW:[oK]H1
+S1
+R4
+R10
+R11
+R12
+!i122 13
+L0 2 32
+R5
+R6
+r1
+!s85 0
+31
+R7
+R13
+R14
+!i113 0
+R9
+R2
+Xfsm_assert_svh_unit
+R8
+Z15 !s110 1758236031
+Vn0SBNRkMDj^0fRS8gld8=1
+r1
+!s85 0
+!i10b 1
+!s100 @lWGL[VGfDK]dLVol0?jE3
+In0SBNRkMDj^0fRS8gld8=1
+!i103 1
+S1
+R4
+Z16 w1758236025
+Z17 8C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4 extra/Q1/fsm_assert.svh
+Z18 FC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4 extra/Q1/fsm_assert.svh
+!i122 14
+L0 31 0
+R6
+31
+Z19 !s108 1758236031.000000
+!s107 C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4 extra/Q1/fsm_assert.svh|
+Z20 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4 extra/Q1/fsm_assert.svh|
+!i113 0
+R9
+R2
+vfsm_sva
+!s105 fsm_assert_svh_unit
+DXx4 work 19 fsm_assert_svh_unit 0 22 n0SBNRkMDj^0fRS8gld8=1
+R8
+R15
+!i10b 1
+!s100 fXXgc?m_gj]1dMdH33YfM0
+IfBm6i@O=__f3f@ejPbEiT0
+S1
+R4
+R16
+R17
+R18
+!i122 14
+L0 2 27
+R5
+R6
+r1
+!s85 0
+31
+R19
+Z21 !s107 C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4 extra/Q1/fsm_assert.svh|
+R20
+!i113 0
+R9
+R2

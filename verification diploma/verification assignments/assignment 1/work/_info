@@ -1,0 +1,399 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 1
+T_opt
+!s110 1756479442
+V2?kEHzEi=j`g7EeYfdhTW3
+04 3 4 work DSP fast 0
+=1-ecb1d7def929-68b1bfd2-7a-1468
+Z2 !s124 OEM100
+Z3 o-quiet -auto_acc_if_foreign -work work
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.1;73
+R1
+T_opt1
+!s110 1756174360
+VTVzY>__=@Ka^n4>lLUNjA1
+04 15 4 work priority_enc_tb fast 0
+=1-ecb1d7def929-68ad1817-378-3070
+R2
+o-quiet -auto_acc_if_foreign -work work +acc
+R4
+n@_opt1
+R5
+R1
+T_opt2
+!s110 1756852775
+V;ViaD;441z[@o>2WmRRf03
+04 18 4 work test_dynamic_array fast 0
+=1-ecb1d7def929-68b77227-225-4128
+R2
+R3
+R4
+n@_opt2
+R5
+R1
+vadder
+Z6 !s110 1756074042
+!i10b 1
+!s100 KXleX>4`4ohUo;GDahe=23
+IVS9Fj@R9l1Y6cAUkTlQ651
+R1
+w1755870364
+8adder.v
+Fadder.v
+!i122 99
+L0 1 17
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z9 !s108 1756074042.000000
+Z10 !s107 adder_tb.svh|adder.v|
+Z11 !s90 -reportprogress|300|adder.v|adder_tb.svh|+cover|-covercells|
+!i113 0
+Z12 !s102 +cover -covercells
+Z13 o+cover -covercells -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+vadder_tb
+Z14 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R6
+!i10b 1
+!s100 a^^WR4C[XO0gLRkGZzj4k2
+IjJOdU^ZSL8UEkH7z`MWUd3
+S1
+R1
+w1755987354
+8adder_tb.svh
+Fadder_tb.svh
+!i122 99
+L0 1 71
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R4
+vALU
+Z15 !s110 1756166750
+!i10b 1
+!s100 =743oFLRIoU^CGn0BP?]E2
+I=9_9Vmbb>GiX<H`AGPckL0
+R1
+w1756165150
+Z16 8ALU.v
+Z17 FALU.v
+!i122 121
+L0 1 43
+R7
+R8
+r1
+!s85 0
+31
+Z18 !s108 1756166750.000000
+Z19 !s107 ALU_tb.svh|ALU.v|
+Z20 !s90 -reportprogress|300|ALU.v|ALU_tb.svh|+cover|-covercells|
+!i113 0
+R12
+R13
+R4
+n@a@l@u
+vALU_4_bit
+!s110 1756082652
+!i10b 1
+!s100 TkR7P`h=KVGnn>Dd;lf9a1
+I2a=;l5L75_138W<nTojIz2
+R1
+w1756081861
+R16
+R17
+!i122 104
+L0 1 42
+R7
+R8
+r1
+!s85 0
+31
+!s108 1756082652.000000
+R19
+R20
+!i113 0
+R12
+R13
+R4
+n@a@l@u_4_bit
+vALU_tb
+R14
+R15
+!i10b 1
+!s100 aW:4XSzZOMW[Bn?a:S4^@3
+I?2EMPJ?U`3H8aTnz>_d=L1
+S1
+R1
+w1756088290
+8ALU_tb.svh
+FALU_tb.svh
+!i122 121
+L0 1 156
+R7
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R12
+R13
+R4
+n@a@l@u_tb
+vdff
+!s110 1756489301
+!i10b 1
+!s100 B]^NJ_OA>j62zCfI;zTXK3
+I9gT@P=Aa26JX>G8YATfM_0
+R1
+w1756489278
+8C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 1/dff_GM.v
+FC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 1/dff_GM.v
+!i122 143
+L0 1 18
+R7
+R8
+r1
+!s85 0
+31
+!s108 1756489301.000000
+!s107 C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 1/dff_GM.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 1/dff_GM.v|
+!i113 0
+Z21 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+vdff_t2_tb
+R14
+Z22 !s110 1756489655
+!i10b 1
+!s100 5>_GH6MF^83^]Sf]D7HJl2
+IX_W?LeXGl48K5ijiTMfjk0
+S1
+R1
+w1756186638
+8C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 1/dff_t2_tb.svh
+FC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 1/dff_t2_tb.svh
+!i122 145
+L0 1 56
+R7
+R8
+r1
+!s85 0
+31
+Z23 !s108 1756489655.000000
+!s107 C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 1/dff_t2_tb.svh|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 1/dff_t2_tb.svh|
+!i113 0
+Z24 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+vDSP
+R22
+!i10b 1
+!s100 JcIFCW918fkYT[?2Pj2gh3
+Ig]j=VH:mI_[dg`1QI92eB1
+R1
+w1756477674
+8C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 1/DSP.v
+FC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 1/DSP.v
+!i122 144
+Z25 L0 1 36
+R7
+R8
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 1/DSP.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 1/DSP.v|
+!i113 0
+R21
+R4
+n@d@s@p
+vdsp_block
+Z26 !s110 1756171909
+!i10b 1
+!s100 1i8Nbo87OeN2H`?K3[2A=3
+IhP;zOUE8FQY<2>@CnF3lQ1
+R1
+w1756171771
+8DSP_Block.v
+FDSP_Block.v
+!i122 128
+R25
+R7
+R8
+r1
+!s85 0
+31
+Z27 !s108 1756171909.000000
+Z28 !s107 DSP_tb.svh|DSP_Block.v|DSP.v|
+Z29 !s90 -reportprogress|300|DSP.v|DSP_Block.v|DSP_tb.svh|+cover|-covercells|
+!i113 0
+R12
+R13
+R4
+vDSP_tb
+R14
+R26
+!i10b 1
+!s100 09GG7nF_I[1fab?W>T:<Y3
+IO2iN<ig0I7=z[1dn@DG[02
+S1
+R1
+w1756171496
+8DSP_tb.svh
+FDSP_tb.svh
+!i122 128
+L0 1 75
+R7
+R8
+r1
+!s85 0
+31
+R27
+R28
+R29
+!i113 0
+R12
+R13
+R4
+n@d@s@p_tb
+vpriority_enc
+Z30 !s110 1756174359
+!i10b 1
+!s100 VJ;bC?@5EEAECCj8cAcN31
+I79R6eBm9Zo<[5^bKcO_6o0
+R1
+w1756000614
+8priority_enc.v
+Fpriority_enc.v
+!i122 131
+L0 1 23
+R7
+R8
+r1
+!s85 0
+31
+Z31 !s108 1756174359.000000
+Z32 !s107 priority_enc_tb.svh|priority_enc.v|
+Z33 !s90 -reportprogress|300|priority_enc.v|priority_enc_tb.svh|+cover|-covercells|
+!i113 0
+R12
+R13
+R4
+vpriority_enc_tb
+R14
+R30
+!i10b 1
+!s100 >DZgSK6VOZ6dz=9RUFCNJ3
+I]]=SU3nk0g2Sm`GFe[6BK3
+S1
+R1
+w1756174254
+8priority_enc_tb.svh
+Fpriority_enc_tb.svh
+!i122 131
+L0 1 87
+R7
+R8
+r1
+!s85 0
+31
+R31
+R32
+R33
+!i113 0
+R12
+R13
+R4
+vtest_dynamic_array
+R14
+!s110 1756853356
+!i10b 1
+!s100 fRA;_3MZ;A@oTA2R;=Kn;3
+I:676o2;gFP;;D9SYPSa[>3
+S1
+R1
+w1756853344
+8C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 2/Q1/test_dynamic_array.svh
+FC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 2/Q1/test_dynamic_array.svh
+!i122 151
+L0 1 29
+R7
+R8
+r1
+!s85 0
+31
+!s108 1756853356.000000
+!s107 C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 2/Q1/test_dynamic_array.svh|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 2/Q1/test_dynamic_array.svh|
+!i113 0
+R24
+R4

@@ -1,0 +1,10 @@
+{C:/Users/General/Desktop/.github/build/verification diploma/Questa2Go/quiz 4/fsm_assert.svh} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/Questa2Go/quiz 4/fsm_assert.svh}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling interface c_if
+-- Compiling module tb
+-- Compiling module top_questa
+
+Top level modules:
+	top_questa
+
+} {} {}}

@@ -1,0 +1,166 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/General/Desktop/.github/build/Traffic_light
+T_opt
+Z1 !s110 1757555154
+VHAVgm0CoI5K;Dl7QkN>PL1
+04 2 4 work tb fast 0
+=1-ecb1d7def929-68c229d2-26d-47c0
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+valu_seq
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z4 DXx4 work 11 testing_pkg 0 22 NMieY;zYze2Bmgf]HRCnZ0
+DXx4 work 15 alu_seq_sv_unit 0 22 ZSb<Z02Ed[h5:>UBh<UOz0
+R1
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 TG65S;H2jEehLZIO?W9A`1
+IG^zab]MVUMFM[;IhaAWTD2
+!s105 alu_seq_sv_unit
+S1
+Z6 dC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3/Q1
+Z7 w1757548334
+Z8 8alu_seq.sv
+Z9 Falu_seq.sv
+!i122 51
+L0 3 19
+Z10 OL;L;2021.1;73
+31
+Z11 !s108 1757555154.000000
+Z12 !s107 tb.sv|testing_pkg.sv|alu_seq.sv|
+Z13 !s90 -reportprogress|300|alu_seq.sv|testing_pkg.sv|tb.sv|+cover|-covercells|
+!i113 0
+Z14 !s102 +cover -covercells
+Z15 o+cover -covercells -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+Xalu_seq_sv_unit
+R3
+R4
+R1
+VZSb<Z02Ed[h5:>UBh<UOz0
+r1
+!s85 0
+!i10b 1
+!s100 j<oa]nD9V[==;kCFk[K]o0
+IZSb<Z02Ed[h5:>UBh<UOz0
+!i103 1
+S1
+R6
+R7
+R8
+R9
+!i122 51
+Z16 L0 1 0
+R10
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R2
+vtb
+R3
+R3
+Z17 DXx4 work 11 testing_pkg 0 22 FA3CgbK6QdD4^]?bYC;7;0
+DXx4 work 10 tb_sv_unit 0 22 EGPeCo5C^f5^=2a42GJlW1
+R1
+R5
+r1
+!s85 0
+!i10b 1
+!s100 1OlkdWC=e]OfWZcA^XjM=3
+I:FWoYSd@MaWh>di3f^f<<0
+!s105 tb_sv_unit
+S1
+R6
+Z18 w1757555071
+Z19 8tb.sv
+Z20 Ftb.sv
+!i122 51
+L0 3 116
+R10
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R2
+Xtb_sv_unit
+R3
+R3
+R17
+R1
+VEGPeCo5C^f5^=2a42GJlW1
+r1
+!s85 0
+!i10b 1
+!s100 Z2Qf6729VNoNYAdC?^ZOL1
+IEGPeCo5C^f5^=2a42GJlW1
+!i103 1
+S1
+R6
+R18
+R19
+R20
+!i122 51
+R16
+R10
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R2
+Xtesting_pkg
+R3
+R1
+!i10b 1
+!s100 kF0;Z>5_]`f1<JPU@cKiE2
+IFA3CgbK6QdD4^]?bYC;7;0
+S1
+R6
+w1757553185
+8testing_pkg.sv
+Ftesting_pkg.sv
+!i122 51
+R16
+VFA3CgbK6QdD4^]?bYC;7;0
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+R2

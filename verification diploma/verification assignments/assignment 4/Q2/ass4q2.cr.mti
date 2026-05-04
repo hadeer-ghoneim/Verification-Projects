@@ -1,0 +1,32 @@
+{C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4/Q2/assertions_module.svh} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4/Q2/assertions_module.svh}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package assertions_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4/Q2/decoder_3to8.v} {1 {vlog -work work -vopt -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4/Q2/decoder_3to8.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module decoder_3to8
+
+Top level modules:
+	decoder_3to8
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4/Q2/priority_enc.v} {1 {vlog -work work -vopt -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4/Q2/priority_enc.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module priority_enc
+
+Top level modules:
+	priority_enc
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4/Q2/tb_complete.svh} {2 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4/Q2/tb_complete.svh}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Warning: C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4/Q2/tb_complete.svh(1): (vlog-13233) Design unit "tb_complete_svh_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+-- Compiling package tb_complete_svh_unit
+-- Importing package assertions_pkg
+-- Compiling module tb_complete
+
+Top level modules:
+	tb_complete
+
+} {} {}}

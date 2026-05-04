@@ -1,0 +1,16 @@
+BEGIN 3:shift_reg_if:fast__2:work
+    dataout :  1:top:fast:work
+    reset :  1:top:fast:work
+    direction :  1:top:fast:work
+    datain :  1:top:fast:work
+    serial_in :  1:top:fast:work
+    mode :  1:top:fast:work
+END 
+BEGIN 3:shift_reg_if:fast__1:work
+    datain :  1:monitor:fast:work
+    serial_in :  1:monitor:fast:work
+    reset :  1:monitor:fast:work
+    direction :  1:monitor:fast:work
+    clk :  1:monitor:fast:work
+    mode :  1:monitor:fast:work
+END 

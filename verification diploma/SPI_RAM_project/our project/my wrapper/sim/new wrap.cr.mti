@@ -1,0 +1,40 @@
+{C:/Users/General/Desktop/.github/build/verification diploma/SPI_RAM_project/our project/my wrapper/sim/spi_pkg.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/SPI_RAM_project/our project/my wrapper/sim/spi_pkg.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package spi_slave_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/General/Desktop/.github/build/verification diploma/SPI_RAM_project/our project/my wrapper/sim/spi_pkg.sv(3): Using implicit +incdir+C:/Users/General/Documents/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/SPI_RAM_project/our project/my wrapper/sim/spi.v} {1 {vlog -work work -vopt -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/SPI_RAM_project/our project/my wrapper/sim/spi.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module SPI_Slave
+
+Top level modules:
+	SPI_Slave
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/SPI_RAM_project/our project/my wrapper/sim/spi_if.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/SPI_RAM_project/our project/my wrapper/sim/spi_if.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling interface spi_slave_if
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/SPI_RAM_project/our project/my wrapper/sim/top.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/SPI_RAM_project/our project/my wrapper/sim/top.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module spi_slave_top
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package spi_slave_pkg
+
+Top level modules:
+	spi_slave_top
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/SPI_RAM_project/our project/my wrapper/sim/assertion.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/SPI_RAM_project/our project/my wrapper/sim/assertion.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module spi_slave_assertions
+
+Top level modules:
+	spi_slave_assertions
+
+} {} {}}

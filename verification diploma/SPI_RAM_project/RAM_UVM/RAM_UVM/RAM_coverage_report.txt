@@ -1,0 +1,90 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /\top#dut /RAM_assertions_inst
+=== Design Unit: work.RAM_assertions
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       5         5         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/\top#dut /RAM_assertions_inst/assert__read_sequence_check
+                     RAM_assertions.sv(37)              0          1
+/\top#dut /RAM_assertions_inst/assert__write_sequence_check
+                     RAM_assertions.sv(30)              0          1
+/\top#dut /RAM_assertions_inst/assert__output_assert
+                     RAM_assertions.sv(23)              0          1
+/\top#dut /RAM_assertions_inst/assert__input_assert
+                     RAM_assertions.sv(16)              0          1
+/\top#dut /RAM_assertions_inst/assert__reset_assert
+                     RAM_assertions.sv(9)               0          1
+
+Directive Coverage:
+    Directives                       5         5         0   100.00%
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/\top#dut /RAM_assertions_inst/cover__read_sequence_check 
+                                         RAM_assertions Verilog  SVA  RAM_assertions.sv(38)
+                                                                              2918 Covered   
+/\top#dut /RAM_assertions_inst/cover__write_sequence_check 
+                                         RAM_assertions Verilog  SVA  RAM_assertions.sv(31)
+                                                                              2996 Covered   
+/\top#dut /RAM_assertions_inst/cover__output_assert 
+                                         RAM_assertions Verilog  SVA  RAM_assertions.sv(24)
+                                                                              1462 Covered   
+/\top#dut /RAM_assertions_inst/cover__input_assert 
+                                         RAM_assertions Verilog  SVA  RAM_assertions.sv(17)
+                                                                              7737 Covered   
+/\top#dut /RAM_assertions_inst/cover__reset_assert 
+                                         RAM_assertions Verilog  SVA  RAM_assertions.sv(10)
+                                                                                33 Covered   
+
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/\top#dut /RAM_assertions_inst/cover__read_sequence_check 
+                                         RAM_assertions Verilog  SVA  RAM_assertions.sv(38)
+                                                                              2918 Covered   
+/\top#dut /RAM_assertions_inst/cover__write_sequence_check 
+                                         RAM_assertions Verilog  SVA  RAM_assertions.sv(31)
+                                                                              2996 Covered   
+/\top#dut /RAM_assertions_inst/cover__output_assert 
+                                         RAM_assertions Verilog  SVA  RAM_assertions.sv(24)
+                                                                              1462 Covered   
+/\top#dut /RAM_assertions_inst/cover__input_assert 
+                                         RAM_assertions Verilog  SVA  RAM_assertions.sv(17)
+                                                                              7737 Covered   
+/\top#dut /RAM_assertions_inst/cover__reset_assert 
+                                         RAM_assertions Verilog  SVA  RAM_assertions.sv(10)
+                                                                                33 Covered   
+
+TOTAL DIRECTIVE COVERAGE: 100.00%  COVERS: 5
+
+ASSERTION RESULTS:
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/\top#dut /RAM_assertions_inst/assert__read_sequence_check
+                     RAM_assertions.sv(37)              0          1
+/\top#dut /RAM_assertions_inst/assert__write_sequence_check
+                     RAM_assertions.sv(30)              0          1
+/\top#dut /RAM_assertions_inst/assert__output_assert
+                     RAM_assertions.sv(23)              0          1
+/\top#dut /RAM_assertions_inst/assert__input_assert
+                     RAM_assertions.sv(16)              0          1
+/\top#dut /RAM_assertions_inst/assert__reset_assert
+                     RAM_assertions.sv(9)               0          1
+
+Total Coverage By Instance (filtered view): 100.00%
+

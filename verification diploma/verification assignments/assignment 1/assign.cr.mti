@@ -1,0 +1,36 @@
+{C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 2/Q1/test_dynamic_array.svh} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 2/Q1/test_dynamic_array.svh}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module test_dynamic_array
+
+Top level modules:
+	test_dynamic_array
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 1/DSP.v} {1 {vlog -work work -vopt -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 1/DSP.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module DSP
+
+Top level modules:
+	DSP
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 1/DSP_tb.svh} {0 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 1/DSP_tb.svh}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module DSP_tb
+** Warning: C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 1/DSP_tb.svh(79): (vlog-2240) Treating stand-alone use of function 'golden' as an implicit VOID cast.
+** Error (suppressible): C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 1/DSP_tb.svh(54): (vlog-13266) No actual value has been specified for a formal argument 'b_val' that does not have a default value.
+** Error (suppressible): C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 1/DSP_tb.svh(54): (vlog-13266) No actual value has been specified for a formal argument 'd_val' that does not have a default value.
+** Error (suppressible): C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 1/DSP_tb.svh(54): (vlog-13266) No actual value has been specified for a formal argument 'c_val' that does not have a default value.
+** Error (suppressible): C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 1/DSP_tb.svh(54): (vlog-13266) No actual value has been specified for a formal argument 'expected_out' that does not have a default value.
+** Error (suppressible): C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 1/DSP_tb.svh(58): (vlog-13266) No actual value has been specified for a formal argument 'b_val' that does not have a default value.
+** Error (suppressible): C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 1/DSP_tb.svh(58): (vlog-13266) No actual value has been specified for a formal argument 'd_val' that does not have a default value.
+** Error (suppressible): C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 1/DSP_tb.svh(58): (vlog-13266) No actual value has been specified for a formal argument 'c_val' that does not have a default value.
+** Error (suppressible): C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 1/DSP_tb.svh(58): (vlog-13266) No actual value has been specified for a formal argument 'expected_out' that does not have a default value.
+** Error (suppressible): C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 1/DSP_tb.svh(44): (vlog-13266) No actual value has been specified for a formal argument 'expected_out' that does not have a default value.
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 1/dff_t2_tb.svh} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 1/dff_t2_tb.svh}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module dff_t2_tb
+
+Top level modules:
+	dff_t2_tb
+
+} {} {}}

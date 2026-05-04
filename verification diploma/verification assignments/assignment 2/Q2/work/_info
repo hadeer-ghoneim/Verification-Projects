@@ -1,0 +1,99 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 1
+T_opt
+Z1 !s110 1756858850
+VfYP`B6fD:hUQo6XXh<inV3
+04 13 4 work question_2_tb fast 0
+=1-ecb1d7def929-68b789e2-20d-2838
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vcounter
+R1
+!i10b 1
+!s100 ;fh5WT@`3b6<QB3a4eFW`2
+IWTH^XV_2bSTeoD]6<eES>3
+Z3 dC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 2/Q2
+w1756681903
+8counter.v
+Fcounter.v
+!i122 11
+L0 8 28
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z6 !s108 1756858850.000000
+Z7 !s107 question_2_tb.svh|package.svh|counter.v|
+Z8 !s90 -reportprogress|300|counter.v|package.svh|question_2_tb.svh|+cover|-covercells|
+!i113 0
+Z9 !s102 +cover -covercells
+Z10 o+cover -covercells -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+Xquestion_2_pkg
+Z11 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R1
+!i10b 1
+!s100 oQId]AlSWRWzKf?SN0E`63
+I=54;>:meeW8BGb0aGIk]M2
+S1
+R3
+w1756855333
+8package.svh
+Fpackage.svh
+!i122 11
+L0 1 0
+V=54;>:meeW8BGb0aGIk]M2
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R2
+vquestion_2_tb
+R11
+DXx4 work 14 question_2_pkg 0 22 =54;>:meeW8BGb0aGIk]M2
+R1
+!i10b 1
+!s100 =9lD0DZ];G66=@0b36B[51
+Ika79EQ[Bkk9RXGiji1m^41
+S1
+R3
+w1756858561
+8question_2_tb.svh
+Fquestion_2_tb.svh
+!i122 11
+L0 1 124
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R2

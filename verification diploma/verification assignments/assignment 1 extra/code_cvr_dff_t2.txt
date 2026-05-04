@@ -1,0 +1,79 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /\dff_t2_tb#DUT_DFF_2 
+=== Design Unit: work.dff
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         3         3         0   100.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /\dff_t2_tb#DUT_DFF_2 
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File dff.v
+------------------------------------IF Branch------------------------------------
+    7                                         90     Count coming in to IF
+    7               1                          1        if (rst)
+    13              1                         45           if (en)
+                                              44     All False Count
+Branch totals: 3 hits of 3 branches = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       3         3         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /\dff_t2_tb#DUT_DFF_2  --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File dff.v
+    1                                                module dff(clk, rst, d, q, en);
+    2                                                parameter USE_EN = 0;
+    3                                                input clk, rst, d, en;
+    4                                                output reg q;
+    5                                                
+    6               1                         90     always @(posedge clk) begin 
+    7                                                   if (rst)
+    8               1                          1           q <= 0;
+    9                                                   else
+    10                                                     if(USE_EN)
+    11                                                           q <= d;
+    12                                                     else 
+    13                                                     if (en)
+    14              1                         45                 q <= d;
+
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                         10        10         0   100.00%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /\dff_t2_tb#DUT_DFF_2  --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+                                               clk           1           1      100.00 
+                                                 d           1           1      100.00 
+                                                en           1           1      100.00 
+                                                 q           1           1      100.00 
+                                               rst           1           1      100.00 
+
+Total Node Count     =          5 
+Toggled Node Count   =          5 
+Untoggled Node Count =          0 
+
+Toggle Coverage      =     100.00% (10 of 10 bins)
+
+
+Total Coverage By Instance (filtered view): 100.00%
+

@@ -1,0 +1,33 @@
+{C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4 extra/Q1/arbiter_master_assert.svh} {2 {vlog -work work -vopt -sv -stats=none {C:\Users\General\Desktop\.github\build\verification diploma\verification assignments\assignment 4 extra\Q1\arbiter_master_assert.svh}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module arbiter_sva
+-- Compiling package arbiter_master_assert_svh_unit
+
+Top level modules:
+** Warning: (vlog-2650) 'bind' found in compilation unit scope. Please use -cuname to ensure that 'bind' gets elaborated.
+	--none--
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4 extra/Q1/ALU.v} {1 {vlog -work work -vopt -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4 extra/Q1/ALU.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4 extra/Q1/ALU_tb.svh} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4 extra/Q1/ALU_tb.svh}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module ALU_tb
+
+Top level modules:
+	ALU_tb
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4 extra/Q1/fsm_assert.svh} {2 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 4 extra/Q1/fsm_assert.svh}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module fsm_sva
+-- Compiling package fsm_assert_svh_unit
+
+Top level modules:
+** Warning: (vlog-2650) 'bind' found in compilation unit scope. Please use -cuname to ensure that 'bind' gets elaborated.
+	--none--
+
+} {} {}}

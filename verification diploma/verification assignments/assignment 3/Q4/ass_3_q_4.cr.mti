@@ -1,0 +1,24 @@
+{C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3/Q4/mem_pkg.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3/Q4/mem_pkg.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package mem_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3/Q4/my_mem.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3/Q4/my_mem.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module my_mem
+
+Top level modules:
+	my_mem
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3/Q4/my_mem_tb.sv} {1 {vlog -work work -vopt -sv -stats=none {C:\Users\General\Desktop\.github\build\verification diploma\verification assignments\assignment 3\Q4\my_mem_tb.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package my_mem_tb_sv_unit
+-- Importing package mem_pkg
+-- Compiling module my_mem_tb
+
+Top level modules:
+	my_mem_tb
+
+} {} {}}

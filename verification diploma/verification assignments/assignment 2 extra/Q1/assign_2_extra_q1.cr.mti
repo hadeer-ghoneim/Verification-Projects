@@ -1,0 +1,8 @@
+{C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 2 extra/Q1/test_dynamic_array.svh} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 2 extra/Q1/test_dynamic_array.svh}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module data_types_extra
+
+Top level modules:
+	data_types_extra
+
+} {} {}}

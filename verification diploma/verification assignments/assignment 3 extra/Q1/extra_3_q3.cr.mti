@@ -1,0 +1,8 @@
+{C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3 extra/Q1/queue_test.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3 extra/Q1/queue_test.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module queue_test
+
+Top level modules:
+	queue_test
+
+} {} {}}

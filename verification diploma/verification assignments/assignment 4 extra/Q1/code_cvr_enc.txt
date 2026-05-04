@@ -1,0 +1,498 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /priority_enc_tb/DUT_enc
+=== Design Unit: work.priority_enc
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         7         6         1    85.71%
+
+================================Branch Details================================
+
+Branch Coverage for instance /priority_enc_tb/DUT_enc
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File priority_enc.v
+------------------------------------IF Branch------------------------------------
+    10                                        25     Count coming in to IF
+    10              1                          3         if (rst) begin
+    14              1                         22         else begin           // Fix 2: casex and valid in begin-end
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------CASE Branch------------------------------------
+    15                                        22     Count coming in to CASE
+    16              1                          2                 4'b1000: Y <= 2'b00;
+    17              1                          6                 4'bX100: Y <= 2'b01;
+    18              1                          5                 4'bXX10: Y <= 2'b10;
+    19              1                          9                 4'bXXX1: Y <= 2'b11;
+                                         ***0***     All False Count
+Branch totals: 4 hits of 5 branches = 80.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       8         8         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /priority_enc_tb/DUT_enc --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File priority_enc.v
+    1                                                module priority_enc (
+    2                                                    input  clk,
+    3                                                    input  rst,
+    4                                                    input  [3:0] D,    
+    5                                                    output reg [1:0] Y,    
+    6                                                    output reg valid
+    7                                                );
+    8                                                
+    9               1                         25     always @(posedge clk) begin
+    10                                                   if (rst) begin
+    11              1                          3             Y <= 2'b00;
+    12              1                          3             valid <= 1'b0;   // Fix 1: valid = 0 at reset
+    13                                                   end 
+    14                                                   else begin           // Fix 2: casex and valid in begin-end
+    15                                                       casex (D)
+    16              1                          2                 4'b1000: Y <= 2'b00;
+    17              1                          6                 4'bX100: Y <= 2'b01;
+    18              1                          5                 4'bXX10: Y <= 2'b10;
+    19              1                          9                 4'bXXX1: Y <= 2'b11;
+    20                                                       endcase
+    21                                               
+    22              1                         22             valid <= (~|D) ? 1'b0 : 1'b1; 
+
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                         18        17         1    94.44%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /priority_enc_tb/DUT_enc --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+                                            D[0-3]           1           1      100.00 
+                                            Y[1-0]           1           1      100.00 
+                                               clk           1           1      100.00 
+                                               rst           1           1      100.00 
+                                             valid           0           1       50.00 
+
+Total Node Count     =          9 
+Toggled Node Count   =          8 
+Untoggled Node Count =          1 
+
+Toggle Coverage      =      94.44% (17 of 18 bins)
+
+=================================================================================
+=== Instance: /priority_enc_tb
+=== Design Unit: work.priority_enc_tb
+=================================================================================
+
+Assertion Coverage:
+    Assertions                      46        46         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/priority_enc_tb/asser_reset/immed__164
+                     priority_enc_tb.svh(164)           0          1
+/priority_enc_tb/asser_reset/immed__161
+                     priority_enc_tb.svh(161)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__300
+                     priority_enc_tb.svh(300)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__299
+                     priority_enc_tb.svh(299)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__295
+                     priority_enc_tb.svh(295)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__294
+                     priority_enc_tb.svh(294)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__289
+                     priority_enc_tb.svh(289)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__288
+                     priority_enc_tb.svh(288)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__283
+                     priority_enc_tb.svh(283)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__282
+                     priority_enc_tb.svh(282)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__278
+                     priority_enc_tb.svh(278)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__277
+                     priority_enc_tb.svh(277)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__273
+                     priority_enc_tb.svh(273)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__272
+                     priority_enc_tb.svh(272)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__268
+                     priority_enc_tb.svh(268)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__267
+                     priority_enc_tb.svh(267)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__263
+                     priority_enc_tb.svh(263)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__262
+                     priority_enc_tb.svh(262)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__258
+                     priority_enc_tb.svh(258)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__257
+                     priority_enc_tb.svh(257)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__253
+                     priority_enc_tb.svh(253)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__252
+                     priority_enc_tb.svh(252)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__248
+                     priority_enc_tb.svh(248)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__247
+                     priority_enc_tb.svh(247)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__242
+                     priority_enc_tb.svh(242)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__241
+                     priority_enc_tb.svh(241)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__236
+                     priority_enc_tb.svh(236)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__235
+                     priority_enc_tb.svh(235)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__231
+                     priority_enc_tb.svh(231)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__230
+                     priority_enc_tb.svh(230)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__226
+                     priority_enc_tb.svh(226)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__225
+                     priority_enc_tb.svh(225)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__221
+                     priority_enc_tb.svh(221)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__220
+                     priority_enc_tb.svh(220)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__215
+                     priority_enc_tb.svh(215)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__214
+                     priority_enc_tb.svh(214)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__209
+                     priority_enc_tb.svh(209)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__208
+                     priority_enc_tb.svh(208)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__204
+                     priority_enc_tb.svh(204)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__203
+                     priority_enc_tb.svh(203)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__198
+                     priority_enc_tb.svh(198)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__197
+                     priority_enc_tb.svh(197)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__192
+                     priority_enc_tb.svh(192)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__191
+                     priority_enc_tb.svh(191)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__186
+                     priority_enc_tb.svh(186)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__185
+                     priority_enc_tb.svh(185)           0          1
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      59        59         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /priority_enc_tb --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File priority_enc_tb.svh
+    139                                              module priority_enc_tb ();
+    140                                              
+    141                                                  reg [3:0] D_tb; 
+    142                                                  logic [1:0] Y_tb;
+    143                                                  reg valid_tb;
+    144                                                  bit clk;
+    145                                                  bit rst;
+    146                                              
+    147                                                  priority_enc DUT_enc (clk,rst,D_tb,Y_tb,valid_tb);
+    148                                              
+    149                                                  always begin
+    150             1                         50             #5 clk = ~clk;
+    150             2                         49     
+    151                                                  end
+    152                                              
+    153                                                  // COUNTER_1
+    154                                              
+    155                                                  task asser_reset ();
+    156             1                          1             @(negedge clk);
+    157             1                          1                 D_tb = 0 ; 
+    158             1                          1                 rst = 1;
+    159                                                          // === Assertions for reset ===
+    160             1                          1                 @(posedge clk);
+    161                                                          assert (Y_tb == 2'b00)
+    162                                                              else $error("RESET ASSERTION FAILED: Expected Y=00, Got Y=%b at time %0t", Y_tb, $time);
+    163                                              
+    164                                                          assert (valid_tb == 0 || valid_tb == 1'bx)
+    165                                                              else $error("RESET ASSERTION FAILED: Expected valid=0, Got valid=%b at time %0t", valid_tb, $time);
+    166                                              
+    167             1                          1                 rst = 0;
+    168                                                  endtask
+    169                                                  
+    170                                              
+    171                                                  // COUNTER_2
+    172                                                  initial begin
+    173             1                          1             clk = 0; 
+    174             1                          1             rst = 1; // Assert reset at time 0
+    175             1                          1             D_tb = 4'b0000;
+    176                                              
+    177             1                          2             repeat(2) @(posedge clk);
+    177             2                          2     
+    178             1                          1             rst = 0; // De-assert reset
+    179                                              
+    180             1                          1             asser_reset();
+    181                                              
+    182                                                      // CHECK_1_past_state valid was 0
+    183             1                          1             D_tb = 4'b1000;
+    184             1                          1             @(posedge clk); 
+    185                                                      assert(Y_tb == 2'b00) else $error("ASSERTION FAILED: D=%b, Expected Y=01, Got Y=%b", D_tb, Y_tb);
+    186                                                      assert(valid_tb == 0) else $error("ASSERTION FAILED: D=%b, Expected valid=1, Got valid=%b", D_tb, valid_tb);
+    187                                              
+    188                                                      // CHECK_1
+    189             1                          1             D_tb = 4'b1000;
+    190             1                          1             @(posedge clk); 
+    191                                                      assert(Y_tb == 2'b00) else $error("ASSERTION FAILED: D=%b, Expected Y=01, Got Y=%b", D_tb, Y_tb);
+    192                                                      assert(valid_tb == 1) else $error("ASSERTION FAILED: D=%b, Expected valid=1, Got valid=%b", D_tb, valid_tb);
+    193                                              
+    194                                                      // CHECK_2_past_state y was 00
+    195             1                          1             D_tb = 4'b0100;
+    196             1                          1             @(posedge clk);
+    197                                                      assert(Y_tb == 2'b00) else $error("ASSERTION FAILED: D=%b, Expected Y=01, Got Y=%b", D_tb, Y_tb);
+    198                                                      assert(valid_tb == 1) else $error("ASSERTION FAILED: D=%b, Expected valid=1, Got valid=%b", D_tb, valid_tb);
+    199                                              
+    200                                                      // CHECK_2
+    201             1                          1             D_tb = 4'b0100;
+    202             1                          1             @(posedge clk);
+    203                                                      assert(Y_tb == 2'b01) else $error("ASSERTION FAILED: D=%b, Expected Y=01, Got Y=%b", D_tb, Y_tb);
+    204                                                      assert(valid_tb == 1) else $error("ASSERTION FAILED: D=%b, Expected valid=1, Got valid=%b", D_tb, valid_tb);
+    205                                              
+    206             1                          1             D_tb = 4'b1100;
+    207             1                          1             @(posedge clk);
+    208                                                      assert(Y_tb == 2'b01) else $error("ASSERTION FAILED: D=%b, Expected Y=01, Got Y=%b", D_tb, Y_tb);
+    209                                                      assert(valid_tb == 1) else $error("ASSERTION FAILED: D=%b, Expected valid=1, Got valid=%b", D_tb, valid_tb);
+    210                                              
+    211                                                      // CHECK_3_past_state y was 01
+    212             1                          1             D_tb = 4'b1110;
+    213             1                          1             @(posedge clk);
+    214                                                      assert(Y_tb == 2'b01) else $error("ASSERTION FAILED: D=%b, Expected Y=10, Got Y=%b", D_tb, Y_tb);
+    215                                                      assert(valid_tb == 1) else $error("ASSERTION FAILED: D=%b, Expected valid=1, Got valid=%b", D_tb, valid_tb);
+    216                                              
+    217                                                      // CHECK_3
+    218             1                          1             D_tb = 4'b1110;
+    219             1                          1             @(posedge clk);
+    220                                                      assert(Y_tb == 2'b10) else $error("ASSERTION FAILED: D=%b, Expected Y=10, Got Y=%b", D_tb, Y_tb);
+    221                                                      assert(valid_tb == 1) else $error("ASSERTION FAILED: D=%b, Expected valid=1, Got valid=%b", D_tb, valid_tb);
+    222                                              
+    223             1                          1             D_tb = 4'b1010;
+    224             1                          1             @(posedge clk);
+    225                                                      assert(Y_tb == 2'b10) else $error("ASSERTION FAILED: D=%b, Expected Y=10, Got Y=%b", D_tb, Y_tb);
+    226                                                      assert(valid_tb == 1) else $error("ASSERTION FAILED: D=%b, Expected valid=1, Got valid=%b", D_tb, valid_tb);
+    227                                              
+    228             1                          1             D_tb = 4'b0110;
+    229             1                          1             @(posedge clk);
+    230                                                      assert(Y_tb == 2'b10) else $error("ASSERTION FAILED: D=%b, Expected Y=10, Got Y=%b", D_tb, Y_tb);
+    231                                                      assert(valid_tb == 1) else $error("ASSERTION FAILED: D=%b, Expected valid=1, Got valid=%b", D_tb, valid_tb);
+    232                                              
+    233             1                          1             D_tb = 4'b0010;
+    234             1                          1             @(posedge clk);
+    235                                                      assert(Y_tb == 2'b10) else $error("ASSERTION FAILED: D=%b, Expected Y=10, Got Y=%b", D_tb, Y_tb);
+    236                                                      assert(valid_tb == 1) else $error("ASSERTION FAILED: D=%b, Expected valid=1, Got valid=%b", D_tb, valid_tb);
+    237                                              
+    238                                                     // CHECK_4_past_state y was 10
+    239             1                          1             D_tb = 4'b0001;
+    240             1                          1             @(posedge clk);
+    241                                                      assert(Y_tb == 2'b10) else $error("ASSERTION FAILED: D=%b, Expected Y=11, Got Y=%b", D_tb, Y_tb);
+    242                                                      assert(valid_tb == 1) else $error("ASSERTION FAILED: D=%b, Expected valid=1, Got valid=%b", D_tb, valid_tb);
+    243                                              
+    244                                                      // CHECK_4
+    245             1                          1             D_tb = 4'b0001;
+    246             1                          1             @(posedge clk);
+    247                                                      assert(Y_tb == 2'b11) else $error("ASSERTION FAILED: D=%b, Expected Y=11, Got Y=%b", D_tb, Y_tb);
+    248                                                      assert(valid_tb == 1) else $error("ASSERTION FAILED: D=%b, Expected valid=1, Got valid=%b", D_tb, valid_tb);
+    249                                              
+    250             1                          1             D_tb = 4'b1001;
+    251             1                          1             @(posedge clk);
+    252                                                      assert(Y_tb == 2'b11) else $error("ASSERTION FAILED: D=%b, Expected Y=11, Got Y=%b", D_tb, Y_tb);
+    253                                                      assert(valid_tb == 1) else $error("ASSERTION FAILED: D=%b, Expected valid=1, Got valid=%b", D_tb, valid_tb);
+    254                                              
+    255             1                          1             D_tb = 4'b0101;
+    256             1                          1             @(posedge clk);
+    257                                                      assert(Y_tb == 2'b11) else $error("ASSERTION FAILED: D=%b, Expected Y=11, Got Y=%b", D_tb, Y_tb);
+    258                                                      assert(valid_tb == 1) else $error("ASSERTION FAILED: D=%b, Expected valid=1, Got valid=%b", D_tb, valid_tb);
+    259                                              
+    260             1                          1             D_tb = 4'b1101;
+    261             1                          1             @(posedge clk);
+    262                                                      assert(Y_tb == 2'b11) else $error("ASSERTION FAILED: D=%b, Expected Y=11, Got Y=%b", D_tb, Y_tb);
+    263                                                      assert(valid_tb == 1) else $error("ASSERTION FAILED: D=%b, Expected valid=1, Got valid=%b", D_tb, valid_tb);
+    264                                              
+    265             1                          1             D_tb = 4'b0011;
+    266             1                          1             @(posedge clk);
+    267                                                      assert(Y_tb == 2'b11) else $error("ASSERTION FAILED: D=%b, Expected Y=11, Got Y=%b", D_tb, Y_tb);
+    268                                                      assert(valid_tb == 1) else $error("ASSERTION FAILED: D=%b, Expected valid=1, Got valid=%b", D_tb, valid_tb);
+    269                                              
+    270             1                          1             D_tb = 4'b0111;
+    271             1                          1             @(posedge clk);
+    272                                                      assert(Y_tb == 2'b11) else $error("ASSERTION FAILED: D=%b, Expected Y=11, Got Y=%b", D_tb, Y_tb);
+    273                                                      assert(valid_tb == 1) else $error("ASSERTION FAILED: D=%b, Expected valid=1, Got valid=%b", D_tb, valid_tb);
+    274                                              
+    275             1                          1             D_tb = 4'b1011;
+    276             1                          1             @(posedge clk);
+    277                                                      assert(Y_tb == 2'b11) else $error("ASSERTION FAILED: D=%b, Expected Y=11, Got Y=%b", D_tb, Y_tb);
+    278                                                      assert(valid_tb == 1) else $error("ASSERTION FAILED: D=%b, Expected valid=1, Got valid=%b", D_tb, valid_tb);
+    279                                              
+    280             1                          1             D_tb = 4'b1111;
+    281             1                          1             @(posedge clk);
+    282                                                      assert(Y_tb == 2'b11) else $error("ASSERTION FAILED: D=%b, Expected Y=11, Got Y=%b", D_tb, Y_tb);
+    283                                                      assert(valid_tb == 1) else $error("ASSERTION FAILED: D=%b, Expected valid=1, Got valid=%b", D_tb, valid_tb);
+    284                                              
+    285                                                      // CHECK_6_past_state y was 11
+    286             1                          1             D_tb = 4'b0100;
+    287             1                          1             @(posedge clk);
+    288                                                      assert(Y_tb == 2'b11) else $error("ASSERTION FAILED: D=%b, Expected Y=01, Got Y=%b", D_tb, Y_tb);
+    289                                                      assert(valid_tb == 1) else $error("ASSERTION FAILED: D=%b, Expected valid=1, Got valid=%b", D_tb, valid_tb);
+    290                                              
+    291                                                      // CHECK_6
+    292             1                          1             D_tb = 4'b0100;
+    293             1                          1             @(posedge clk);
+    294                                                      assert(Y_tb == 2'b01) else $error("ASSERTION FAILED: D=%b, Expected Y=01, Got Y=%b", D_tb, Y_tb);
+    295                                                      assert(valid_tb == 1) else $error("ASSERTION FAILED: D=%b, Expected valid=1, Got valid=%b", D_tb, valid_tb);
+    296                                              
+    297             1                          1             D_tb = 4'b1100;
+    298             1                          1             @(posedge clk);
+    299                                                      assert(Y_tb == 2'b01) else $error("ASSERTION FAILED: D=%b, Expected Y=01, Got Y=%b", D_tb, Y_tb);
+    300                                                      assert(valid_tb == 1) else $error("ASSERTION FAILED: D=%b, Expected valid=1, Got valid=%b", D_tb, valid_tb);
+    301                                              
+    302             1                          1             $stop;
+
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                         18        17         1    94.44%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /priority_enc_tb --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+                                         D_tb[0-3]           1           1      100.00 
+                                         Y_tb[0-1]           1           1      100.00 
+                                               clk           1           1      100.00 
+                                               rst           1           1      100.00 
+                                          valid_tb           0           1       50.00 
+
+Total Node Count     =          9 
+Toggled Node Count   =          8 
+Untoggled Node Count =          1 
+
+Toggle Coverage      =      94.44% (17 of 18 bins)
+
+
+ASSERTION RESULTS:
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/priority_enc_tb/asser_reset/immed__164
+                     priority_enc_tb.svh(164)           0          1
+/priority_enc_tb/asser_reset/immed__161
+                     priority_enc_tb.svh(161)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__300
+                     priority_enc_tb.svh(300)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__299
+                     priority_enc_tb.svh(299)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__295
+                     priority_enc_tb.svh(295)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__294
+                     priority_enc_tb.svh(294)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__289
+                     priority_enc_tb.svh(289)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__288
+                     priority_enc_tb.svh(288)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__283
+                     priority_enc_tb.svh(283)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__282
+                     priority_enc_tb.svh(282)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__278
+                     priority_enc_tb.svh(278)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__277
+                     priority_enc_tb.svh(277)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__273
+                     priority_enc_tb.svh(273)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__272
+                     priority_enc_tb.svh(272)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__268
+                     priority_enc_tb.svh(268)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__267
+                     priority_enc_tb.svh(267)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__263
+                     priority_enc_tb.svh(263)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__262
+                     priority_enc_tb.svh(262)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__258
+                     priority_enc_tb.svh(258)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__257
+                     priority_enc_tb.svh(257)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__253
+                     priority_enc_tb.svh(253)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__252
+                     priority_enc_tb.svh(252)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__248
+                     priority_enc_tb.svh(248)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__247
+                     priority_enc_tb.svh(247)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__242
+                     priority_enc_tb.svh(242)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__241
+                     priority_enc_tb.svh(241)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__236
+                     priority_enc_tb.svh(236)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__235
+                     priority_enc_tb.svh(235)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__231
+                     priority_enc_tb.svh(231)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__230
+                     priority_enc_tb.svh(230)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__226
+                     priority_enc_tb.svh(226)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__225
+                     priority_enc_tb.svh(225)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__221
+                     priority_enc_tb.svh(221)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__220
+                     priority_enc_tb.svh(220)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__215
+                     priority_enc_tb.svh(215)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__214
+                     priority_enc_tb.svh(214)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__209
+                     priority_enc_tb.svh(209)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__208
+                     priority_enc_tb.svh(208)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__204
+                     priority_enc_tb.svh(204)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__203
+                     priority_enc_tb.svh(203)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__198
+                     priority_enc_tb.svh(198)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__197
+                     priority_enc_tb.svh(197)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__192
+                     priority_enc_tb.svh(192)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__191
+                     priority_enc_tb.svh(191)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__186
+                     priority_enc_tb.svh(186)           0          1
+/priority_enc_tb/#ublk#99486242#172/immed__185
+                     priority_enc_tb.svh(185)           0          1
+
+Total Coverage By Instance (filtered view): 95.03%
+

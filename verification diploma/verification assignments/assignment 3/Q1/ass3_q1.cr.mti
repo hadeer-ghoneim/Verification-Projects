@@ -1,0 +1,30 @@
+{C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3/Q1/tb.sv} {2 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3/Q1/tb.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Warning: C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3/Q1/tb.sv(1): (vlog-13233) Design unit "tb_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+-- Compiling package tb_sv_unit
+-- Importing package testing_pkg
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3/Q1/alu_seq.sv} {2 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3/Q1/alu_seq.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Warning: C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3/Q1/alu_seq.sv(1): (vlog-13233) Design unit "alu_seq_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+-- Compiling package alu_seq_sv_unit
+-- Importing package testing_pkg
+-- Compiling module alu_seq
+
+Top level modules:
+	alu_seq
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3/Q1/testing_pkg.sv} {2 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3/Q1/testing_pkg.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package testing_pkg
+** Warning: C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3/Q1/testing_pkg.sv(42): (vlog-13203) option.cross_auto_bin_max = 0 setting is non-LRM compliant. No auto cross bins will be generated.
+** Warning: C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3/Q1/testing_pkg.sv(66): (vlog-13203) option.cross_auto_bin_max = 0 setting is non-LRM compliant. No auto cross bins will be generated.
+
+Top level modules:
+	--none--
+
+} {} {}}

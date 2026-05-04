@@ -1,0 +1,2764 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /top/if_t
+=== Design Unit: work.ALSU_if
+=================================================================================
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                         80        80         0   100.00%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /top/if_t --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+                                            A[2-0]           1           1      100.00 
+                                            B[2-0]           1           1      100.00 
+                                          bypass_A           1           1      100.00 
+                                          bypass_B           1           1      100.00 
+                                               cin           1           1      100.00 
+                                               clk           1           1      100.00 
+                                         direction           1           1      100.00 
+                                        leds[15-0]           1           1      100.00 
+                                       opcode[2-0]           1           1      100.00 
+                                          out[5-0]           1           1      100.00 
+                                          red_op_A           1           1      100.00 
+                                          red_op_B           1           1      100.00 
+                                               rst           1           1      100.00 
+                                         serial_in           1           1      100.00 
+
+Total Node Count     =         40 
+Toggled Node Count   =         40 
+Untoggled Node Count =          0 
+
+Toggle Coverage      =     100.00% (80 of 80 bins)
+
+=================================================================================
+=== Instance: /top/sr_t
+=== Design Unit: work.shift_reg_if
+=================================================================================
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                         30        30         0   100.00%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /top/sr_t --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+                                       datain[5-0]           1           1      100.00 
+                                      dataout[5-0]           1           1      100.00 
+                                         direction           1           1      100.00 
+                                              mode           1           1      100.00 
+                                         serial_in           1           1      100.00 
+
+Total Node Count     =         15 
+Toggled Node Count   =         15 
+Untoggled Node Count =          0 
+
+Toggle Coverage      =     100.00% (30 of 30 bins)
+
+=================================================================================
+=== Instance: /top/SR
+=== Design Unit: work.shift_reg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         5         5         0   100.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /top/SR
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File shift_reg.sv
+------------------------------------IF Branch------------------------------------
+    13                                     47255     Count coming in to IF
+    13              1                      23201     
+    19              1                      11515     
+    21              1                      12539     
+Branch totals: 3 hits of 3 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    14                                     23201     Count coming in to IF
+    14              1                      11481     
+    16              1                      11720     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       5         5         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /top/SR --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File shift_reg.sv
+    11              1                          1     
+    15              1                      11481     
+    17              1                      11720     
+    20              1                      11515     
+    22              1                      12539     
+
+=================================================================================
+=== Instance: /top/DUT/AS
+=== Design Unit: work.Asseritions
+=================================================================================
+
+Assertion Coverage:
+    Assertions                      24        20         4    83.33%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/top/DUT/AS/rst_check
+                     _Assertions.sv(9)                  0          1
+/top/DUT/AS/leds_check
+                     _Assertions.sv(185)                0          1
+/top/DUT/AS/bypass1_check
+                     _Assertions.sv(187)                0          1
+/top/DUT/AS/bypass2_check
+                     _Assertions.sv(188)                0          0
+/top/DUT/AS/bypass3_check
+                     _Assertions.sv(189)                0          1
+/top/DUT/AS/bypass4_check
+                     _Assertions.sv(190)                0          1
+/top/DUT/AS/INVALID_check
+                     _Assertions.sv(193)                0          1
+/top/DUT/AS/OR1_check
+                     _Assertions.sv(199)                0          1
+/top/DUT/AS/OR2_check
+                     _Assertions.sv(200)                0          0
+/top/DUT/AS/OR3_check
+                     _Assertions.sv(201)                0          1
+/top/DUT/AS/OR4_check
+                     _Assertions.sv(202)                0          1
+/top/DUT/AS/OR5_check
+                     _Assertions.sv(203)                0          1
+/top/DUT/AS/XOR1_check
+                     _Assertions.sv(207)                0          1
+/top/DUT/AS/XOR2_check
+                     _Assertions.sv(208)                0          0
+/top/DUT/AS/XOR3_check
+                     _Assertions.sv(209)                0          1
+/top/DUT/AS/XOR4_check
+                     _Assertions.sv(210)                0          1
+/top/DUT/AS/XOR5_check
+                     _Assertions.sv(211)                0          1
+/top/DUT/AS/FullADD_check
+                     _Assertions.sv(215)                0          1
+/top/DUT/AS/halfADD_check
+                     _Assertions.sv(216)                0          0
+/top/DUT/AS/MULT_check
+                     _Assertions.sv(220)                0          1
+/top/DUT/AS/shift_R_check
+                     _Assertions.sv(224)                0          1
+/top/DUT/AS/shift_L_check
+                     _Assertions.sv(225)                0          1
+/top/DUT/AS/rotate_R_check
+                     _Assertions.sv(229)                0          1
+/top/DUT/AS/rotate_L_check
+                     _Assertions.sv(230)                0          1
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         2         0   100.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /top/DUT/AS
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File _Assertions.sv
+------------------------------------IF Branch------------------------------------
+    8                                      44600     Count coming in to IF
+    8               1                       1648     
+                                           42952     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+
+
+Directive Coverage:
+    Directives                      23        19         4    82.60%
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/top/DUT/AS/leds_cover                   Asseritions Verilog  SVA  _Assertions.sv(235)
+                                                                              8281 Covered   
+/top/DUT/AS/bypass1_cover                Asseritions Verilog  SVA  _Assertions.sv(239)
+                                                                               162 Covered   
+/top/DUT/AS/bypass2_cover                Asseritions Verilog  SVA  _Assertions.sv(240)
+                                                                                 0 ZERO      
+/top/DUT/AS/bypass3_cover                Asseritions Verilog  SVA  _Assertions.sv(241)
+                                                                              1489 Covered   
+/top/DUT/AS/bypass4_cover                Asseritions Verilog  SVA  _Assertions.sv(242)
+                                                                              1498 Covered   
+/top/DUT/AS/INVALID_cover                Asseritions Verilog  SVA  _Assertions.sv(245)
+                                                                              6775 Covered   
+/top/DUT/AS/OR1_cover                    Asseritions Verilog  SVA  _Assertions.sv(248)
+                                                                               345 Covered   
+/top/DUT/AS/OR2_cover                    Asseritions Verilog  SVA  _Assertions.sv(249)
+                                                                                 0 ZERO      
+/top/DUT/AS/OR3_cover                    Asseritions Verilog  SVA  _Assertions.sv(250)
+                                                                               211 Covered   
+/top/DUT/AS/OR4_cover                    Asseritions Verilog  SVA  _Assertions.sv(251)
+                                                                               276 Covered   
+/top/DUT/AS/OR5_cover                    Asseritions Verilog  SVA  _Assertions.sv(252)
+                                                                              6687 Covered   
+/top/DUT/AS/XOR1_cover                   Asseritions Verilog  SVA  _Assertions.sv(255)
+                                                                               351 Covered   
+/top/DUT/AS/XOR2_cover                   Asseritions Verilog  SVA  _Assertions.sv(256)
+                                                                                 0 ZERO      
+/top/DUT/AS/XOR3_cover                   Asseritions Verilog  SVA  _Assertions.sv(257)
+                                                                               232 Covered   
+/top/DUT/AS/XOR4_cover                   Asseritions Verilog  SVA  _Assertions.sv(258)
+                                                                               273 Covered   
+/top/DUT/AS/XOR5_cover                   Asseritions Verilog  SVA  _Assertions.sv(259)
+                                                                              6675 Covered   
+/top/DUT/AS/FullADD_cover                Asseritions Verilog  SVA  _Assertions.sv(262)
+                                                                              5510 Covered   
+/top/DUT/AS/halfADD_cover                Asseritions Verilog  SVA  _Assertions.sv(263)
+                                                                                 0 ZERO      
+/top/DUT/AS/Mult_cover                   Asseritions Verilog  SVA  _Assertions.sv(266)
+                                                                              5445 Covered   
+/top/DUT/AS/shiftL_cover                 Asseritions Verilog  SVA  _Assertions.sv(269)
+                                                                              2755 Covered   
+/top/DUT/AS/shiftR_cover                 Asseritions Verilog  SVA  _Assertions.sv(270)
+                                                                              2872 Covered   
+/top/DUT/AS/rotateLeft_cover             Asseritions Verilog  SVA  _Assertions.sv(273)
+                                                                              2757 Covered   
+/top/DUT/AS/rotateRight_cover            Asseritions Verilog  SVA  _Assertions.sv(274)
+                                                                              2854 Covered   
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      5         5         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /top/DUT/AS --
+
+  File _Assertions.sv
+----------------Focused Expression View-----------------
+Line       5 Item    1  (((if_t.opcode == INVALID6) || (if_t.opcode == INVALID7)) || ((if_t.opcode > 1) && (if_t.red_op_A | if_t.red_op_B)))
+Expression totals: 5 of 5 input terms covered = 100.00%
+
+                 Input Term   Covered  Reason for no coverage   Hint
+                -----------  --------  -----------------------  --------------
+  (if_t.opcode == INVALID6)         Y
+  (if_t.opcode == INVALID7)         Y
+          (if_t.opcode > 1)         Y
+              if_t.red_op_A         Y
+              if_t.red_op_B         Y
+
+     Rows:       Hits  FEC Target                   Non-masking condition(s)      
+ ---------  ---------  --------------------         -------------------------     
+  Row   1:          1  (if_t.opcode == INVALID6)_0  (~((if_t.opcode > 1) && (if_t.red_op_A | if_t.red_op_B)) && ~(if_t.opcode == INVALID7))
+  Row   2:          1  (if_t.opcode == INVALID6)_1  -                             
+  Row   3:          1  (if_t.opcode == INVALID7)_0  (~((if_t.opcode > 1) && (if_t.red_op_A | if_t.red_op_B)) && ~(if_t.opcode == INVALID6))
+  Row   4:          1  (if_t.opcode == INVALID7)_1  ~(if_t.opcode == INVALID6)    
+  Row   5:          1  (if_t.opcode > 1)_0          ~((if_t.opcode == INVALID6) || (if_t.opcode == INVALID7))
+  Row   6:          1  (if_t.opcode > 1)_1          (~((if_t.opcode == INVALID6) || (if_t.opcode == INVALID7)) && (if_t.red_op_A | if_t.red_op_B))
+  Row   7:          1  if_t.red_op_A_0              (~((if_t.opcode == INVALID6) || (if_t.opcode == INVALID7)) && (if_t.opcode > 1) && ~if_t.red_op_B)
+  Row   8:          1  if_t.red_op_A_1              (~((if_t.opcode == INVALID6) || (if_t.opcode == INVALID7)) && (if_t.opcode > 1) && ~if_t.red_op_B)
+  Row   9:          1  if_t.red_op_B_0              (~((if_t.opcode == INVALID6) || (if_t.opcode == INVALID7)) && (if_t.opcode > 1) && ~if_t.red_op_A)
+ Row   10:          1  if_t.red_op_B_1              (~((if_t.opcode == INVALID6) || (if_t.opcode == INVALID7)) && (if_t.opcode > 1) && ~if_t.red_op_A)
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /top/DUT/AS --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File _Assertions.sv
+    5               1                      48005     
+    7               1                      44600     
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                          2         2         0   100.00%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /top/DUT/AS --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+                                           invalid           1           1      100.00 
+
+Total Node Count     =          1 
+Toggled Node Count   =          1 
+Untoggled Node Count =          0 
+
+Toggle Coverage      =     100.00% (2 of 2 bins)
+
+=================================================================================
+=== Instance: /top/DUT
+=== Design Unit: work.ALSU
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        28        28         0   100.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /top/DUT
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ALSU.sv
+------------------------------------IF Branch------------------------------------
+    28                                     50948     Count coming in to IF
+    28              1                       1937     
+    40              1                      49011     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    57                                     50948     Count coming in to IF
+    57              1                       1937     
+    59              1                      49011     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    60                                     49011     Count coming in to IF
+    60              1                       8696     
+    62              1                      40315     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    70                                     50948     Count coming in to IF
+    70              1                       1937     
+    73              1                      49011     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    74                                     49011     Count coming in to IF
+    74              1                        176     
+    76              1                       1560     
+    78              1                       1566     
+    80              1                       7123     
+    82              1                      38586     
+Branch totals: 5 hits of 5 branches = 100.00%
+
+------------------------------------CASE Branch------------------------------------
+    83                                     38586     Count coming in to CASE
+    84              1                       8604     
+    94              1                       7650     
+    104             1                       5535     
+    112             1                       5478     
+    113             1                       5674     
+    116             1                       5644     
+    119             1                          1     
+Branch totals: 7 hits of 7 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    85                                      8604     Count coming in to IF
+    85              1                        367     
+    87              1                        222     
+    89              1                        285     
+    91              1                       7730     
+Branch totals: 4 hits of 4 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    95                                      7650     Count coming in to IF
+    95              1                        368     
+    97              1                        246     
+    99              1                        284     
+    101             1                       6752     
+Branch totals: 4 hits of 4 branches = 100.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       6         6         0   100.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /top/DUT --
+
+  File ALSU.sv
+----------------Focused Condition View-------------------
+Line       74 Item    1  (bypass_A_reg && bypass_B_reg)
+Condition totals: 2 of 2 input terms covered = 100.00%
+
+    Input Term   Covered  Reason for no coverage   Hint
+   -----------  --------  -----------------------  --------------
+  bypass_A_reg         Y
+  bypass_B_reg         Y
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  bypass_A_reg_0        -                             
+  Row   2:          1  bypass_A_reg_1        bypass_B_reg                  
+  Row   3:          1  bypass_B_reg_0        bypass_A_reg                  
+  Row   4:          1  bypass_B_reg_1        bypass_A_reg                  
+
+----------------Focused Condition View-------------------
+Line       85 Item    1  (red_op_A_reg && red_op_B_reg)
+Condition totals: 2 of 2 input terms covered = 100.00%
+
+    Input Term   Covered  Reason for no coverage   Hint
+   -----------  --------  -----------------------  --------------
+  red_op_A_reg         Y
+  red_op_B_reg         Y
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  red_op_A_reg_0        -                             
+  Row   2:          1  red_op_A_reg_1        red_op_B_reg                  
+  Row   3:          1  red_op_B_reg_0        red_op_A_reg                  
+  Row   4:          1  red_op_B_reg_1        red_op_A_reg                  
+
+----------------Focused Condition View-------------------
+Line       95 Item    1  (red_op_A_reg && red_op_B_reg)
+Condition totals: 2 of 2 input terms covered = 100.00%
+
+    Input Term   Covered  Reason for no coverage   Hint
+   -----------  --------  -----------------------  --------------
+  red_op_A_reg         Y
+  red_op_B_reg         Y
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  red_op_A_reg_0        -                             
+  Row   2:          1  red_op_A_reg_1        red_op_B_reg                  
+  Row   3:          1  red_op_B_reg_0        red_op_A_reg                  
+  Row   4:          1  red_op_B_reg_1        red_op_A_reg                  
+
+
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      8         8         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /top/DUT --
+
+  File ALSU.sv
+----------------Focused Expression View-----------------
+Line       13 Item    1  ((red_op_A_reg | red_op_B_reg) & (opcode_reg[1] | opcode_reg[2]))
+Expression totals: 4 of 4 input terms covered = 100.00%
+
+     Input Term   Covered  Reason for no coverage   Hint
+    -----------  --------  -----------------------  --------------
+   red_op_A_reg         Y
+   red_op_B_reg         Y
+  opcode_reg[1]         Y
+  opcode_reg[2]         Y
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  red_op_A_reg_0        ((opcode_reg[1] | opcode_reg[2]) && ~red_op_B_reg)
+  Row   2:          1  red_op_A_reg_1        ((opcode_reg[1] | opcode_reg[2]) && ~red_op_B_reg)
+  Row   3:          1  red_op_B_reg_0        ((opcode_reg[1] | opcode_reg[2]) && ~red_op_A_reg)
+  Row   4:          1  red_op_B_reg_1        ((opcode_reg[1] | opcode_reg[2]) && ~red_op_A_reg)
+  Row   5:          1  opcode_reg[1]_0       ((red_op_A_reg | red_op_B_reg) && ~opcode_reg[2])
+  Row   6:          1  opcode_reg[1]_1       ((red_op_A_reg | red_op_B_reg) && ~opcode_reg[2])
+  Row   7:          1  opcode_reg[2]_0       ((red_op_A_reg | red_op_B_reg) && ~opcode_reg[1])
+  Row   8:          1  opcode_reg[2]_1       ((red_op_A_reg | red_op_B_reg) && ~opcode_reg[1])
+
+----------------Focused Expression View-----------------
+Line       14 Item    1  (opcode_reg[1] & opcode_reg[2])
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+     Input Term   Covered  Reason for no coverage   Hint
+    -----------  --------  -----------------------  --------------
+  opcode_reg[1]         Y
+  opcode_reg[2]         Y
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  opcode_reg[1]_0       opcode_reg[2]                 
+  Row   2:          1  opcode_reg[1]_1       opcode_reg[2]                 
+  Row   3:          1  opcode_reg[2]_0       opcode_reg[1]                 
+  Row   4:          1  opcode_reg[2]_1       opcode_reg[1]                 
+
+----------------Focused Expression View-----------------
+Line       15 Item    1  (invalid_red_op | invalid_opcode)
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+      Input Term   Covered  Reason for no coverage   Hint
+     -----------  --------  -----------------------  --------------
+  invalid_red_op         Y
+  invalid_opcode         Y
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  invalid_red_op_0      ~invalid_opcode               
+  Row   2:          1  invalid_red_op_1      ~invalid_opcode               
+  Row   3:          1  invalid_opcode_0      ~invalid_red_op               
+  Row   4:          1  invalid_opcode_1      ~invalid_red_op               
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      50        50         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /top/DUT --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ALSU.sv
+    13              1                      47833     
+    14              1                      45634     
+    15              1                       9886     
+    23              1                      37668     
+    24              1                      40560     
+    27              1                      50948     
+    29              1                       1937     
+    30              1                       1937     
+    31              1                       1937     
+    32              1                       1937     
+    33              1                       1937     
+    34              1                       1937     
+    35              1                       1937     
+    36              1                       1937     
+    37              1                       1937     
+    38              1                       1937     
+    41              1                      49011     
+    42              1                      49011     
+    43              1                      49011     
+    44              1                      49011     
+    45              1                      49011     
+    46              1                      49011     
+    47              1                      49011     
+    48              1                      49011     
+    49              1                      49011     
+    50              1                      49011     
+    56              1                      50948     
+    58              1                       1937     
+    61              1                       8696     
+    63              1                      40315     
+    68              1                      50948     
+    71              1                       1937     
+    75              1                        176     
+    77              1                       1560     
+    79              1                       1566     
+    81              1                       7123     
+    86              1                        367     
+    88              1                        222     
+    90              1                        285     
+    92              1                       7730     
+    96              1                        368     
+    98              1                        246     
+    100             1                        284     
+    102             1                       6752     
+    106             1                       5535     
+    112             1                       5478     
+    114             1                       5674     
+    117             1                       5644     
+    119             1                          1     
+    123             1                      50948     
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                         64        64         0   100.00%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /top/DUT --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+                                        A_reg[2-0]           1           1      100.00 
+                                        B_reg[2-0]           1           1      100.00 
+                                      bypass_A_reg           1           1      100.00 
+                                      bypass_B_reg           1           1      100.00 
+                                      cin_reg[1-0]           1           1      100.00 
+                                     direction_reg           1           1      100.00 
+                                           invalid           1           1      100.00 
+                                    invalid_opcode           1           1      100.00 
+                                    invalid_red_op           1           1      100.00 
+                                   opcode_reg[2-0]           1           1      100.00 
+                                     out_next[5-0]           1           1      100.00 
+                                out_shift_reg[5-0]           1           1      100.00 
+                                      red_op_A_reg           1           1      100.00 
+                                      red_op_B_reg           1           1      100.00 
+                                     serial_in_reg           1           1      100.00 
+
+Total Node Count     =         32 
+Toggled Node Count   =         32 
+Untoggled Node Count =          0 
+
+Toggle Coverage      =     100.00% (64 of 64 bins)
+
+=================================================================================
+=== Instance: /top
+=== Design Unit: work.top
+=================================================================================
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       5         5         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /top --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File top.sv
+    7               1                     100001     
+    7               2                     100000     
+    17              1                          1     
+    18              1                          1     
+    19              1                          1     
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                          2         2         0   100.00%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /top --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+                                               clk           1           1      100.00 
+
+Total Node Count     =          1 
+Toggled Node Count   =          1 
+Untoggled Node Count =          0 
+
+Toggle Coverage      =     100.00% (2 of 2 bins)
+
+=================================================================================
+=== Instance: /config_object_pkg
+=== Design Unit: work.config_object_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        10         0        10     0.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /config_object_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File config_object.sv
+------------------------------------IF Branch------------------------------------
+    7                                    ***0***     Count coming in to IF
+    7               1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    7                                    ***0***     Count coming in to IF
+    7               2                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    7                                    ***0***     Count coming in to IF
+    7               3                    ***0***     
+    7               4                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    7                                    ***0***     Count coming in to IF
+    7               5                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    7                                    ***0***     Count coming in to IF
+    7               6                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       2         0         2     0.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /config_object_pkg --
+
+  File config_object.sv
+----------------Focused Condition View-------------------
+Line       7 Item    1  (name != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name != 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name != 0)_0         -                             
+  Row   2:    ***0***  (name != 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       7 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:    ***0***  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      11         1        10     9.09%
+
+================================Statement Details================================
+
+Statement Coverage for instance /config_object_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File config_object.sv
+    7               1                    ***0***     
+    7               2                    ***0***     
+    7               3                    ***0***     
+    7               4                    ***0***     
+    7               5                    ***0***     
+    7               6                    ***0***     
+    7               7                    ***0***     
+    7               8                    ***0***     
+    7               9                    ***0***     
+    7              10                    ***0***     
+    13              1                          2     
+
+=================================================================================
+=== Instance: /shift_seq_item_pkg
+=== Design Unit: work.shift_seq_item_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        10         0        10     0.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /shift_seq_item_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File shift_seq_item.sv
+------------------------------------IF Branch------------------------------------
+    7                                    ***0***     Count coming in to IF
+    7               1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    7                                    ***0***     Count coming in to IF
+    7               2                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    7                                    ***0***     Count coming in to IF
+    7               3                    ***0***     
+    7               4                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    7                                    ***0***     Count coming in to IF
+    7               5                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    7                                    ***0***     Count coming in to IF
+    7               6                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       2         0         2     0.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /shift_seq_item_pkg --
+
+  File shift_seq_item.sv
+----------------Focused Condition View-------------------
+Line       7 Item    1  (name != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name != 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name != 0)_0         -                             
+  Row   2:    ***0***  (name != 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       7 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:    ***0***  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      13         1        12     7.69%
+
+================================Statement Details================================
+
+Statement Coverage for instance /shift_seq_item_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File shift_seq_item.sv
+    7               1                    ***0***     
+    7               2                    ***0***     
+    7               3                    ***0***     
+    7               4                    ***0***     
+    7               5                    ***0***     
+    7               6                    ***0***     
+    7               7                    ***0***     
+    7               8                    ***0***     
+    7               9                    ***0***     
+    7              10                    ***0***     
+    10              1                      83334     
+    19              1                    ***0***     
+    24              1                    ***0***     
+
+=================================================================================
+=== Instance: /shift_sequencer_pkg
+=== Design Unit: work.shift_sequencer_pkg
+=================================================================================
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       4         0         4     0.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /shift_sequencer_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File shift_sequencer.sv
+    7               1                    ***0***     
+    7               2                    ***0***     
+    7               3                    ***0***     
+    10              1                    ***0***     
+
+=================================================================================
+=== Instance: /shift_driver_pkg
+=== Design Unit: work.shift_driver_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         0         2     0.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /shift_driver_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File shift_driver.sv
+------------------------------------IF Branch------------------------------------
+    29                                   ***0***     Count coming in to IF
+    29              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      15         0        15     0.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /shift_driver_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File shift_driver.sv
+    8               1                    ***0***     
+    8               2                    ***0***     
+    8               3                    ***0***     
+    13              1                    ***0***     
+    17              1                    ***0***     
+    19              1                    ***0***     
+    20              1                    ***0***     
+    21              1                    ***0***     
+    22              1                    ***0***     
+    23              1                    ***0***     
+    24              1                    ***0***     
+    25              1                    ***0***     
+    26              1                    ***0***     
+    28              1                    ***0***     
+    29              1                    ***0***     
+
+=================================================================================
+=== Instance: /shift_monitor_pkg
+=== Design Unit: work.shift_monitor_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         1         1    50.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /shift_monitor_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File shift_monitor.sv
+------------------------------------IF Branch------------------------------------
+    32                                     83333     Count coming in to IF
+    32              1                    ***0***     
+                                           83333     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      16        13         3    81.25%
+
+================================Statement Details================================
+
+Statement Coverage for instance /shift_monitor_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File shift_monitor.sv
+    8               1                    ***0***     
+    8               2                    ***0***     
+    8               3                          2     
+    14              1                          1     
+    18              1                          1     
+    19              1                          1     
+    23              1                          1     
+    24              1                          1     
+    25              1                      83334     
+    26              1                      83334     
+    27              1                      83333     
+    28              1                      83333     
+    29              1                      83333     
+    30              1                      83333     
+    31              1                      83333     
+    32              1                    ***0***     
+
+=================================================================================
+=== Instance: /shift_agent_pkg
+=== Design Unit: work.shift_agent_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         8         3         5    37.50%
+
+================================Branch Details================================
+
+Branch Coverage for instance /shift_agent_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File shift_agent.sv
+------------------------------------IF Branch------------------------------------
+    27                                         1     Count coming in to IF
+    27              1                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    28                                   ***0***     Count coming in to IF
+    28              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    30                                         1     Count coming in to IF
+    30              1                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    41                                         1     Count coming in to IF
+    41              1                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      16         9         7    56.25%
+
+================================Statement Details================================
+
+Statement Coverage for instance /shift_agent_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File shift_agent.sv
+    12              1                    ***0***     
+    12              2                    ***0***     
+    12              3                          2     
+    20              1                          1     
+    24              1                          1     
+    25              1                          1     
+    26              1                          1     
+    28              1                    ***0***     
+    29              1                          1     
+    31              1                    ***0***     
+    32              1                    ***0***     
+    38              1                          1     
+    39              1                          1     
+    40              1                          1     
+    42              1                    ***0***     
+    43              1                    ***0***     
+
+=================================================================================
+=== Instance: /shift_coverage_pkg
+=== Design Unit: work.shift_coverage_pkg
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      1        na        na   100.00%
+        Coverpoints/Crosses          3        na        na        na
+            Covergroup Bins         68        68         0   100.00%
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /shift_coverage_pkg/shift_reg_cov/covgup        100.00%        100          -    Covered              
+    covered/total bins:                                    68         68          -                      
+    missing/total bins:                                     0         68          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint data_in                                100.00%        100          -    Covered              
+        covered/total bins:                                64         64          -                      
+        missing/total bins:                                 0         64          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[0]                                     24403          1          -    Covered              
+        bin auto[1]                                      7150          1          -    Covered              
+        bin auto[2]                                      4225          1          -    Covered              
+        bin auto[3]                                      5207          1          -    Covered              
+        bin auto[4]                                      1326          1          -    Covered              
+        bin auto[5]                                       461          1          -    Covered              
+        bin auto[6]                                      1318          1          -    Covered              
+        bin auto[7]                                       174          1          -    Covered              
+        bin auto[8]                                       429          1          -    Covered              
+        bin auto[9]                                       577          1          -    Covered              
+        bin auto[10]                                       53          1          -    Covered              
+        bin auto[11]                                        6          1          -    Covered              
+        bin auto[12]                                      423          1          -    Covered              
+        bin auto[13]                                       54          1          -    Covered              
+        bin auto[14]                                       56          1          -    Covered              
+        bin auto[15]                                      152          1          -    Covered              
+        bin auto[16]                                      326          1          -    Covered              
+        bin auto[17]                                       32          1          -    Covered              
+        bin auto[18]                                       57          1          -    Covered              
+        bin auto[19]                                       32          1          -    Covered              
+        bin auto[20]                                        5          1          -    Covered              
+        bin auto[21]                                        3          1          -    Covered              
+        bin auto[22]                                        1          1          -    Covered              
+        bin auto[23]                                        6          1          -    Covered              
+        bin auto[24]                                       79          1          -    Covered              
+        bin auto[25]                                       23          1          -    Covered              
+        bin auto[26]                                       48          1          -    Covered              
+        bin auto[27]                                       18          1          -    Covered              
+        bin auto[28]                                       86          1          -    Covered              
+        bin auto[29]                                      242          1          -    Covered              
+        bin auto[30]                                      640          1          -    Covered              
+        bin auto[31]                                     1089          1          -    Covered              
+        bin auto[32]                                      996          1          -    Covered              
+        bin auto[33]                                      712          1          -    Covered              
+        bin auto[34]                                       71          1          -    Covered              
+        bin auto[35]                                       55          1          -    Covered              
+        bin auto[36]                                       68          1          -    Covered              
+        bin auto[37]                                       13          1          -    Covered              
+        bin auto[38]                                       26          1          -    Covered              
+        bin auto[39]                                       27          1          -    Covered              
+        bin auto[40]                                       25          1          -    Covered              
+        bin auto[41]                                       50          1          -    Covered              
+        bin auto[42]                                        8          1          -    Covered              
+        bin auto[43]                                       16          1          -    Covered              
+        bin auto[44]                                        4          1          -    Covered              
+        bin auto[45]                                       25          1          -    Covered              
+        bin auto[46]                                       75          1          -    Covered              
+        bin auto[47]                                      267          1          -    Covered              
+        bin auto[48]                                      154          1          -    Covered              
+        bin auto[49]                                      108          1          -    Covered              
+        bin auto[50]                                       49          1          -    Covered              
+        bin auto[51]                                       99          1          -    Covered              
+        bin auto[52]                                      337          1          -    Covered              
+        bin auto[53]                                      199          1          -    Covered              
+        bin auto[54]                                       80          1          -    Covered              
+        bin auto[55]                                      523          1          -    Covered              
+        bin auto[56]                                      635          1          -    Covered              
+        bin auto[57]                                      745          1          -    Covered              
+        bin auto[58]                                     1305          1          -    Covered              
+        bin auto[59]                                     1272          1          -    Covered              
+        bin auto[60]                                     4091          1          -    Covered              
+        bin auto[61]                                     5825          1          -    Covered              
+        bin auto[62]                                     6202          1          -    Covered              
+        bin auto[63]                                    10568          1          -    Covered              
+    Coverpoint MODE                                   100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin mode0                                       42886          1          -    Covered              
+        bin mode1                                       40447          1          -    Covered              
+    Coverpoint direction                              100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin direction0                                  43349          1          -    Covered              
+        bin direction1                                  39984          1          -    Covered              
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      14        12         2    85.71%
+
+================================Statement Details================================
+
+Statement Coverage for instance /shift_coverage_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File shift_coverage.sv
+    8               1                    ***0***     
+    8               2                    ***0***     
+    8               3                          2     
+    28              1                          1     
+    29              1                          1     
+    33              1                          1     
+    34              1                          1     
+    35              1                          1     
+    39              1                          1     
+    40              1                          1     
+    44              1                          1     
+    45              1                          1     
+    46              1                      83334     
+    48              1                      83333     
+
+=================================================================================
+=== Instance: /shift_scoreboard_pkg
+=== Design Unit: work.shift_scoreboard_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        11         7         4    63.63%
+
+================================Branch Details================================
+
+Branch Coverage for instance /shift_scoreboard_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File shift_scoreboard.sv
+------------------------------------IF Branch------------------------------------
+    35                                     83333     Count coming in to IF
+    35              1                    ***0***     
+    39              1                      83333     
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    36                                   ***0***     Count coming in to IF
+    36              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    44                                     83333     Count coming in to IF
+    44              1                      40447     
+    50              1                      20002     
+    52              1                      22884     
+Branch totals: 3 hits of 3 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    45                                     40447     Count coming in to IF
+    45              1                      19982     
+    47              1                      20465     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    59                                         1     Count coming in to IF
+    59              1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       1         0         1     0.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /shift_scoreboard_pkg --
+
+  File shift_scoreboard.sv
+----------------Focused Condition View-------------------
+Line       35 Item    1  (this.itm.dataout != this.dataout_ref)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+                              Input Term   Covered  Reason for no coverage   Hint
+                             -----------  --------  -----------------------  --------------
+  (this.itm.dataout != this.dataout_ref)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target                                Non-masking condition(s)      
+ ---------  ---------  --------------------                      -------------------------     
+  Row   1:    ***0***  (this.itm.dataout != this.dataout_ref)_0  -                             
+  Row   2:    ***0***  (this.itm.dataout != this.dataout_ref)_1  -                             
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      22        18         4    81.81%
+
+================================Statement Details================================
+
+Statement Coverage for instance /shift_scoreboard_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File shift_scoreboard.sv
+    8               1                    ***0***     
+    8               2                    ***0***     
+    8               3                          2     
+    16              1                          1     
+    20              1                          1     
+    21              1                          1     
+    22              1                          1     
+    26              1                          1     
+    27              1                          1     
+    31              1                          1     
+    32              1                          1     
+    33              1                      83334     
+    34              1                      83333     
+    36              1                    ***0***     
+    37              1                    ***0***     
+    39              1                      83333     
+    46              1                      19982     
+    48              1                      20465     
+    51              1                      20002     
+    53              1                      22884     
+    58              1                          1     
+    59              1                          1     
+
+=================================================================================
+=== Instance: /shift_env_pkg
+=== Design Unit: work.shift_env_pkg
+=================================================================================
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      11         9         2    81.81%
+
+================================Statement Details================================
+
+Statement Coverage for instance /shift_env_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File Shift_env.sv
+    11              1                    ***0***     
+    11              2                    ***0***     
+    11              3                          2     
+    17              1                          1     
+    21              1                          1     
+    22              1                          1     
+    23              1                          1     
+    24              1                          1     
+    28              1                          1     
+    29              1                          1     
+    30              1                          1     
+
+=================================================================================
+=== Instance: /ALSU_seq_item_pkg
+=== Design Unit: work.ALSU_seq_item_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        10         2         8    20.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /ALSU_seq_item_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ALSU_seq_item.sv
+------------------------------------IF Branch------------------------------------
+    7                                    ***0***     Count coming in to IF
+    7               1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    7                                      50000     Count coming in to IF
+    7               2                    ***0***     
+                                           50000     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    7                                    ***0***     Count coming in to IF
+    7               3                    ***0***     
+    7               4                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    7                                      50000     Count coming in to IF
+    7               5                    ***0***     
+                                           50000     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    7                                    ***0***     Count coming in to IF
+    7               6                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       2         0         2     0.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /ALSU_seq_item_pkg --
+
+  File ALSU_seq_item.sv
+----------------Focused Condition View-------------------
+Line       7 Item    1  (name != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name != 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name != 0)_0         -                             
+  Row   2:    ***0***  (name != 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       7 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:          1  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      14         4        10    28.57%
+
+================================Statement Details================================
+
+Statement Coverage for instance /ALSU_seq_item_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ALSU_seq_item.sv
+    7               1                    ***0***     
+    7               2                    ***0***     
+    7               3                    ***0***     
+    7               4                    ***0***     
+    7               5                    ***0***     
+    7               6                      50000     
+    7               7                    ***0***     
+    7               8                    ***0***     
+    7               9                      50000     
+    7              10                    ***0***     
+    15              1                     125002     
+    21              1                     125002     
+    25              1                    ***0***     
+    31              1                    ***0***     
+
+=================================================================================
+=== Instance: /ALSU_driver_pkg
+=== Design Unit: work.ALSU_driver_pkg
+=================================================================================
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      21        19         2    90.47%
+
+================================Statement Details================================
+
+Statement Coverage for instance /ALSU_driver_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ALSU_driver.sv
+    8               1                    ***0***     
+    8               2                    ***0***     
+    8               3                          2     
+    14              1                          1     
+    18              1                          1     
+    19              1                          1     
+    20              1                      50001     
+    21              1                      50001     
+    22              1                      50000     
+    23              1                      50000     
+    24              1                      50000     
+    25              1                      50000     
+    26              1                      50000     
+    27              1                      50000     
+    28              1                      50000     
+    29              1                      50000     
+    30              1                      50000     
+    31              1                      50000     
+    32              1                      50000     
+    33              1                      50000     
+    34              1                      50000     
+
+=================================================================================
+=== Instance: /ALSU_sequencer_pkg
+=== Design Unit: work.ALSU_sequencer_pkg
+=================================================================================
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       4         2         2    50.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /ALSU_sequencer_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ALSU_sequencer.sv
+    7               1                    ***0***     
+    7               2                    ***0***     
+    7               3                          2     
+    10              1                          1     
+
+=================================================================================
+=== Instance: /ALSU_monitor_pkg
+=== Design Unit: work.ALSU_monitor_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         1         1    50.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /ALSU_monitor_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ALSU_monitor.sv
+------------------------------------IF Branch------------------------------------
+    38                                     50000     Count coming in to IF
+    38              1                    ***0***     
+                                           50000     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      23        20         3    86.95%
+
+================================Statement Details================================
+
+Statement Coverage for instance /ALSU_monitor_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ALSU_monitor.sv
+    7               1                    ***0***     
+    7               2                    ***0***     
+    7               3                          2     
+    13              1                          1     
+    17              1                          1     
+    18              1                          1     
+    22              1                          1     
+    23              1                          1     
+    24              1                      50001     
+    25              1                      50001     
+    26              1                      50000     
+    27              1                      50000     
+    28              1                      50000     
+    29              1                      50000     
+    30              1                      50000     
+    31              1                      50000     
+    32              1                      50000     
+    33              1                      50000     
+    34              1                      50000     
+    35              1                      50000     
+    36              1                      50000     
+    37              1                      50000     
+    38              1                    ***0***     
+
+=================================================================================
+=== Instance: /ALSU_agent_pkg
+=== Design Unit: work.ALSU_agent_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         8         3         5    37.50%
+
+================================Branch Details================================
+
+Branch Coverage for instance /ALSU_agent_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ALSU_agent.sv
+------------------------------------IF Branch------------------------------------
+    29                                         1     Count coming in to IF
+    29              1                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    30                                   ***0***     Count coming in to IF
+    30              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    32                                         1     Count coming in to IF
+    32              1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    40                                         1     Count coming in to IF
+    40              1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      16        13         3    81.25%
+
+================================Statement Details================================
+
+Statement Coverage for instance /ALSU_agent_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ALSU_agent.sv
+    11              1                    ***0***     
+    11              2                    ***0***     
+    11              3                          2     
+    21              1                          1     
+    25              1                          1     
+    27              1                          1     
+    28              1                          1     
+    30              1                    ***0***     
+    31              1                          1     
+    33              1                          1     
+    34              1                          1     
+    39              1                          1     
+    41              1                          1     
+    42              1                          1     
+    44              1                          1     
+    45              1                          1     
+
+=================================================================================
+=== Instance: /ALSU_coverage_pkg
+=== Design Unit: work.ALSU_coverage_pkg
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      1        na        na   100.00%
+        Coverpoints/Crosses         18        na        na        na
+            Covergroup Bins         67        63         4    94.02%
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /ALSU_coverage_pkg/ALSU_coverage/cvr_gp         100.00%        100          -    Covered              
+    covered/total bins:                                    63         67          -                      
+    missing/total bins:                                     4         67          -                      
+    % Hit:                                             94.02%        100          -                      
+    Coverpoint CIN                                      0.00%        100          -    ZERO                 
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint red_op_A                                 0.00%        100          -    ZERO                 
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint red_op_B                                 0.00%        100          -    ZERO                 
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint bypass_A                                 0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          0          -                      
+        missing/total bins:                                 0          0          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint bypass_B                                 0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          0          -                      
+        missing/total bins:                                 0          0          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint direction                                0.00%        100          -    ZERO                 
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint serial_in                                0.00%        100          -    ZERO                 
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint special                                  0.00%        100          -    ZERO                 
+        covered/total bins:                                 6          6          -                      
+        missing/total bins:                                 0          6          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint CB1                                    100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint CB2                                    100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint A_M                                    100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint CB3                                    100.00%        100          -    Covered              
+        covered/total bins:                                 7          7          -                      
+        missing/total bins:                                 0          7          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross corner_case                                 100.00%        100          -    Covered              
+        covered/total bins:                                18         18          -                      
+        missing/total bins:                                 0         18          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross Addation                                    100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross shift                                       100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross shift_rotate                                100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross walkingones                                 100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross invalidation                                100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/ALSU_coverage_pkg::ALSU_coverage::cvr_gp  
+                                                      100.00%        100          -    Covered              
+    covered/total bins:                                    63         67          -                      
+    missing/total bins:                                     4         67          -                      
+    % Hit:                                             94.02%        100          -                      
+    Coverpoint CIN [1]                                100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin CIN0                                        25143          1          -    Covered              
+        bin CIN1                                        24857          1          -    Covered              
+    Coverpoint red_op_A [1]                           100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin red_op_A0                                   42007          1          -    Covered              
+        bin red_op_A1                                    7993          1          -    Covered              
+    Coverpoint red_op_B [1]                           100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin red_op_B0                                   41786          1          -    Covered              
+        bin red_op_B1                                    8214          1          -    Covered              
+    Coverpoint bypass_A [1]                             0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          2          -                      
+        missing/total bins:                                 2          2          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin bypass_A0                                       0          1          -    ZERO                 
+        bin bypass_A1                                       0          1          -    ZERO                 
+    Coverpoint bypass_B [1]                             0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          2          -                      
+        missing/total bins:                                 2          2          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin bypass_B0                                       0          1          -    ZERO                 
+        bin bypass_B1                                       0          1          -    ZERO                 
+    Coverpoint direction [1]                          100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin direction0                                  25342          1          -    Covered              
+        bin direction1                                  24658          1          -    Covered              
+    Coverpoint serial_in [1]                          100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin serial_in0                                  24998          1          -    Covered              
+        bin serial_in1                                  25002          1          -    Covered              
+    Coverpoint special [1]                            100.00%        100          -    Covered              
+        covered/total bins:                                 6          6          -                      
+        missing/total bins:                                 0          6          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin operataions[0]                               8589          1          -    Covered              
+        bin operataions[1]                               8588          1          -    Covered              
+        bin operataions[2]                               7720          1          -    Covered              
+        bin operataions[3]                               7660          1          -    Covered              
+        bin operataions[4]                               8639          1          -    Covered              
+        bin operataions[5]                               8725          1          -    Covered              
+    Coverpoint CB1                                    100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin A_data_0                                     8210          1          -    Covered              
+        bin A_data_max                                   7616          1          -    Covered              
+        bin A_data_min                                   6873          1          -    Covered              
+        bin A_data_walkingones[1]                         581          1          -    Covered              
+        bin A_data_walkingones[2]                         604          1          -    Covered              
+        default bin A_data_default                      16292                     -    Occurred             
+    Coverpoint CB2                                    100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin B_data_0                                     9111          1          -    Covered              
+        bin B_data_max                                   7576          1          -    Covered              
+        bin B_data_min                                   5739          1          -    Covered              
+        bin B_data_walkingones[1]                         586          1          -    Covered              
+        bin B_data_walkingones[2]                         567          1          -    Covered              
+        default bin B_data_default                      16654                     -    Occurred             
+    Coverpoint A_M                                    100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin Bins_arith[2]                                7720          1          -    Covered              
+        bin Bins_arith[3]                                7660          1          -    Covered              
+    Coverpoint CB3                                    100.00%        100          -    Covered              
+        covered/total bins:                                 7          7          -                      
+        missing/total bins:                                 0          7          -                      
+        % Hit:                                        100.00%        100          -                      
+        illegal_bin Bins_invalid                           79                     -    Occurred             
+        bin Bins_shift[4]                                8639          1          -    Covered              
+        bin Bins_shift[5]                                8725          1          -    Covered              
+        bin Bins_arith[2]                                7720          1          -    Covered              
+        bin Bins_arith[3]                                7660          1          -    Covered              
+        bin Bins_bitwise[0]                              8589          1          -    Covered              
+        bin Bins_bitwise[1]                              8588          1          -    Covered              
+        bin Bins_trans                                     10          1          -    Covered              
+    Cross corner_case                                 100.00%        100          -    Covered              
+        covered/total bins:                                18         18          -                      
+        missing/total bins:                                 0         18          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <Bins_arith[3],B_data_min,A_data_min> 
+                                                           95          1          -    Covered              
+            bin <Bins_arith[2],B_data_min,A_data_min> 
+                                                           94          1          -    Covered              
+            bin <Bins_arith[3],B_data_min,A_data_max> 
+                                                          107          1          -    Covered              
+            bin <Bins_arith[3],B_data_min,A_data_0> 
+                                                          104          1          -    Covered              
+            bin <Bins_arith[2],B_data_min,A_data_max> 
+                                                          111          1          -    Covered              
+            bin <Bins_arith[2],B_data_min,A_data_0> 
+                                                          101          1          -    Covered              
+            bin <Bins_arith[3],B_data_max,A_data_min> 
+                                                          119          1          -    Covered              
+            bin <Bins_arith[3],B_data_0,A_data_min> 
+                                                          124          1          -    Covered              
+            bin <Bins_arith[2],B_data_max,A_data_min> 
+                                                          110          1          -    Covered              
+            bin <Bins_arith[2],B_data_0,A_data_min> 
+                                                          130          1          -    Covered              
+            bin <Bins_arith[3],B_data_max,A_data_max> 
+                                                          939          1          -    Covered              
+            bin <Bins_arith[3],B_data_0,A_data_max> 
+                                                          116          1          -    Covered              
+            bin <Bins_arith[3],B_data_max,A_data_0> 
+                                                          144          1          -    Covered              
+            bin <Bins_arith[3],B_data_0,A_data_0>         950          1          -    Covered              
+            bin <Bins_arith[2],B_data_max,A_data_max> 
+                                                          970          1          -    Covered              
+            bin <Bins_arith[2],B_data_0,A_data_max> 
+                                                          109          1          -    Covered              
+            bin <Bins_arith[2],B_data_max,A_data_0> 
+                                                          140          1          -    Covered              
+            bin <Bins_arith[2],B_data_0,A_data_0>         994          1          -    Covered              
+        Illegal and Ignore Bins:
+            ignore_bin walkingB                           129                     -    Occurred             
+            ignore_bin walkingA                           108                     -    Occurred             
+    Cross Addation                                    100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin Add_cin0                                 3867          1          -    Covered              
+            bin Add_cin1                                 3853          1          -    Covered              
+    Cross shift                                       100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin shift_Si0                                4340          1          -    Covered              
+            bin shift_Si1                                4340          1          -    Covered              
+    Cross shift_rotate                                100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin shu_rot_d0                               8846          1          -    Covered              
+            bin shu_rot_d1                               8518          1          -    Covered              
+    Cross walkingones                                 100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin arithA                                    104          1          -    Covered              
+            bin arithB                                     47          1          -    Covered              
+    Cross invalidation                                100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin ROpA_notXoR                              6314          1          -    Covered              
+            bin ROpB_notXoR                              6422          1          -    Covered              
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      14        12         2    85.71%
+
+================================Statement Details================================
+
+Statement Coverage for instance /ALSU_coverage_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ALSU_coverage.sv
+    8               1                    ***0***     
+    8               2                    ***0***     
+    8               3                          2     
+    119             1                          1     
+    120             1                          1     
+    125             1                          1     
+    126             1                          1     
+    127             1                          1     
+    131             1                          1     
+    132             1                          1     
+    136             1                          1     
+    137             1                          1     
+    138             1                      50001     
+    139             1                      50000     
+
+=================================================================================
+=== Instance: /ALSU_env_pkg
+=== Design Unit: work.ALSU_env_pkg
+=================================================================================
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       9         7         2    77.77%
+
+================================Statement Details================================
+
+Statement Coverage for instance /ALSU_env_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ALSU_env.sv
+    8               1                    ***0***     
+    8               2                    ***0***     
+    8               3                          2     
+    13              1                          1     
+    17              1                          1     
+    18              1                          1     
+    19              1                          1     
+    23              1                          1     
+    24              1                          1     
+
+=================================================================================
+=== Instance: /ALSU_sequence_pkg
+=== Design Unit: work.ALSU_sequence_pkg
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       2         2         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/ALSU_sequence_pkg/main_sequence/body/#ublk#37877255#31/immed__37
+                     ALSU_sequence.sv(37)               0          1
+/ALSU_sequence_pkg/second_sequence/body/#anonblk#37877255#53#4#/#ublk#37877255#53/immed__62
+                     ALSU_sequence.sv(62)               0          1
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        30         4        26    13.33%
+
+================================Branch Details================================
+
+Branch Coverage for instance /ALSU_sequence_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ALSU_sequence.sv
+------------------------------------IF Branch------------------------------------
+    7                                    ***0***     Count coming in to IF
+    7               1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    7                                    ***0***     Count coming in to IF
+    7               2                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    7                                    ***0***     Count coming in to IF
+    7               3                    ***0***     
+    7               4                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    7                                    ***0***     Count coming in to IF
+    7               5                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    7                                    ***0***     Count coming in to IF
+    7               6                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    23                                   ***0***     Count coming in to IF
+    23              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    23                                         1     Count coming in to IF
+    23              2                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    23                                   ***0***     Count coming in to IF
+    23              3                    ***0***     
+    23              4                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    23                                         1     Count coming in to IF
+    23              5                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    23                                   ***0***     Count coming in to IF
+    23              6                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    45                                   ***0***     Count coming in to IF
+    45              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    45                                         1     Count coming in to IF
+    45              2                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    45                                   ***0***     Count coming in to IF
+    45              3                    ***0***     
+    45              4                    ***0***     
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    45                                         1     Count coming in to IF
+    45              5                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    45                                   ***0***     Count coming in to IF
+    45              6                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       6         0         6     0.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /ALSU_sequence_pkg --
+
+  File ALSU_sequence.sv
+----------------Focused Condition View-------------------
+Line       7 Item    1  (name != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name != 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name != 0)_0         -                             
+  Row   2:    ***0***  (name != 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       7 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:    ***0***  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       23 Item    1  (name != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name != 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name != 0)_0         -                             
+  Row   2:    ***0***  (name != 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       23 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:          1  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+----------------Focused Condition View-------------------
+Line       45 Item    1  (name != 0)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+  (name != 0)         N  No hits                  Hit '_0' and '_1'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (name != 0)_0         -                             
+  Row   2:    ***0***  (name != 0)_1         -                             
+
+----------------Focused Condition View-------------------
+Line       45 Item    2  (tmp_data__ != null)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+            Input Term   Covered  Reason for no coverage   Hint
+           -----------  --------  -----------------------  --------------
+  (tmp_data__ != null)         N  '_1' not hit             Hit '_1'
+
+     Rows:       Hits  FEC Target              Non-masking condition(s)      
+ ---------  ---------  --------------------    -------------------------     
+  Row   1:          1  (tmp_data__ != null)_0  -                             
+  Row   2:    ***0***  (tmp_data__ != null)_1  -                             
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      62        32        30    51.61%
+
+================================Statement Details================================
+
+Statement Coverage for instance /ALSU_sequence_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File ALSU_sequence.sv
+    7               1                    ***0***     
+    7               2                    ***0***     
+    7               3                    ***0***     
+    7               4                    ***0***     
+    7               5                    ***0***     
+    7               6                    ***0***     
+    7               7                    ***0***     
+    7               8                    ***0***     
+    7               9                    ***0***     
+    7              10                    ***0***     
+    10              1                          1     
+    15              1                    ***0***     
+    16              1                    ***0***     
+    17              1                    ***0***     
+    18              1                    ***0***     
+    23              1                    ***0***     
+    23              2                    ***0***     
+    23              3                    ***0***     
+    23              4                    ***0***     
+    23              5                    ***0***     
+    23              6                          1     
+    23              7                    ***0***     
+    23              8                    ***0***     
+    23              9                          1     
+    23             10                    ***0***     
+    26              1                          1     
+    31              1                      20000     
+    33              1                      20000     
+    34              1                      20000     
+    35              1                      20000     
+    36              1                      20000     
+    38              1                      20000     
+    45              1                    ***0***     
+    45              2                    ***0***     
+    45              3                    ***0***     
+    45              4                    ***0***     
+    45              5                    ***0***     
+    45              6                          1     
+    45              7                    ***0***     
+    45              8                    ***0***     
+    45              9                          1     
+    45             10                    ***0***     
+    48              1                          1     
+    53              1                          1     
+    53              2                       5000     
+    55              1                       5000     
+    56              1                       5000     
+    57              1                       5000     
+    59              1                       5000     
+    59              2                       5000     
+    59              3                       5000     
+    59              4                       5000     
+    59              5                       5000     
+    60              1                       5000     
+    60              2                       5000     
+    60              3                       5000     
+    60              4                       5000     
+    61              1                       5000     
+    64              1                      35000     
+    65              1                      30000     
+    66              1                      30000     
+    67              1                      30000     
+
+=================================================================================
+=== Instance: /test_pkg
+=== Design Unit: work.test_pkg
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12         4         8    33.33%
+
+================================Branch Details================================
+
+Branch Coverage for instance /test_pkg
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File test.sv
+------------------------------------IF Branch------------------------------------
+    39                                         1     Count coming in to IF
+    39              1                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    40                                   ***0***     Count coming in to IF
+    40              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    42                                         1     Count coming in to IF
+    42              1                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    43                                   ***0***     Count coming in to IF
+    43              1                    ***0***     
+                                         ***0***     All False Count
+Branch totals: 0 hits of 2 branches = 0.00%
+
+------------------------------------IF Branch------------------------------------
+    58                                         1     Count coming in to IF
+    58              1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+------------------------------------IF Branch------------------------------------
+    60                                         1     Count coming in to IF
+    60              1                          1     
+                                         ***0***     All False Count
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      25        21         4    84.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /test_pkg --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File test.sv
+    10              1                    ***0***     
+    10              2                    ***0***     
+    10              3                          4     
+    24              1                          1     
+    28              1                          1     
+    29              1                          1     
+    30              1                          1     
+    31              1                          1     
+    33              1                          1     
+    34              1                          1     
+    36              1                          1     
+    37              1                          1     
+    40              1                    ***0***     
+    43              1                    ***0***     
+    44              1                          1     
+    45              1                          1     
+    47              1                          1     
+    48              1                          1     
+    53              1                          1     
+    54              1                          1     
+    58              1                          1     
+    59              1                          1     
+    60              1                          1     
+    61              1                          1     
+    62              1                          1     
+
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /shift_coverage_pkg/shift_reg_cov/covgup        100.00%        100          -    Covered              
+    covered/total bins:                                    68         68          -                      
+    missing/total bins:                                     0         68          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint data_in                                100.00%        100          -    Covered              
+        covered/total bins:                                64         64          -                      
+        missing/total bins:                                 0         64          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[0]                                     24403          1          -    Covered              
+        bin auto[1]                                      7150          1          -    Covered              
+        bin auto[2]                                      4225          1          -    Covered              
+        bin auto[3]                                      5207          1          -    Covered              
+        bin auto[4]                                      1326          1          -    Covered              
+        bin auto[5]                                       461          1          -    Covered              
+        bin auto[6]                                      1318          1          -    Covered              
+        bin auto[7]                                       174          1          -    Covered              
+        bin auto[8]                                       429          1          -    Covered              
+        bin auto[9]                                       577          1          -    Covered              
+        bin auto[10]                                       53          1          -    Covered              
+        bin auto[11]                                        6          1          -    Covered              
+        bin auto[12]                                      423          1          -    Covered              
+        bin auto[13]                                       54          1          -    Covered              
+        bin auto[14]                                       56          1          -    Covered              
+        bin auto[15]                                      152          1          -    Covered              
+        bin auto[16]                                      326          1          -    Covered              
+        bin auto[17]                                       32          1          -    Covered              
+        bin auto[18]                                       57          1          -    Covered              
+        bin auto[19]                                       32          1          -    Covered              
+        bin auto[20]                                        5          1          -    Covered              
+        bin auto[21]                                        3          1          -    Covered              
+        bin auto[22]                                        1          1          -    Covered              
+        bin auto[23]                                        6          1          -    Covered              
+        bin auto[24]                                       79          1          -    Covered              
+        bin auto[25]                                       23          1          -    Covered              
+        bin auto[26]                                       48          1          -    Covered              
+        bin auto[27]                                       18          1          -    Covered              
+        bin auto[28]                                       86          1          -    Covered              
+        bin auto[29]                                      242          1          -    Covered              
+        bin auto[30]                                      640          1          -    Covered              
+        bin auto[31]                                     1089          1          -    Covered              
+        bin auto[32]                                      996          1          -    Covered              
+        bin auto[33]                                      712          1          -    Covered              
+        bin auto[34]                                       71          1          -    Covered              
+        bin auto[35]                                       55          1          -    Covered              
+        bin auto[36]                                       68          1          -    Covered              
+        bin auto[37]                                       13          1          -    Covered              
+        bin auto[38]                                       26          1          -    Covered              
+        bin auto[39]                                       27          1          -    Covered              
+        bin auto[40]                                       25          1          -    Covered              
+        bin auto[41]                                       50          1          -    Covered              
+        bin auto[42]                                        8          1          -    Covered              
+        bin auto[43]                                       16          1          -    Covered              
+        bin auto[44]                                        4          1          -    Covered              
+        bin auto[45]                                       25          1          -    Covered              
+        bin auto[46]                                       75          1          -    Covered              
+        bin auto[47]                                      267          1          -    Covered              
+        bin auto[48]                                      154          1          -    Covered              
+        bin auto[49]                                      108          1          -    Covered              
+        bin auto[50]                                       49          1          -    Covered              
+        bin auto[51]                                       99          1          -    Covered              
+        bin auto[52]                                      337          1          -    Covered              
+        bin auto[53]                                      199          1          -    Covered              
+        bin auto[54]                                       80          1          -    Covered              
+        bin auto[55]                                      523          1          -    Covered              
+        bin auto[56]                                      635          1          -    Covered              
+        bin auto[57]                                      745          1          -    Covered              
+        bin auto[58]                                     1305          1          -    Covered              
+        bin auto[59]                                     1272          1          -    Covered              
+        bin auto[60]                                     4091          1          -    Covered              
+        bin auto[61]                                     5825          1          -    Covered              
+        bin auto[62]                                     6202          1          -    Covered              
+        bin auto[63]                                    10568          1          -    Covered              
+    Coverpoint MODE                                   100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin mode0                                       42886          1          -    Covered              
+        bin mode1                                       40447          1          -    Covered              
+    Coverpoint direction                              100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin direction0                                  43349          1          -    Covered              
+        bin direction1                                  39984          1          -    Covered              
+ TYPE /ALSU_coverage_pkg/ALSU_coverage/cvr_gp         100.00%        100          -    Covered              
+    covered/total bins:                                    63         67          -                      
+    missing/total bins:                                     4         67          -                      
+    % Hit:                                             94.02%        100          -                      
+    Coverpoint CIN                                      0.00%        100          -    ZERO                 
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint red_op_A                                 0.00%        100          -    ZERO                 
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint red_op_B                                 0.00%        100          -    ZERO                 
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint bypass_A                                 0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          0          -                      
+        missing/total bins:                                 0          0          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint bypass_B                                 0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          0          -                      
+        missing/total bins:                                 0          0          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint direction                                0.00%        100          -    ZERO                 
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint serial_in                                0.00%        100          -    ZERO                 
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint special                                  0.00%        100          -    ZERO                 
+        covered/total bins:                                 6          6          -                      
+        missing/total bins:                                 0          6          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint CB1                                    100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint CB2                                    100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint A_M                                    100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint CB3                                    100.00%        100          -    Covered              
+        covered/total bins:                                 7          7          -                      
+        missing/total bins:                                 0          7          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross corner_case                                 100.00%        100          -    Covered              
+        covered/total bins:                                18         18          -                      
+        missing/total bins:                                 0         18          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross Addation                                    100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross shift                                       100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross shift_rotate                                100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross walkingones                                 100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross invalidation                                100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/ALSU_coverage_pkg::ALSU_coverage::cvr_gp  
+                                                      100.00%        100          -    Covered              
+    covered/total bins:                                    63         67          -                      
+    missing/total bins:                                     4         67          -                      
+    % Hit:                                             94.02%        100          -                      
+    Coverpoint CIN [1]                                100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin CIN0                                        25143          1          -    Covered              
+        bin CIN1                                        24857          1          -    Covered              
+    Coverpoint red_op_A [1]                           100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin red_op_A0                                   42007          1          -    Covered              
+        bin red_op_A1                                    7993          1          -    Covered              
+    Coverpoint red_op_B [1]                           100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin red_op_B0                                   41786          1          -    Covered              
+        bin red_op_B1                                    8214          1          -    Covered              
+    Coverpoint bypass_A [1]                             0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          2          -                      
+        missing/total bins:                                 2          2          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin bypass_A0                                       0          1          -    ZERO                 
+        bin bypass_A1                                       0          1          -    ZERO                 
+    Coverpoint bypass_B [1]                             0.00%        100          -    ZERO                 
+        covered/total bins:                                 0          2          -                      
+        missing/total bins:                                 2          2          -                      
+        % Hit:                                          0.00%        100          -                      
+        bin bypass_B0                                       0          1          -    ZERO                 
+        bin bypass_B1                                       0          1          -    ZERO                 
+    Coverpoint direction [1]                          100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin direction0                                  25342          1          -    Covered              
+        bin direction1                                  24658          1          -    Covered              
+    Coverpoint serial_in [1]                          100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin serial_in0                                  24998          1          -    Covered              
+        bin serial_in1                                  25002          1          -    Covered              
+    Coverpoint special [1]                            100.00%        100          -    Covered              
+        covered/total bins:                                 6          6          -                      
+        missing/total bins:                                 0          6          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin operataions[0]                               8589          1          -    Covered              
+        bin operataions[1]                               8588          1          -    Covered              
+        bin operataions[2]                               7720          1          -    Covered              
+        bin operataions[3]                               7660          1          -    Covered              
+        bin operataions[4]                               8639          1          -    Covered              
+        bin operataions[5]                               8725          1          -    Covered              
+    Coverpoint CB1                                    100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin A_data_0                                     8210          1          -    Covered              
+        bin A_data_max                                   7616          1          -    Covered              
+        bin A_data_min                                   6873          1          -    Covered              
+        bin A_data_walkingones[1]                         581          1          -    Covered              
+        bin A_data_walkingones[2]                         604          1          -    Covered              
+        default bin A_data_default                      16292                     -    Occurred             
+    Coverpoint CB2                                    100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin B_data_0                                     9111          1          -    Covered              
+        bin B_data_max                                   7576          1          -    Covered              
+        bin B_data_min                                   5739          1          -    Covered              
+        bin B_data_walkingones[1]                         586          1          -    Covered              
+        bin B_data_walkingones[2]                         567          1          -    Covered              
+        default bin B_data_default                      16654                     -    Occurred             
+    Coverpoint A_M                                    100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin Bins_arith[2]                                7720          1          -    Covered              
+        bin Bins_arith[3]                                7660          1          -    Covered              
+    Coverpoint CB3                                    100.00%        100          -    Covered              
+        covered/total bins:                                 7          7          -                      
+        missing/total bins:                                 0          7          -                      
+        % Hit:                                        100.00%        100          -                      
+        illegal_bin Bins_invalid                           79                     -    Occurred             
+        bin Bins_shift[4]                                8639          1          -    Covered              
+        bin Bins_shift[5]                                8725          1          -    Covered              
+        bin Bins_arith[2]                                7720          1          -    Covered              
+        bin Bins_arith[3]                                7660          1          -    Covered              
+        bin Bins_bitwise[0]                              8589          1          -    Covered              
+        bin Bins_bitwise[1]                              8588          1          -    Covered              
+        bin Bins_trans                                     10          1          -    Covered              
+    Cross corner_case                                 100.00%        100          -    Covered              
+        covered/total bins:                                18         18          -                      
+        missing/total bins:                                 0         18          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <Bins_arith[3],B_data_min,A_data_min> 
+                                                           95          1          -    Covered              
+            bin <Bins_arith[2],B_data_min,A_data_min> 
+                                                           94          1          -    Covered              
+            bin <Bins_arith[3],B_data_min,A_data_max> 
+                                                          107          1          -    Covered              
+            bin <Bins_arith[3],B_data_min,A_data_0> 
+                                                          104          1          -    Covered              
+            bin <Bins_arith[2],B_data_min,A_data_max> 
+                                                          111          1          -    Covered              
+            bin <Bins_arith[2],B_data_min,A_data_0> 
+                                                          101          1          -    Covered              
+            bin <Bins_arith[3],B_data_max,A_data_min> 
+                                                          119          1          -    Covered              
+            bin <Bins_arith[3],B_data_0,A_data_min> 
+                                                          124          1          -    Covered              
+            bin <Bins_arith[2],B_data_max,A_data_min> 
+                                                          110          1          -    Covered              
+            bin <Bins_arith[2],B_data_0,A_data_min> 
+                                                          130          1          -    Covered              
+            bin <Bins_arith[3],B_data_max,A_data_max> 
+                                                          939          1          -    Covered              
+            bin <Bins_arith[3],B_data_0,A_data_max> 
+                                                          116          1          -    Covered              
+            bin <Bins_arith[3],B_data_max,A_data_0> 
+                                                          144          1          -    Covered              
+            bin <Bins_arith[3],B_data_0,A_data_0>         950          1          -    Covered              
+            bin <Bins_arith[2],B_data_max,A_data_max> 
+                                                          970          1          -    Covered              
+            bin <Bins_arith[2],B_data_0,A_data_max> 
+                                                          109          1          -    Covered              
+            bin <Bins_arith[2],B_data_max,A_data_0> 
+                                                          140          1          -    Covered              
+            bin <Bins_arith[2],B_data_0,A_data_0>         994          1          -    Covered              
+        Illegal and Ignore Bins:
+            ignore_bin walkingB                           129                     -    Occurred             
+            ignore_bin walkingA                           108                     -    Occurred             
+    Cross Addation                                    100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin Add_cin0                                 3867          1          -    Covered              
+            bin Add_cin1                                 3853          1          -    Covered              
+    Cross shift                                       100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin shift_Si0                                4340          1          -    Covered              
+            bin shift_Si1                                4340          1          -    Covered              
+    Cross shift_rotate                                100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin shu_rot_d0                               8846          1          -    Covered              
+            bin shu_rot_d1                               8518          1          -    Covered              
+    Cross walkingones                                 100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin arithA                                    104          1          -    Covered              
+            bin arithB                                     47          1          -    Covered              
+    Cross invalidation                                100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin ROpA_notXoR                              6314          1          -    Covered              
+            bin ROpB_notXoR                              6422          1          -    Covered              
+
+ [1] - Does not contribute coverage as weight is 0
+
+TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 2
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/top/DUT/AS/leds_cover                   Asseritions Verilog  SVA  _Assertions.sv(235)
+                                                                              8281 Covered   
+/top/DUT/AS/bypass1_cover                Asseritions Verilog  SVA  _Assertions.sv(239)
+                                                                               162 Covered   
+/top/DUT/AS/bypass2_cover                Asseritions Verilog  SVA  _Assertions.sv(240)
+                                                                                 0 ZERO      
+/top/DUT/AS/bypass3_cover                Asseritions Verilog  SVA  _Assertions.sv(241)
+                                                                              1489 Covered   
+/top/DUT/AS/bypass4_cover                Asseritions Verilog  SVA  _Assertions.sv(242)
+                                                                              1498 Covered   
+/top/DUT/AS/INVALID_cover                Asseritions Verilog  SVA  _Assertions.sv(245)
+                                                                              6775 Covered   
+/top/DUT/AS/OR1_cover                    Asseritions Verilog  SVA  _Assertions.sv(248)
+                                                                               345 Covered   
+/top/DUT/AS/OR2_cover                    Asseritions Verilog  SVA  _Assertions.sv(249)
+                                                                                 0 ZERO      
+/top/DUT/AS/OR3_cover                    Asseritions Verilog  SVA  _Assertions.sv(250)
+                                                                               211 Covered   
+/top/DUT/AS/OR4_cover                    Asseritions Verilog  SVA  _Assertions.sv(251)
+                                                                               276 Covered   
+/top/DUT/AS/OR5_cover                    Asseritions Verilog  SVA  _Assertions.sv(252)
+                                                                              6687 Covered   
+/top/DUT/AS/XOR1_cover                   Asseritions Verilog  SVA  _Assertions.sv(255)
+                                                                               351 Covered   
+/top/DUT/AS/XOR2_cover                   Asseritions Verilog  SVA  _Assertions.sv(256)
+                                                                                 0 ZERO      
+/top/DUT/AS/XOR3_cover                   Asseritions Verilog  SVA  _Assertions.sv(257)
+                                                                               232 Covered   
+/top/DUT/AS/XOR4_cover                   Asseritions Verilog  SVA  _Assertions.sv(258)
+                                                                               273 Covered   
+/top/DUT/AS/XOR5_cover                   Asseritions Verilog  SVA  _Assertions.sv(259)
+                                                                              6675 Covered   
+/top/DUT/AS/FullADD_cover                Asseritions Verilog  SVA  _Assertions.sv(262)
+                                                                              5510 Covered   
+/top/DUT/AS/halfADD_cover                Asseritions Verilog  SVA  _Assertions.sv(263)
+                                                                                 0 ZERO      
+/top/DUT/AS/Mult_cover                   Asseritions Verilog  SVA  _Assertions.sv(266)
+                                                                              5445 Covered   
+/top/DUT/AS/shiftL_cover                 Asseritions Verilog  SVA  _Assertions.sv(269)
+                                                                              2755 Covered   
+/top/DUT/AS/shiftR_cover                 Asseritions Verilog  SVA  _Assertions.sv(270)
+                                                                              2872 Covered   
+/top/DUT/AS/rotateLeft_cover             Asseritions Verilog  SVA  _Assertions.sv(273)
+                                                                              2757 Covered   
+/top/DUT/AS/rotateRight_cover            Asseritions Verilog  SVA  _Assertions.sv(274)
+                                                                              2854 Covered   
+
+TOTAL DIRECTIVE COVERAGE: 82.60%  COVERS: 23
+
+ASSERTION RESULTS:
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/top/DUT/AS/rst_check
+                     _Assertions.sv(9)                  0          1
+/top/DUT/AS/leds_check
+                     _Assertions.sv(185)                0          1
+/top/DUT/AS/bypass1_check
+                     _Assertions.sv(187)                0          1
+/top/DUT/AS/bypass2_check
+                     _Assertions.sv(188)                0          0
+/top/DUT/AS/bypass3_check
+                     _Assertions.sv(189)                0          1
+/top/DUT/AS/bypass4_check
+                     _Assertions.sv(190)                0          1
+/top/DUT/AS/INVALID_check
+                     _Assertions.sv(193)                0          1
+/top/DUT/AS/OR1_check
+                     _Assertions.sv(199)                0          1
+/top/DUT/AS/OR2_check
+                     _Assertions.sv(200)                0          0
+/top/DUT/AS/OR3_check
+                     _Assertions.sv(201)                0          1
+/top/DUT/AS/OR4_check
+                     _Assertions.sv(202)                0          1
+/top/DUT/AS/OR5_check
+                     _Assertions.sv(203)                0          1
+/top/DUT/AS/XOR1_check
+                     _Assertions.sv(207)                0          1
+/top/DUT/AS/XOR2_check
+                     _Assertions.sv(208)                0          0
+/top/DUT/AS/XOR3_check
+                     _Assertions.sv(209)                0          1
+/top/DUT/AS/XOR4_check
+                     _Assertions.sv(210)                0          1
+/top/DUT/AS/XOR5_check
+                     _Assertions.sv(211)                0          1
+/top/DUT/AS/FullADD_check
+                     _Assertions.sv(215)                0          1
+/top/DUT/AS/halfADD_check
+                     _Assertions.sv(216)                0          0
+/top/DUT/AS/MULT_check
+                     _Assertions.sv(220)                0          1
+/top/DUT/AS/shift_R_check
+                     _Assertions.sv(224)                0          1
+/top/DUT/AS/shift_L_check
+                     _Assertions.sv(225)                0          1
+/top/DUT/AS/rotate_R_check
+                     _Assertions.sv(229)                0          1
+/top/DUT/AS/rotate_L_check
+                     _Assertions.sv(230)                0          1
+/ALSU_sequence_pkg/main_sequence/body/#ublk#37877255#31/immed__37
+                     ALSU_sequence.sv(37)               0          1
+/ALSU_sequence_pkg/second_sequence/body/#anonblk#37877255#53#4#/#ublk#37877255#53/immed__62
+                     ALSU_sequence.sv(62)               0          1
+
+Total Coverage By Instance (filtered view): 76.27%
+

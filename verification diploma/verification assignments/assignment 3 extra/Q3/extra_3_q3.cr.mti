@@ -1,0 +1,16 @@
+{C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3 extra/Q3/FSM_tb.svh} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3 extra/Q3/FSM_tb.svh}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module FSM_tb
+-- Importing package fsm_pkg
+
+Top level modules:
+	FSM_tb
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3 extra/Q3/FSM_010.v} {1 {vlog -work work -vopt -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3 extra/Q3/FSM_010.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module FSM_010
+
+Top level modules:
+	FSM_010
+
+} {} {}}

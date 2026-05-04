@@ -1,0 +1,225 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3/Q1
+T_opt
+!s110 1757614532
+VQnfFUdQ>3AGR6;9FNaAUR1
+04 13 4 work question_2_tb fast 0
+=1-ecb1d7def929-68c311c3-1c3-5644
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vcounter
+Z2 !s110 1757614531
+!i10b 1
+!s100 ;fh5WT@`3b6<QB3a4eFW`2
+IWTH^XV_2bSTeoD]6<eES>3
+Z3 dC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3/Q2
+w1756681903
+8counter.v
+Fcounter.v
+!i122 36
+L0 8 28
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z6 !s108 1757614531.000000
+Z7 !s107 question_2_tb.svh|package.svh|counter.v|
+Z8 !s90 -reportprogress|300|counter.v|package.svh|question_2_tb.svh|+cover|-covercells|
+!i113 0
+Z9 !s102 +cover -covercells
+Z10 o+cover -covercells -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+Xcounter_pkg
+Z11 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1757614219
+!i10b 1
+!s100 E3?MDc^HjVLIjJWLzWzMb0
+IO^N>Y]oBY4hz3@bEb1nXX2
+S1
+R3
+w1757599790
+Z12 8package.svh
+Z13 Fpackage.svh
+!i122 32
+Z14 L0 1 0
+VO^N>Y]oBY4hz3@bEb1nXX2
+R5
+r1
+!s85 0
+31
+!s108 1757614219.000000
+R7
+R8
+!i113 0
+R9
+R10
+R1
+Xpkg
+R11
+!s110 1757611470
+!i10b 1
+!s100 >]C^l4JIG`gN@7E<^2j<G1
+IVkiT?;E4GR34NN1dcN=VT3
+S1
+R3
+w1757611461
+Z15 8C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3/Q2/Questa2GO_Quiz3.svh
+Z16 FC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3/Q2/Questa2GO_Quiz3.svh
+!i122 17
+R14
+VVkiT?;E4GR34NN1dcN=VT3
+R5
+r1
+!s85 0
+31
+!s108 1757611470.000000
+Z17 !s107 C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3/Q2/Questa2GO_Quiz3.svh|
+Z18 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3/Q2/Questa2GO_Quiz3.svh|
+!i113 0
+Z19 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+Xquestatogo_sv_unit
+R11
+!s110 1757610913
+VSiKe0d?bHQbBY:C5Hflh_0
+r1
+!s85 0
+!i10b 1
+!s100 0LC_0l?B6l0z2_CoO27dB0
+ISiKe0d?bHQbBY:C5Hflh_0
+!i103 1
+S1
+R3
+w1757610899
+8C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3/Q2/questatogo.sv
+FC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3/Q2/questatogo.sv
+!i122 16
+R14
+R5
+31
+!s108 1757610913.000000
+!s107 C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3/Q2/questatogo.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3/Q2/questatogo.sv|
+!i113 0
+R19
+R1
+Xquestion_2_pkg
+R11
+R2
+!i10b 1
+!s100 L2ciWog8eX2K9=SkBdkz?0
+Id^lh7e4^3=>@FDk<Q0K[81
+S1
+R3
+w1757614465
+R12
+R13
+!i122 36
+R14
+Vd^lh7e4^3=>@FDk<Q0K[81
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vquestion_2_tb
+R11
+Z20 DXx4 work 14 question_2_pkg 0 22 d^lh7e4^3=>@FDk<Q0K[81
+DXx4 work 22 question_2_tb_svh_unit 0 22 e28T[:]DR7Yl5`2o1B`bQ0
+R2
+R4
+r1
+!s85 0
+!i10b 1
+!s100 O5z68:OVlLFM1A0ieJgQS0
+IZH9Nmbl4:W]T@Ma;_OzzY1
+!s105 question_2_tb_svh_unit
+S1
+R3
+Z21 w1757614383
+Z22 8question_2_tb.svh
+Z23 Fquestion_2_tb.svh
+!i122 36
+L0 3 152
+R5
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+Xquestion_2_tb_svh_unit
+R11
+R20
+R2
+Ve28T[:]DR7Yl5`2o1B`bQ0
+r1
+!s85 0
+!i10b 1
+!s100 1PLWcEhGKahSG]?jT_ocJ3
+Ie28T[:]DR7Yl5`2o1B`bQ0
+!i103 1
+S1
+R3
+R21
+R22
+R23
+!i122 36
+R14
+R5
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vtb
+R11
+!s110 1757612037
+!i10b 1
+!s100 hIhRLR8c_32UBN5;Mb?V<3
+I3?VU=f[cDeiUOT37=YWb[1
+S1
+R3
+w1757612024
+R15
+R16
+!i122 24
+L0 1 14
+R4
+R5
+r1
+!s85 0
+31
+!s108 1757612036.000000
+R17
+R18
+!i113 0
+R19
+R1

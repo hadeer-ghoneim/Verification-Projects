@@ -1,0 +1,71 @@
+{C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/fifo project/true codes/FIFO_top.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/fifo project/true codes/FIFO_top.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/fifo project/true codes/FIFO_coverage.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/fifo project/true codes/FIFO_coverage.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package FIFO_coverage
+-- Importing package FIFO_transaction
+-- Importing package shared_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/fifo project/true codes/FIFO_monitor.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/fifo project/true codes/FIFO_monitor.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package FIFO_monitor_sv_unit
+-- Importing package FIFO_coverage
+-- Importing package FIFO_transaction
+-- Importing package shared_pkg
+-- Importing package FIFO_scoreboard
+-- Compiling module FIFO_monitor
+
+Top level modules:
+	FIFO_monitor
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/fifo project/true codes/FIFO_scoreboard.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/fifo project/true codes/FIFO_scoreboard.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package FIFO_scoreboard
+-- Importing package FIFO_transaction
+-- Importing package shared_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/fifo project/true codes/FIFO_test.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/fifo project/true codes/FIFO_test.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package FIFO_test_sv_unit
+-- Importing package FIFO_coverage
+-- Importing package FIFO_transaction
+-- Importing package shared_pkg
+-- Importing package FIFO_scoreboard
+-- Compiling module FIFO_TB
+
+Top level modules:
+	FIFO_TB
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/fifo project/true codes/FIFO.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/fifo project/true codes/FIFO.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module FIFO
+
+Top level modules:
+	FIFO
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/fifo project/true codes/FIFO_interface.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/fifo project/true codes/FIFO_interface.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling interface Sync_FIFO_interface
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/fifo project/true codes/shared_pkg.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/fifo project/true codes/shared_pkg.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package shared_pkg
+
+Top level modules:
+	--none--
+
+} {} {}}

@@ -1,0 +1,139 @@
+{C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/shift_sequencer.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/shift_sequencer.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package shift_sequencer_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/shift_sequencer.sv(4): Using implicit +incdir+C:/Users/General/Documents/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package shift_seq_item_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/ALSU_coverage.sv} {2 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/ALSU_coverage.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ALSU_coverage_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/ALSU_coverage.sv(3): Using implicit +incdir+C:/Users/General/Documents/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package ALSU_seq_item_pkg
+-- Importing package constant_enums
+** Warning: C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/ALSU_coverage.sv(89): (vlog-13203) option.cross_auto_bin_max = 0 setting is non-LRM compliant. No auto cross bins will be generated.
+** Warning: C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/ALSU_coverage.sv(95): (vlog-13203) option.cross_auto_bin_max = 0 setting is non-LRM compliant. No auto cross bins will be generated.
+** Warning: C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/ALSU_coverage.sv(101): (vlog-13203) option.cross_auto_bin_max = 0 setting is non-LRM compliant. No auto cross bins will be generated.
+** Warning: C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/ALSU_coverage.sv(107): (vlog-13203) option.cross_auto_bin_max = 0 setting is non-LRM compliant. No auto cross bins will be generated.
+** Warning: C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/ALSU_coverage.sv(112): (vlog-13203) option.cross_auto_bin_max = 0 setting is non-LRM compliant. No auto cross bins will be generated.
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/shift_reg_if.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/shift_reg_if.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling interface shift_reg_if
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/shift_driver.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/shift_driver.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package shift_driver_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/shift_driver.sv(4): Using implicit +incdir+C:/Users/General/Documents/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package shift_seq_item_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/ALSU_if.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/ALSU_if.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling interface ALSU_if
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/ALSU_pack.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/ALSU_pack.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package constant_enums
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/ALSU_seq_item.sv} {2 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/ALSU_seq_item.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ALSU_seq_item_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/ALSU_seq_item.sv(3): Using implicit +incdir+C:/Users/General/Documents/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package constant_enums
+** Warning: C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/ALSU_seq_item.sv(25): (vlog-2643) Unterminated string literal continues onto next line.
+** Warning: C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/ALSU_seq_item.sv(31): (vlog-2643) Unterminated string literal continues onto next line.
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/shift_seq_item.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/shift_seq_item.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package shift_seq_item_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/shift_seq_item.sv(4): Using implicit +incdir+C:/Users/General/Documents/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/config_object.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/config_object.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package config_object_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/config_object.sv(3): Using implicit +incdir+C:/Users/General/Documents/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/shift_monitor.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/shift_monitor.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package shift_monitor_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/shift_monitor.sv(4): Using implicit +incdir+C:/Users/General/Documents/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package shift_seq_item_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/Shift_env.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/Shift_env.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package shift_env_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/Shift_env.sv(5): Using implicit +incdir+C:/Users/General/Documents/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package shift_scoreboard_pkg
+-- Importing package shift_seq_item_pkg
+-- Importing package shift_coverage_pkg
+-- Importing package shift_agent_pkg
+-- Importing package shift_monitor_pkg
+-- Importing package shift_driver_pkg
+-- Importing package shift_sequencer_pkg
+-- Importing package config_object_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/shift_sequence.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/shift_sequence.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package shift_sequence_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/shift_sequence.sv(5): Using implicit +incdir+C:/Users/General/Documents/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package shift_seq_item_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/shift_reg.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/shift_reg.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module shift_reg
+
+Top level modules:
+	shift_reg
+
+} {} {}} {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/ALSU.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 6 extra/ALSU_SHIFT/ALSU.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module ALSU
+
+Top level modules:
+	ALSU
+
+} {} {}}

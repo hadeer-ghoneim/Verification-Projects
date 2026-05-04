@@ -1,0 +1,124 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3 extra/Q1
+T_opt
+!s110 1757637346
+VhU3c^;U1T8Jc1eb=i<gZ<3
+04 8 4 work adder_tb fast 0
+=1-ecb1d7def929-68c36ae1-3cf-1198
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vadder
+Z2 !s110 1757637345
+!i10b 1
+!s100 KXleX>4`4ohUo;GDahe=23
+IVS9Fj@R9l1Y6cAUkTlQ651
+Z3 dC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3 extra/Q2
+w1755870364
+8adder.v
+Fadder.v
+!i122 25
+L0 1 17
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z6 !s108 1757637345.000000
+Z7 !s107 adder_tb.svh|adder_pkg.svh|adder.v|
+Z8 !s90 -reportprogress|300|adder.v|adder_pkg.svh|adder_tb.svh|+cover|-covercells|
+!i113 0
+Z9 !s102 +cover -covercells
+Z10 o+cover -covercells -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+Xadder_pkg
+Z11 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R2
+!i10b 1
+!s100 <BGMkm:fE6>TlP[=2HhHd2
+IYcGWTh=3mT0Qe^CIaNEA>2
+S1
+R3
+w1757636666
+8adder_pkg.svh
+Fadder_pkg.svh
+!i122 25
+Z12 L0 1 0
+VYcGWTh=3mT0Qe^CIaNEA>2
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vadder_tb
+R11
+DXx4 work 9 adder_pkg 0 22 YcGWTh=3mT0Qe^CIaNEA>2
+R2
+!i10b 1
+!s100 4>67=JnQ9GmoaXn?YKaMT1
+I_QH6CKNaVMeHeT<9Iff9X0
+S1
+R3
+w1757637309
+8adder_tb.svh
+Fadder_tb.svh
+!i122 25
+L0 1 85
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+Xadder_tb_svh_unit
+R11
+DXx4 work 9 adder_pkg 0 22 K91@BHHa?WUjENB5LVF;V3
+!s110 1757635617
+V:<I[U2JTm]]247:fj[n<K0
+r1
+!s85 0
+!i10b 1
+!s100 9H8_APCn4LNV7XTYNlgPU1
+I:<I[U2JTm]]247:fj[n<K0
+!i103 1
+S1
+R3
+w1757634115
+8C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3 extra/Q2/adder_tb.svh
+FC:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3 extra/Q2/adder_tb.svh
+!i122 4
+R12
+R5
+31
+!s108 1757635617.000000
+!s107 C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3 extra/Q2/adder_tb.svh|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/General/Desktop/.github/build/verification diploma/verification assignments/assignment 3 extra/Q2/adder_tb.svh|
+!i113 0
+o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
